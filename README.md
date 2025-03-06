@@ -1,14 +1,14 @@
-# Project
+# Versions of Docker images with the Microsoft build of Go
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains metadata about the images that are built and published as part of the [Microsoft build of Go](https://github.com/microsoft/go) project.
+For more information about the images, see [microsoft/go-images](https://github.com/microsoft/go-images).
 
-As the maintainer of this project, please make a few updates:
+The vast majority of the updates to this repository are performed by automatic release and image build infrastructure.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Support
+
+GitHub issues for microsoft/go-images-versions are maintained in the [microsoft/go](https://github.com/microsoft/go) project.
+For help and questions, please [file an issue in microsoft/go](https://github.com/microsoft/go/issues/new/choose).
 
 ## Contributing
 
