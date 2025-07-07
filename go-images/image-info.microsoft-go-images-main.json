@@ -7,8 +7,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:770568caeb5f1d1c04dff564812db647fcf97d87f634017128c75336a282eccf",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:adc4a2e9882d6166136e2712a37ef800492f36b7e9eed6818fe341618d614de6",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-azurelinux3.0",
               "1.23-azurelinux3.0",
@@ -23,18 +23,18 @@
               "simpleTags": [
                 "1.23.10-1-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4281afb508dcc6b6ed89b94aed88d06a10938e372205eb7fd39bd7949c020750",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:23915b274a99352435c9f1c65fb4d854a94bcc501181f1766ac4b63096969b17",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:9948138108a3d69f1dae62104599ac03132225c3b7a5ac57b85a214629c8567d",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:09.7607949Z",
+              "created": "2025-07-07T10:15:10.7087016Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:5732894fb3b7ce22a58aad339dc11f30193925f3d58e231f479bd345f13eb5cc",
+                "sha256:54dd854db180575eee8e865c5b958c43191476eea5715f3c55a1a7fb37dfaa7c",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:8a5ecf524849853f1b4efb9e16470443be9366ee49e694dc166a665520de3aff",
+                "sha256:64eba4cac93a5cdcc1af06fdefd8af48f4eaf4ebb436e720f1684205b66419a8",
                 "sha256:12ff10226b498639c637d7f81c12ecbd567494c4b8c26a9180edad4b500ff987"
               ]
             },
@@ -43,18 +43,18 @@
               "simpleTags": [
                 "1.23.10-1-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:452a4f9ce1cb48d13442ef117d82168f81295d2f6a388940a2b452f45eb12a91",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7d4f8ead44cac7061a37af557ed1ac64168836d5e512ed8249d84a85467c5253",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:9948138108a3d69f1dae62104599ac03132225c3b7a5ac57b85a214629c8567d",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:58.6768307Z",
+              "created": "2025-07-07T10:14:47.6309534Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:7d0209783163a8b55ab55aa571cd9a96d8ee60ce4ab6351eec6a1eed1d7cc00f",
+                "sha256:fae51c57672c6c63ea9c545eb9fc7861dde33904e9831d99a0f9b61bd58ad2d1",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:c40e3c4db12861abb9cf14726c08cd10be44905fba790661c427f4221a852914",
+                "sha256:766d43e0e3297c56a38cd7756c35f5b2c855b69ffccd26311c3348b88fb734c8",
                 "sha256:415ef0e1f009c218fc792fb9875832939a10c8718adefbb0a9caccb316342cf5"
               ]
             }
@@ -63,8 +63,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:450104318873a53c5394da1914e35bc064a7804277a4e3b077487258e8bdcfb0",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1a4c18f3279d405d57670b3dbb56fa759e893af1fc643a183d5d104e63b79933",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1",
               "1-bookworm",
@@ -84,18 +84,18 @@
               "simpleTags": [
                 "1.23.10-1-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d48cc71045dea54a960c407b64074374008a2036353e85d7061888f5ebba9ba5",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f1b3179632e9ef548242267a806d306cf411e3d95b7d4824f87651c101d9422",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:47.3310495Z",
+              "created": "2025-07-07T10:14:52.4236368Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:dcf6bdbaf0e29d419fa92029ba4ddc8d41a46edd408e18b135cd46a2dd489ed6",
+                "sha256:ec48421c97228ad2fbada04f2203773d8b909141813802eeb86627e6a984b5d8",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:80026b6bac7a83671539186e71010d4b3fc8e7949896ce3407405b633f0c80d9",
+                "sha256:d5fced539ba2ef17919cd1c3d6c6140e26470224afbf54c8140f1f52d6c44efb",
                 "sha256:900e2c02f17f686733f4f957ddfb07b3342d1957d87b56254634d4fbb2abb81d",
                 "sha256:7bbf972c6c2f5b7313ae3cb74e63888ab70931bcd9aefd960f9a38c540dbf2ca",
                 "sha256:d0034faf7acce9bbe2e8952f4e2f47c46c28c2c4ca8bc56f96b9269d14ea3549"
@@ -106,21 +106,21 @@
               "simpleTags": [
                 "1.23.10-1-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2d0ce2ce76295ee4ea8e508c77f907820590d765eeb5070ef4d161abbeed0f4c",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:827bf76752fafe8f754af47665ad227c6b0173f8b9f945b9f6a820f82121de90",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:30.6237595Z",
+              "created": "2025-07-07T10:12:46.5632926Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:916840da741217bb352f83f0176a39d3e805767c3c1d98207122e1ed7d0a2f33",
+                "sha256:ffe2a10513a61c08f54b41b385819e73fc10fa442b39ace35ac4f126c36e73bb",
                 "sha256:f72e67e15aac00402da1d3c944a2b2c40f266ecf4714f9673e7a05cddb9eb17a",
-                "sha256:0fed29e65527cb849d6c64dc2283a651db88a3b642e4f601af85bbeb488fac1f",
-                "sha256:0fe8855ed7a68d9f8fe7d302fae88c166a75915bfbd2d109d79128b51764e3ec",
-                "sha256:4d7ffa2f9b76643f2e264873b25d4450552d1d018f96ebfda08d41449ffa7dad",
-                "sha256:293d163c603063df1224855ccf7ca30414586177f972b03514117df3dfc3fc19"
+                "sha256:8ffe59bfb0fb5fffa49bb33094ac8f3735559ed03f4e02f040c3f0dcfa3b89b5",
+                "sha256:5d2f4c85f426e2c955b1dac4fa88bc182d725644c23ad01bdcbf64d9664e34a8",
+                "sha256:dfcc606b1195a348c6a47399c1a54ab936d4477a526d62306ddce89fe76a2d22",
+                "sha256:bb1ba65cd43504d1a6ec59c21e7402a14a3d0a8482c4f4ca74b74b72a7995bea"
               ]
             },
             {
@@ -128,21 +128,21 @@
               "simpleTags": [
                 "1.23.10-1-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:24382c31d369b80559d337fc561efcc8116784e4a0f54d7e215aa36b63470086",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:95b933304ac0eda6c7907c1d862c90365e44b407f4beee8c12263de33bbe5129",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:56.1425615Z",
+              "created": "2025-07-07T10:14:41.7126638Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:682e17b34f27a1df1441e4afb17f1cb29c8ae35a90666507af94bdfcca58507d",
+                "sha256:de05a8334e9136c5c669c326d401db0297cc3b6e4f558c4245a0c415aa41f1ad",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:d693baad0e093aadb40f1b9ea73304183b52e98573803d0ae83d128665ff0124",
-                "sha256:14f5719d6358cc525f45e16c04ce36e5245978df9021dec8d0619729d9de8537",
-                "sha256:c5e137b9ec173f900a44376f31987bb15c0f5bb562aa6f8ad5db5a090ec88b2e",
-                "sha256:3109a2d74d5c2d3acf0d520a27e9a7ebdf7c5114113406154375fc544482e281"
+                "sha256:27d4cd077e5ce619916af766ea9183dd408962d709231966703eeba62f70ef99",
+                "sha256:88f9cdd730a2c32e544c8de28ddcb3800bc8b143e551c286d3ccb2704444d69f",
+                "sha256:7be9cdb9167a8712f78cfe8da9fdf771134a84b1ee0fdab42bace39b895aaa9d",
+                "sha256:d1f079207a43c718468ea382f4fae87378159dea9e7ffb1bd0fc435e5ac6cc70"
               ]
             }
           ]
@@ -150,8 +150,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:345ab57592b55b389f6cadedc9ddcb202d9df4f48fe79b329311812c57d22235",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1912b33fff1f7b7e6f16f44c480c8f887c7f199af16fb9b68aa41937104e4b14",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-bullseye",
               "1.23-bullseye",
@@ -166,18 +166,18 @@
               "simpleTags": [
                 "1.23.10-1-bullseye-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:49dd0195f82a79bd7ddea2b20b76c9df238b850b52b5b5c90bcc0d3efea2064d",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d9f244972dbff603f7f67b8620d306e988992cc8479d9ee3434cee4c362e6902",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:42.4508226Z",
+              "created": "2025-07-07T10:15:53.6556323Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:050798f0df8b8ae46b2228f410ac51ed2afb264dee21040d474a2fec7d9ef506",
+                "sha256:5cb4cf955aed91c22f7ff70a355778357cb394a06e42adee0019ddaafe65088e",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:e09fb0bbc09e583316bde702072720f9bad781a919d4d510a5993369f7f24762",
+                "sha256:cf75b829bc3fbd98a9cecb2df36497e24dc294c09d575a96b69eeefcb9071234",
                 "sha256:06772a4eff3df697497bb68b4dcdeb97fdb9338b5e7dde7d1a53579c3203c9ba",
                 "sha256:06408a499c9b569e198473b636afa8c383e459ee6fe76ba4159b758c84e68f10",
                 "sha256:8edf85959a53e00a81c3f7562eb946a449884c8bfabae7382c057248f7d56687"
@@ -188,21 +188,21 @@
               "simpleTags": [
                 "1.23.10-1-bullseye-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ac7339110cd66a99922037d72397113231d3d26c239af68c8fd260a7f635b2df",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:529be6077eed61d1d314c9069a6d2e7fde0c4e0f527a01d4077c6553931e9a54",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:36.3947587Z",
+              "created": "2025-07-07T10:13:10.8970332Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:129dd64eeba22f9eec48aeff761be74bdad1b5fac1de477a12fff23e009fec02",
+                "sha256:e783e297668679401c3943dd95180e527f177989af589f4e4c40554dd9941f16",
                 "sha256:f72e67e15aac00402da1d3c944a2b2c40f266ecf4714f9673e7a05cddb9eb17a",
-                "sha256:a3a04b3f8cd69bf255a7dc215c8034c244989eb31a2f42f35f2ca552595e5182",
-                "sha256:bc07acb5bb3458d1880be716fdb2bcc90e78327b21f1c1531b5e4bd0941213a8",
-                "sha256:319bc9ba38020b34f4e3f562e110c9ab25e658493eaf95bfc783a633f2d4b036",
-                "sha256:7cebbb7b5094f699f2cd2261cbe7a8598cfdca67abd88b7d42845b982fdfa2db"
+                "sha256:0d089058053620c51b259abcecbce3aa8239ce84c30fd02b6e44b052ca18f82a",
+                "sha256:28365fa3b8363bfd29e20b4b17838c65ddc4bdacb1bf15ca9af5a4045e4feaf7",
+                "sha256:2d6769ed354ec7fde57e63bdf9788543b96fd8f93923607ad70767b9c4cfa25b",
+                "sha256:94f6a17da30bc8208b580cd005e21d1089fb9d464ada8108b4ad7fb8b83e310b"
               ]
             },
             {
@@ -210,21 +210,21 @@
               "simpleTags": [
                 "1.23.10-1-bullseye-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:247c6b98372195e158578f2ae1de65854b47a14e16612f1a78822aa5ccedb21f",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5d0dc4b851fd17571530d6f628babf7f6c0d601acea7895f3eb31e3638c9a008",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:34.8570967Z",
+              "created": "2025-07-07T10:14:35.1296441Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:882f7c5217df147ed1a5a0d2d19085c2f8d203f48dd30a5e3a717ad36b2ce07a",
+                "sha256:fb6266531d1629e2445a19da6da3518dc9c267169f6c6396bb9a9a71b324be6a",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:13f115631f298cd2f77fda8d90108f04aa14ad920f7e975a5e2d6c54d6ddeb29",
-                "sha256:dc7850095446c84fa9107622e378378aa7daf4b928caeecbc1149118900d32f7",
-                "sha256:db6f3b6fbce84c42871ea80f05b2c61e622e08647f7164e9a95a391926c1f714",
-                "sha256:a5bbd5d5e1ce5f21bd5c644aed0b302fea4f9e42226b9b81cd2d1cdde2a0e106"
+                "sha256:e04c72ab62d96eb5384fd570248dd985665f15d285a5f84b7dd74d04a93375cd",
+                "sha256:7766ba090abb327ecb7e9e14ac90bbcc45c5ba6bb8a568ae531c960ff1acad55",
+                "sha256:5424250d141bf5f4ec62e698bba9b5695482a3015186d3b14a633da8916bf7dd",
+                "sha256:70551d0ef4e0c341904e3736f3fa7b76ec3309544ba767c64ff338d4c9b700ad"
               ]
             }
           ]
@@ -232,8 +232,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ba89589643cf19b9a25fe048453272aac75c0cc6c30790815348fbd9e0074cc4",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:311cf9e6ad0bf7a880653d14ed81d9d9be0f757048921ce2f8622c992442c2d6",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-cbl-mariner2.0",
               "1.23-cbl-mariner2.0",
@@ -248,18 +248,18 @@
               "simpleTags": [
                 "1.23.10-1-cbl-mariner2.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:133b07acd2ad6cb4193e240d12d9b59960ffdbb322be9483359fc4366bb881b7",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f7bddd789c8f09d2cbe97145df0aa30fdcbde218fb0206d1a663cf90a9f7c35d",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:ed25715f36e04260756ebdd6a662e57f43e5d60f49822be3b0f2e39043145794",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:56.2421324Z",
+              "created": "2025-07-07T10:17:32.2861397Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:1d8052f5913d27a55b513605979b89248f428150d1fdb69336a98776de927e6c",
+                "sha256:2a364d25635170855755a9143be90274351ab14aa1830c77bf13a191f2026dd9",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:f84f3e3fe902909ac92eef35b4ecfefef770acb8760fb8d962fa79450e04b9c8",
+                "sha256:af4bd0009e3111207e38650fb63b4d0b8acca0e0b41ac9ca5b188a6c436ec758",
                 "sha256:faa769593145337985f91ed3825eaa440a8887d33ad910770c36b7ab3b3cfb24",
                 "sha256:308a3039fc640e2149e62af5fcee390c55f7c8e7ce7c988a4130f38bab994fe2"
               ]
@@ -269,18 +269,18 @@
               "simpleTags": [
                 "1.23.10-1-cbl-mariner2.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2906093753b3bb23bc8c58dbdc2ed4c1614abe4b85b1d7f975b22b005d42f9de",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:36c32f9f33d3a6b5321f6040ad013b6436b6f0700c9cf9ac9c8be45ae91ac22a",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:ed25715f36e04260756ebdd6a662e57f43e5d60f49822be3b0f2e39043145794",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:36.4266486Z",
+              "created": "2025-07-07T10:15:51.0587852Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4781122b29a0ed4f3e9d63e7695926124332f49151ad3003ba65e32f9dd4c03e",
+                "sha256:64a5b43b81a8b256f9313b2a6a5d38398377cfb4339716276800eff2298a4a43",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:1e240828ccb276baadb6b9c17379ce0a5a6d5a4a56d136ea7ba290a932377587",
+                "sha256:1345a0fbf5b2c9000e7d9de9222ba815fadd4534e6a58718557ff4de26aeb71b",
                 "sha256:36a14b557c14a65bf9993045b933f4805952cae1980fb326f1c16785769083cf",
                 "sha256:66ece9d34d44d3e2c2ecd874f75e567fe9b1ed25b0c5d3260d1cdc410d81d23a"
               ]
@@ -290,8 +290,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:dbb91e6fa772c436620159a9d65f1ebc33973232395d68726cdd6b2ab61140c6",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:57015670f2ac0be944c937f86bdd14403e40a9ba696ab9195c37838bbdb5a9c1",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-azurelinux3.0",
               "1.23-fips-azurelinux3.0",
@@ -306,18 +306,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e7262707a93bf235e125c4863fc24f5cb1806c983c79c119da2106266b80b46b",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4281afb508dcc6b6ed89b94aed88d06a10938e372205eb7fd39bd7949c020750",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7bb297fd2af2e372c01abc766c8e471a5cd1bcc0ada53e1464ec88b53cccedf6",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:23915b274a99352435c9f1c65fb4d854a94bcc501181f1766ac4b63096969b17",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:09.7607949Z",
+              "created": "2025-07-07T10:15:10.7087016Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:5732894fb3b7ce22a58aad339dc11f30193925f3d58e231f479bd345f13eb5cc",
+                "sha256:54dd854db180575eee8e865c5b958c43191476eea5715f3c55a1a7fb37dfaa7c",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:8a5ecf524849853f1b4efb9e16470443be9366ee49e694dc166a665520de3aff",
+                "sha256:64eba4cac93a5cdcc1af06fdefd8af48f4eaf4ebb436e720f1684205b66419a8",
                 "sha256:12ff10226b498639c637d7f81c12ecbd567494c4b8c26a9180edad4b500ff987"
               ]
             },
@@ -326,18 +326,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:006a8d32b1364b5c609a619af532eae2c1ec090aefa2c00a64c84b485cee8712",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:452a4f9ce1cb48d13442ef117d82168f81295d2f6a388940a2b452f45eb12a91",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:31bc779c19f4b763173ce6de5ba3f743cd5d05840380cd5e167162f04b221c80",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7d4f8ead44cac7061a37af557ed1ac64168836d5e512ed8249d84a85467c5253",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:58.6768307Z",
+              "created": "2025-07-07T10:14:47.6309534Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:7d0209783163a8b55ab55aa571cd9a96d8ee60ce4ab6351eec6a1eed1d7cc00f",
+                "sha256:fae51c57672c6c63ea9c545eb9fc7861dde33904e9831d99a0f9b61bd58ad2d1",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:c40e3c4db12861abb9cf14726c08cd10be44905fba790661c427f4221a852914",
+                "sha256:766d43e0e3297c56a38cd7756c35f5b2c855b69ffccd26311c3348b88fb734c8",
                 "sha256:415ef0e1f009c218fc792fb9875832939a10c8718adefbb0a9caccb316342cf5"
               ]
             }
@@ -346,8 +346,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e8e1b88e6c69be4c4364b1301f91718c8ddb5a6c866f1ad00bdc7c4272438228",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:799ffb26c1a2a493633b51f40cdfeaf1423efc589cf99408c523027132cb9339",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-bookworm",
               "1.23-fips-bookworm",
@@ -362,18 +362,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:74200602c650cf998b381d7c8a39bd06eb7527f111d1dc607f94b090f9136f56",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d48cc71045dea54a960c407b64074374008a2036353e85d7061888f5ebba9ba5",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:87edb207d9927682ed62c65260b591f0cd8475a375c4675fbad0ddd5f54a95e9",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f1b3179632e9ef548242267a806d306cf411e3d95b7d4824f87651c101d9422",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:47.3310495Z",
+              "created": "2025-07-07T10:14:52.4236368Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:dcf6bdbaf0e29d419fa92029ba4ddc8d41a46edd408e18b135cd46a2dd489ed6",
+                "sha256:ec48421c97228ad2fbada04f2203773d8b909141813802eeb86627e6a984b5d8",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:80026b6bac7a83671539186e71010d4b3fc8e7949896ce3407405b633f0c80d9",
+                "sha256:d5fced539ba2ef17919cd1c3d6c6140e26470224afbf54c8140f1f52d6c44efb",
                 "sha256:900e2c02f17f686733f4f957ddfb07b3342d1957d87b56254634d4fbb2abb81d",
                 "sha256:7bbf972c6c2f5b7313ae3cb74e63888ab70931bcd9aefd960f9a38c540dbf2ca",
                 "sha256:d0034faf7acce9bbe2e8952f4e2f47c46c28c2c4ca8bc56f96b9269d14ea3549"
@@ -384,21 +384,21 @@
               "simpleTags": [
                 "1.23.10-1-fips-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:44946a9b7fe61c7c3c24fd3d8b241cbb946cf0a7497529de57de2b25d204fc3d",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2d0ce2ce76295ee4ea8e508c77f907820590d765eeb5070ef4d161abbeed0f4c",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2de175012f7ca09f12ed13b7d6a1a41d7c5009c2df8589bc425714866e0cf9cf",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:827bf76752fafe8f754af47665ad227c6b0173f8b9f945b9f6a820f82121de90",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:30.6237595Z",
+              "created": "2025-07-07T10:12:46.5632926Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:916840da741217bb352f83f0176a39d3e805767c3c1d98207122e1ed7d0a2f33",
+                "sha256:ffe2a10513a61c08f54b41b385819e73fc10fa442b39ace35ac4f126c36e73bb",
                 "sha256:f72e67e15aac00402da1d3c944a2b2c40f266ecf4714f9673e7a05cddb9eb17a",
-                "sha256:0fed29e65527cb849d6c64dc2283a651db88a3b642e4f601af85bbeb488fac1f",
-                "sha256:0fe8855ed7a68d9f8fe7d302fae88c166a75915bfbd2d109d79128b51764e3ec",
-                "sha256:4d7ffa2f9b76643f2e264873b25d4450552d1d018f96ebfda08d41449ffa7dad",
-                "sha256:293d163c603063df1224855ccf7ca30414586177f972b03514117df3dfc3fc19"
+                "sha256:8ffe59bfb0fb5fffa49bb33094ac8f3735559ed03f4e02f040c3f0dcfa3b89b5",
+                "sha256:5d2f4c85f426e2c955b1dac4fa88bc182d725644c23ad01bdcbf64d9664e34a8",
+                "sha256:dfcc606b1195a348c6a47399c1a54ab936d4477a526d62306ddce89fe76a2d22",
+                "sha256:bb1ba65cd43504d1a6ec59c21e7402a14a3d0a8482c4f4ca74b74b72a7995bea"
               ]
             },
             {
@@ -406,21 +406,21 @@
               "simpleTags": [
                 "1.23.10-1-fips-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:cc9744ee284665d3535818cf84c003904c380614ba215c6e3bedb2f1ad43219f",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:24382c31d369b80559d337fc561efcc8116784e4a0f54d7e215aa36b63470086",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:337adfa8e66710973058bb02089ef622502a418d87944790cc7e7a80d3b71c55",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:95b933304ac0eda6c7907c1d862c90365e44b407f4beee8c12263de33bbe5129",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:56.1425615Z",
+              "created": "2025-07-07T10:14:41.7126638Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:682e17b34f27a1df1441e4afb17f1cb29c8ae35a90666507af94bdfcca58507d",
+                "sha256:de05a8334e9136c5c669c326d401db0297cc3b6e4f558c4245a0c415aa41f1ad",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:d693baad0e093aadb40f1b9ea73304183b52e98573803d0ae83d128665ff0124",
-                "sha256:14f5719d6358cc525f45e16c04ce36e5245978df9021dec8d0619729d9de8537",
-                "sha256:c5e137b9ec173f900a44376f31987bb15c0f5bb562aa6f8ad5db5a090ec88b2e",
-                "sha256:3109a2d74d5c2d3acf0d520a27e9a7ebdf7c5114113406154375fc544482e281"
+                "sha256:27d4cd077e5ce619916af766ea9183dd408962d709231966703eeba62f70ef99",
+                "sha256:88f9cdd730a2c32e544c8de28ddcb3800bc8b143e551c286d3ccb2704444d69f",
+                "sha256:7be9cdb9167a8712f78cfe8da9fdf771134a84b1ee0fdab42bace39b895aaa9d",
+                "sha256:d1f079207a43c718468ea382f4fae87378159dea9e7ffb1bd0fc435e5ac6cc70"
               ]
             }
           ]
@@ -428,8 +428,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a0e3329efa1aaefa63645503a589f8d5578973438d9323ff773e7250d3ab584e",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ded37d5596e08a3b67ccb0a916dcde16be9572dff22ae798eda239656d7e7b31",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-bullseye",
               "1.23-fips-bullseye",
@@ -444,18 +444,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-bullseye-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2008f12f933d185f698486216d8a697bd715ad46d964160e2a7ded0109311103",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:49dd0195f82a79bd7ddea2b20b76c9df238b850b52b5b5c90bcc0d3efea2064d",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d7eacb7113e0809e3a4cabc591a49eec29de728659914d9764cbc15e66636b39",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d9f244972dbff603f7f67b8620d306e988992cc8479d9ee3434cee4c362e6902",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:42.4508226Z",
+              "created": "2025-07-07T10:15:53.6556323Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:050798f0df8b8ae46b2228f410ac51ed2afb264dee21040d474a2fec7d9ef506",
+                "sha256:5cb4cf955aed91c22f7ff70a355778357cb394a06e42adee0019ddaafe65088e",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:e09fb0bbc09e583316bde702072720f9bad781a919d4d510a5993369f7f24762",
+                "sha256:cf75b829bc3fbd98a9cecb2df36497e24dc294c09d575a96b69eeefcb9071234",
                 "sha256:06772a4eff3df697497bb68b4dcdeb97fdb9338b5e7dde7d1a53579c3203c9ba",
                 "sha256:06408a499c9b569e198473b636afa8c383e459ee6fe76ba4159b758c84e68f10",
                 "sha256:8edf85959a53e00a81c3f7562eb946a449884c8bfabae7382c057248f7d56687"
@@ -466,21 +466,21 @@
               "simpleTags": [
                 "1.23.10-1-fips-bullseye-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:57fbfd558a090725c1d33f67ba1cafc83e305724fa930f2555e4a260cecc5df2",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ac7339110cd66a99922037d72397113231d3d26c239af68c8fd260a7f635b2df",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:674cbe5846451d32ea2c3533ffeffac66a5fdb7d3b3196333e3025e6629d3cb5",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:529be6077eed61d1d314c9069a6d2e7fde0c4e0f527a01d4077c6553931e9a54",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:36.3947587Z",
+              "created": "2025-07-07T10:13:10.8970332Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:129dd64eeba22f9eec48aeff761be74bdad1b5fac1de477a12fff23e009fec02",
+                "sha256:e783e297668679401c3943dd95180e527f177989af589f4e4c40554dd9941f16",
                 "sha256:f72e67e15aac00402da1d3c944a2b2c40f266ecf4714f9673e7a05cddb9eb17a",
-                "sha256:a3a04b3f8cd69bf255a7dc215c8034c244989eb31a2f42f35f2ca552595e5182",
-                "sha256:bc07acb5bb3458d1880be716fdb2bcc90e78327b21f1c1531b5e4bd0941213a8",
-                "sha256:319bc9ba38020b34f4e3f562e110c9ab25e658493eaf95bfc783a633f2d4b036",
-                "sha256:7cebbb7b5094f699f2cd2261cbe7a8598cfdca67abd88b7d42845b982fdfa2db"
+                "sha256:0d089058053620c51b259abcecbce3aa8239ce84c30fd02b6e44b052ca18f82a",
+                "sha256:28365fa3b8363bfd29e20b4b17838c65ddc4bdacb1bf15ca9af5a4045e4feaf7",
+                "sha256:2d6769ed354ec7fde57e63bdf9788543b96fd8f93923607ad70767b9c4cfa25b",
+                "sha256:94f6a17da30bc8208b580cd005e21d1089fb9d464ada8108b4ad7fb8b83e310b"
               ]
             },
             {
@@ -488,21 +488,21 @@
               "simpleTags": [
                 "1.23.10-1-fips-bullseye-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0e837bf388a44caad58d70477394a54cb517aee43c67ee24765b7a6ec2a6ff01",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:247c6b98372195e158578f2ae1de65854b47a14e16612f1a78822aa5ccedb21f",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d96f0c6f23190678284917ebb1420baf22763208d2b2fba1c72aaa97e22f6718",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5d0dc4b851fd17571530d6f628babf7f6c0d601acea7895f3eb31e3638c9a008",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm64",
-              "created": "2025-07-02T10:11:34.8570967Z",
+              "created": "2025-07-07T10:14:35.1296441Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:882f7c5217df147ed1a5a0d2d19085c2f8d203f48dd30a5e3a717ad36b2ce07a",
+                "sha256:fb6266531d1629e2445a19da6da3518dc9c267169f6c6396bb9a9a71b324be6a",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:13f115631f298cd2f77fda8d90108f04aa14ad920f7e975a5e2d6c54d6ddeb29",
-                "sha256:dc7850095446c84fa9107622e378378aa7daf4b928caeecbc1149118900d32f7",
-                "sha256:db6f3b6fbce84c42871ea80f05b2c61e622e08647f7164e9a95a391926c1f714",
-                "sha256:a5bbd5d5e1ce5f21bd5c644aed0b302fea4f9e42226b9b81cd2d1cdde2a0e106"
+                "sha256:e04c72ab62d96eb5384fd570248dd985665f15d285a5f84b7dd74d04a93375cd",
+                "sha256:7766ba090abb327ecb7e9e14ac90bbcc45c5ba6bb8a568ae531c960ff1acad55",
+                "sha256:5424250d141bf5f4ec62e698bba9b5695482a3015186d3b14a633da8916bf7dd",
+                "sha256:70551d0ef4e0c341904e3736f3fa7b76ec3309544ba767c64ff338d4c9b700ad"
               ]
             }
           ]
@@ -510,8 +510,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c698342a82109de03adfef23ec4136f13f7c1b80077eedb7851c9c666e83070f",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1c23aa2f9395cf0fd7108118909f537672d151a73935ddc54cb121ad71d96c74",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-cbl-mariner2.0",
               "1.23-fips-cbl-mariner2.0",
@@ -526,18 +526,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-cbl-mariner2.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:714b3d4bd518b4ae60017ab10cede65cfaf4cc05df4964d6752f1eb4fee1e9e2",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:133b07acd2ad6cb4193e240d12d9b59960ffdbb322be9483359fc4366bb881b7",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:89559460f9cb550996b3ad1f8fe6cdca62ddf032976c55f5875e9da531bc129d",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f7bddd789c8f09d2cbe97145df0aa30fdcbde218fb0206d1a663cf90a9f7c35d",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:56.2421324Z",
+              "created": "2025-07-07T10:17:32.2861397Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:1d8052f5913d27a55b513605979b89248f428150d1fdb69336a98776de927e6c",
+                "sha256:2a364d25635170855755a9143be90274351ab14aa1830c77bf13a191f2026dd9",
                 "sha256:e2e5c5a60339cae47530fa627186531687a4b78923eef4b9a230accf3c6cb078",
-                "sha256:f84f3e3fe902909ac92eef35b4ecfefef770acb8760fb8d962fa79450e04b9c8",
+                "sha256:af4bd0009e3111207e38650fb63b4d0b8acca0e0b41ac9ca5b188a6c436ec758",
                 "sha256:faa769593145337985f91ed3825eaa440a8887d33ad910770c36b7ab3b3cfb24",
                 "sha256:308a3039fc640e2149e62af5fcee390c55f7c8e7ce7c988a4130f38bab994fe2"
               ]
@@ -547,18 +547,18 @@
               "simpleTags": [
                 "1.23.10-1-fips-cbl-mariner2.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:cbc2d2aac1bb4bdc05dd5b18a9f2eee624ffd579701d8fb70573f65c8da12641",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2906093753b3bb23bc8c58dbdc2ed4c1614abe4b85b1d7f975b22b005d42f9de",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6d21eaab47ebf5366ba71b95b43013fad345f2d8a8cf94f997b0bf84f528123b",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:36c32f9f33d3a6b5321f6040ad013b6436b6f0700c9cf9ac9c8be45ae91ac22a",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:36.4266486Z",
+              "created": "2025-07-07T10:15:51.0587852Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/fips/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4781122b29a0ed4f3e9d63e7695926124332f49151ad3003ba65e32f9dd4c03e",
+                "sha256:64a5b43b81a8b256f9313b2a6a5d38398377cfb4339716276800eff2298a4a43",
                 "sha256:e6f722646538bcaf4aed15bfa879b88c8008b2a75ce4b6a43b3cc2c28613d66a",
-                "sha256:1e240828ccb276baadb6b9c17379ce0a5a6d5a4a56d136ea7ba290a932377587",
+                "sha256:1345a0fbf5b2c9000e7d9de9222ba815fadd4534e6a58718557ff4de26aeb71b",
                 "sha256:36a14b557c14a65bf9993045b933f4805952cae1980fb326f1c16785769083cf",
                 "sha256:66ece9d34d44d3e2c2ecd874f75e567fe9b1ed25b0c5d3260d1cdc410d81d23a"
               ]
@@ -568,8 +568,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a047461efc025ca64552c23a14c4f14189a6c2815c5d4be2f91d757b802fe107",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2c45f0481a114649cf0f3197376ef41a9e22fc60ea3ecdfebf66596aa6be2979",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-nanoserver-1809",
               "1.23-fips-nanoserver-1809",
@@ -584,24 +584,24 @@
               "simpleTags": [
                 "1.23.10-1-fips-nanoserver-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:49396f6cec532819e6521bf4a870f0ac1721b1cdff2c4121037bbf0e40bac664",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:026c5223f078f91e65e775331b3bacc4dc4986ca764eb6a9b3fa51b3f4ac0699",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b1b5928716962b2300162f91f57b5c24a490e86a006fe1468c48b248e26b57c4",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3e401c6cfaadef14c359439b4c016440f26a2dd9cf86fe47ec6cfa72559cb9cf",
               "osType": "Windows",
               "osVersion": "nanoserver-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:37.575824Z",
+              "created": "2025-07-07T10:17:51.7946921Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/fips/nanoserver-1809/Dockerfile",
               "layers": [
-                "sha256:e40c3dbfe3412d731005bb8862d3d9d3e0cb93c72e0f35fe1e691b3f2afdfba6",
-                "sha256:8aa32d5d74716c48aa1fdc0e51921a14d61551a04c10a640b5c711d497b9594b",
-                "sha256:6c0d58fd1fe7109a237a41137adf9ce64925323176ff1f8b85833bdab15ae2f3",
-                "sha256:7ad3195fbfde0111a137ce911665ca22de7db63736560686c749c2a731da6bcc",
-                "sha256:38364ecb2698998e62cdb2a06cfff7536cf200d6e4714663870ee2750cb644f5",
-                "sha256:d3febc09eb9d642e6fefd675de1732894224818aab66e57b352eb2f2becb000b",
-                "sha256:de5dabcf7cd6ce1f557c5e4603f381c54bcabac4bf9f4263e94a638db4191d5f",
-                "sha256:36ab0172442cb2bee608b0508c2f91d30d9a4e5f0c1d849c56613339f831ed01",
-                "sha256:c8f1c67ed2f1048f72a235a492b28f035e7188076587331567e2cd6c74fd62d9",
-                "sha256:722838e3bc9661efb0c649a86a3634c96b00711a9d35fd2e460bbc3224d17b6b",
+                "sha256:e95aa8c630e3f6ad11da8e2164548da231477f5d9732bd9d096e4a409146b007",
+                "sha256:8e5160ac55b2bdee4d7e3a9edb73867f1a0753713d94f89128805b6d8b7089a8",
+                "sha256:c9d2e56bfadbd076ba56156781adeaa087444400b2a9cd459ce17ff41d77efe0",
+                "sha256:42485318d4413b7bbbb7579cbbbdec2917af4d7a0f54019f605b1e006c229e4e",
+                "sha256:e70d92bc3ed26dbe8dc93fe3b3333fe004617c64d1b3b758bebfbb8f04a8f2c5",
+                "sha256:4f495fca2b78dda091e6bff21cb7b6ca31e2f3ec71486db3043cb1ebe895136a",
+                "sha256:05bbcab3df9c727fa89442f1b2d963c3bd9692481c407f8e8b6763a589946217",
+                "sha256:050499255e14acaa58af4f6e46397caea24ad8d88c52aed3398b8fa105d9d1d3",
+                "sha256:bd18ada5145bb69c21c748ce68001a5b33b9615b2ec317c6b459fe38797a8580",
+                "sha256:0bcedba63c01e1bcc4f0f38caf210bf9d4a08fd9f5bb0156c6e8cbea9b8421b2",
                 "sha256:545a53e4f54b3d171c3617e2bad8b708d9a915afd182d53d6126c63585765944"
               ]
             }
@@ -610,8 +610,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:49d9cb3a88871f3934447537add0180b39d9c5712582ae1e33c49744c6ed3486",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b938dc7f383c4276426aeb331262b699a161e5f30b974ad0156084424a4bfb4e",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-nanoserver-ltsc2022",
               "1.23-fips-nanoserver-ltsc2022",
@@ -626,24 +626,24 @@
               "simpleTags": [
                 "1.23.10-1-fips-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0c61d840b3242f092e2fb454798d8c78f36bfa36ccd68ce646f6db6f5f6eae2d",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:75293bcd782bf6ad4ccc7d0db8a506ef004cd28f3735d935fb807a131a1e5449",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a615450f29731ffde0e8be70a420e03141d2b23acc58fde5d4983088f5e9bbd4",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:91bf1b6412019e97b6e362808dfd7e14be1cc0ef224466bd37886c619651548a",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:33.400796Z",
+              "created": "2025-07-07T10:21:57.8080611Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/fips/nanoserver-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:7164dfd7c9598e1e91ea976451e837fd46af629ebfeae2f64f2f975482943f60",
-                "sha256:4d5827ee283db5331b323277674c840d39957ba012183586e618a317ab0ea02f",
-                "sha256:d73a549541aebbe509c5a74d4a557778593be65bbf706d6fddb0f978e2731b41",
-                "sha256:9803a250fc6ace3e373e35dca86aa46aa9ce9601fd6e52ae56b3b48f6f82785d",
-                "sha256:a459d4bbd9f1a0b59059fca9e9af13ad30d9236dcaf3e910a1027547ec3d3da4",
-                "sha256:8f0d6da375ed47ffd768dcf0a55e634a30f5566d33138206f632f9f86da4d03b",
-                "sha256:ef7b5855c7a5d58adcf83f69b2fe8ae9150d30f2bd8e298614debbd48effdd78",
-                "sha256:f624f08e7a1425d9bd25fc3ee1988c808395e86a3bef2edcdaa1e8652e8b4df5",
-                "sha256:7c1532b99433b6e77199578ae3cc0ae988a84f572e416055440d0f965d002be3",
-                "sha256:f098b1f06267c350b5843d72c4495410c561fa71ef8a4211bd6981603ed3080e",
+                "sha256:5d7630deacf303e6f1972dd41b07ac7ef1935dcc347d9f5a3bc502dfe4189fa6",
+                "sha256:7169875bce3be7e0e0e4f0d3c906ad0eecbb2e5f0f742c41c089fe1b19a73ee9",
+                "sha256:44a0dc00e340fd7b257e5edcfaf6f7567feb1afe37402bcc33d3a5ce723b108a",
+                "sha256:71531dc9548db8a2a14c2bd58181951be5a12e9ed36a0f402f08eb9b9607801f",
+                "sha256:f1a7e315138558d5d03d0cc965c50517b4d44046f02874eeccc7f81d65ceb9cd",
+                "sha256:939edb98f2895ac61e4d3015efe4c398264ed19975d733da95f942084292ce4e",
+                "sha256:ee6e590a56fa8bc81c5bf84f6557744b05cb4a6bfcf0ace71a9ea27a3af034c1",
+                "sha256:1f4e716ce25848ab3273a65244df7c05aacdbc58b1d8886862a113c1cadeb2f6",
+                "sha256:f096f378ac75e653870435f29cebad0d9d1e457e506bd264847926738e8a570e",
+                "sha256:2325a887c6e8c818218027ee31a9d8e5216827db611471f81bb9adb66b1d0d9e",
                 "sha256:96acbf1c6d5b6cc37517502ecbb6a1d2eb55b7615b696401ead868c97a971964"
               ]
             }
@@ -652,8 +652,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:acec68b1f98d8e6387bae83338d502d7e2287cfe4790a81d457ff8660fbf4b7e",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:67286112e6b9ee94cd484d1ba9ab705a4d7f93800c6e59d5a3670cb13ce7a2a6",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-windowsservercore-1809",
               "1.23-fips-windowsservercore-1809",
@@ -668,26 +668,26 @@
               "simpleTags": [
                 "1.23.10-1-fips-windowsservercore-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:099fd1970cd8db14e2316af4e17e505c154ed533ff2c32227d1eb6832390545a",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ddc0572f9c03d6bb95fb326f77270fdbe235da7066290850ba2cd83c2f717863",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:659e0ea442d2e9efbbc046f32aa8b6bb057280632f7952c5901a1936b6dda927",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:fcebe12bf2a8d17b4650d1e8f02bce73e2ec3c720d33f47d2429beb52116daa0",
               "osType": "Windows",
               "osVersion": "windowsservercore-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:37.0675512Z",
+              "created": "2025-07-07T10:17:51.1661001Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/fips/windowsservercore-1809/Dockerfile",
               "layers": [
-                "sha256:85e7d11e884ff68e9afb99bd49efd09a4d8cfb4c160d27f9fda2b811e44b360c",
-                "sha256:878257c5fa11c065b076b92a22bbd4bec328825705f2203c618d4de7942a55e9",
-                "sha256:c2291a744b3daaf2b7681d20894abd84c348b5775cfdbc6202bf8cdaf2712cd2",
-                "sha256:42a163b7e5c03c2bd7f74a491467bffd7387697c4feeb9f149ef68bba62e3730",
-                "sha256:24e5f369344693e71f73c86a37eec33170a74eeb00d6335a14481b5b41a14395",
-                "sha256:078fd3ef74f5f267454fe88010c135b628e12044c91688fb2d1dc3c9938a852d",
-                "sha256:5b5297cb58188acd98afa49ed0c683bddecb87133f5de0f9baa389c9ba8feee5",
-                "sha256:9bb843fc814f7a37f5a456ee9239f8a8626c1dcba2014c27b287ca4fa3cf608f",
-                "sha256:69a2e806d4b3989feee866778bd0fc0e78d6dae7103668ddf4f51fba171c90d5",
-                "sha256:25fc1fc9b7fefe7ed9aebf3ee0787f1d0b899acab643a119d2e4f2681a4a55cd",
-                "sha256:3f1992f93f71f56dc55af891195ff0301553e86d1538b6de444337b45ea79209",
-                "sha256:171d69aec51c660bb8355ba8ffea23df987edb5df4dd2d748b2e3c2119e39d90",
+                "sha256:1304d8f1fc07ce2a81d30ea5d9bd4c0a966650092ef65f99e733dc579efcc9c6",
+                "sha256:43b822b2fe7978fcf7ad0dba4bfb00cb7cd3bb04893533a7161faf31077ceb45",
+                "sha256:7b2515abecd6b708f2a5b63dc3a3ca0ee54e14a892c87def05a0ea5e8493a8ca",
+                "sha256:5c95c207028af7f63327195068303bced3f451a8ab2d999af7930e14f2eb8497",
+                "sha256:4ed69630bb13db3b6f60126a7e0167d680e65d4f51e65615bd3935106a56df05",
+                "sha256:2221c227d930ea8c96674f80f1e329a7e5242825382dc9b988e1d1a483211d82",
+                "sha256:413fd940d958cc176b2c8451f0a256c447fc53996adbb704614d6a66e0b08fe5",
+                "sha256:52cd139073927e1bb374c63838d8633ef59ef2ede5b036ffd01458957161cfb2",
+                "sha256:bdd5baae09fcf1873a9cf8af361721acef2549e6769ab214b231fa41279b2884",
+                "sha256:e8156e8680b0a3a4d477067f9f364bc78d709e73cab029c48cb2690586bc5463",
+                "sha256:29019a5595e575174e791f9baaa9cf74d859283326e0538cd73905faef0647d4",
+                "sha256:cc78cc4771d311d4b282adda676686df63995e28a17701626e10e2196d810bd7",
                 "sha256:a6910108ef197e0bb53c7efb6d57b49965e371861530d624c25d1235f37dc9cd",
                 "sha256:803f4a9590cb9c635813cbd0ee89190f92d5fe4c7589711cf468879e42ce02ba"
               ]
@@ -697,8 +697,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d2971bda51452c7edac6e7d55c3aa1344897bd62756262107e1c56ee7bdd1b8d",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:9412fad71ba5d2f0d0bfbc81a9c30c652a9ee90e4b7592c81c6205cd0c858565",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-fips-windowsservercore-ltsc2022",
               "1.23-fips-windowsservercore-ltsc2022",
@@ -713,26 +713,26 @@
               "simpleTags": [
                 "1.23.10-1-fips-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:787f49f8226c2884ec5a12136cf82cc34e1bd9bfd131f82e8dde782fc54971aa",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b99182392a1c32b5248935b7a0626680380ee7bbfd5d34145e751591eaada332",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3a0685c36615a9af2a8cc7d8e04d12a85f267cf25d7a65d961670afebddeabcf",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6cccd90daa8ff5c5ddc0b4580709b4525059e55704619100c38fea6d1b74bfcb",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:31.6486098Z",
+              "created": "2025-07-07T10:21:55.472746Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/fips/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:c2912d3790e094999308dd8f4bd85affbbafb9566ba43977c99143855c93f432",
-                "sha256:41dfcf6a9936a87fa414448baa6f5835b687bb8c1ae6d8a6ede5e73453ff64f2",
-                "sha256:4e20a391d8127cfb2592b69611da0ed56b39ccec28f7cf8943b524b2eb98d8dc",
-                "sha256:6e715eac91388605de99c03eeabe8bbe460b66f63a2f24942434e750a44f2668",
-                "sha256:87e4ca80d200ed8c241c9286d7dfbfdcb11bbf473bc1722da3bb670bdda860b7",
-                "sha256:7501e49cb7ff5b5f9733db616415de464d1e34ddfbb19e4ee94a76968182e578",
-                "sha256:4572918c3cf5de3a4d3b07d4c2fb08ed81b5a7e464e576f2e44f769d5492688d",
-                "sha256:40c7d209a8e1c38d025795250b86c472644f851723a00e277d23dbc14060f065",
-                "sha256:feec979313d8ce5fa52e85f1aaff9db075ac83af9fe0113933ae6382128f2bd5",
-                "sha256:9b8c01037b106e3b763be19dc2ac793e1997162d6e827950e06dd06d34a612b7",
-                "sha256:24b73bebb1c49176561f7b61f1890250cd5eb28ce7f733f0774ab3b59375b8e4",
-                "sha256:497d5511d2af2de15f2b7c8dd9af2123ce5bb0e7f97739d9e580573ec9dde019",
+                "sha256:04f3feb31eaa134a08ff4b57a37d89d3e3642239cbe67c0e92b38f48f453c32d",
+                "sha256:76028086c3d22d0bd149b2d7a61c549fe4cdd8419301b4b109a3e733f9307d67",
+                "sha256:b3d33d1441535ae7c411333af390916931433ba208636d6ed89b1bacc560d9c6",
+                "sha256:e09af7d6caa4cbbb0c96da56aaefd4fffccc8f68037aa68e141c867123ce071c",
+                "sha256:351649f149b4c0cd9cce222ee9fd7f9a6dc0eb88bc536443e5ecd4c81bf12caf",
+                "sha256:9bf2e04c107dcef4dc86e4de231d795e45d1f5b0993870a23fb137d96ebb9015",
+                "sha256:06640af7c672541ebaa1efed95b9f658aec5f5bb8c02022bf687d4964bc92bda",
+                "sha256:7867b1be3b8ffd4c9dd606d2ea0a1f5c28805376d21339df738be3b80252b74b",
+                "sha256:5a702512a753462345d9e44ac569c65b56107152803d11f61fada1e662a21ecb",
+                "sha256:34cc956cb252d0ce0c3d9611c0840d6f9573af26beb9f2bafada9175a5d72435",
+                "sha256:e961fe9c03a0070ca8d180bf71f7c6caf56d50dbd57f51a74e4cc5d8f2541223",
+                "sha256:0dafb444c859cb8afb4ff6d456068cf5a03b2fb4bc5ec2164aa5ada31fc43a6e",
                 "sha256:db5652627be066fd088860f3ebfcc61d4cb76922ffa16c5496b4158c7e4e7151",
                 "sha256:2534953f34d35976fc44cd67bfdd39fdcd9e2eaae57ada0be53d5fb936cd3a0b"
               ]
@@ -742,8 +742,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:af185c79ad73787ebcc83341178b7d228012e506116d5db6ce10a8a978bea0cc",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b95721b68ae51f02ee95dfb207ddd28c383bade76b8ae2bb40ee8d468b56c7a1",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-nanoserver-1809",
               "1.23-nanoserver-1809",
@@ -758,23 +758,23 @@
               "simpleTags": [
                 "1.23.10-1-nanoserver-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:026c5223f078f91e65e775331b3bacc4dc4986ca764eb6a9b3fa51b3f4ac0699",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3e401c6cfaadef14c359439b4c016440f26a2dd9cf86fe47ec6cfa72559cb9cf",
               "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:7c720f345ff7784cee12a5464bb5d5222c6348bd6da2cd29d666e49867958b0e",
               "osType": "Windows",
               "osVersion": "nanoserver-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:36.5323032Z",
+              "created": "2025-07-07T10:17:50.5508404Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/nanoserver-1809/Dockerfile",
               "layers": [
-                "sha256:8aa32d5d74716c48aa1fdc0e51921a14d61551a04c10a640b5c711d497b9594b",
-                "sha256:6c0d58fd1fe7109a237a41137adf9ce64925323176ff1f8b85833bdab15ae2f3",
-                "sha256:7ad3195fbfde0111a137ce911665ca22de7db63736560686c749c2a731da6bcc",
-                "sha256:38364ecb2698998e62cdb2a06cfff7536cf200d6e4714663870ee2750cb644f5",
-                "sha256:d3febc09eb9d642e6fefd675de1732894224818aab66e57b352eb2f2becb000b",
-                "sha256:de5dabcf7cd6ce1f557c5e4603f381c54bcabac4bf9f4263e94a638db4191d5f",
-                "sha256:36ab0172442cb2bee608b0508c2f91d30d9a4e5f0c1d849c56613339f831ed01",
-                "sha256:c8f1c67ed2f1048f72a235a492b28f035e7188076587331567e2cd6c74fd62d9",
-                "sha256:722838e3bc9661efb0c649a86a3634c96b00711a9d35fd2e460bbc3224d17b6b",
+                "sha256:8e5160ac55b2bdee4d7e3a9edb73867f1a0753713d94f89128805b6d8b7089a8",
+                "sha256:c9d2e56bfadbd076ba56156781adeaa087444400b2a9cd459ce17ff41d77efe0",
+                "sha256:42485318d4413b7bbbb7579cbbbdec2917af4d7a0f54019f605b1e006c229e4e",
+                "sha256:e70d92bc3ed26dbe8dc93fe3b3333fe004617c64d1b3b758bebfbb8f04a8f2c5",
+                "sha256:4f495fca2b78dda091e6bff21cb7b6ca31e2f3ec71486db3043cb1ebe895136a",
+                "sha256:05bbcab3df9c727fa89442f1b2d963c3bd9692481c407f8e8b6763a589946217",
+                "sha256:050499255e14acaa58af4f6e46397caea24ad8d88c52aed3398b8fa105d9d1d3",
+                "sha256:bd18ada5145bb69c21c748ce68001a5b33b9615b2ec317c6b459fe38797a8580",
+                "sha256:0bcedba63c01e1bcc4f0f38caf210bf9d4a08fd9f5bb0156c6e8cbea9b8421b2",
                 "sha256:545a53e4f54b3d171c3617e2bad8b708d9a915afd182d53d6126c63585765944"
               ]
             }
@@ -783,8 +783,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:56fb16390aaad9d62d29b679c1bfde43533a79e963efffcec07e9f72971e4939",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c661bc2dac3bb910ba56f7aaad1871624af616146e6a94df597c0cb0ba5f6a96",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-nanoserver-ltsc2022",
               "1.23-nanoserver-ltsc2022",
@@ -799,23 +799,23 @@
               "simpleTags": [
                 "1.23.10-1-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:75293bcd782bf6ad4ccc7d0db8a506ef004cd28f3735d935fb807a131a1e5449",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:91bf1b6412019e97b6e362808dfd7e14be1cc0ef224466bd37886c619651548a",
               "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:23fa4e796f4d02d462beadb844f8985ca4583b1b0f75295137f5968dab255b09",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:29.8669601Z",
+              "created": "2025-07-07T10:21:53.701268Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/nanoserver-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:4d5827ee283db5331b323277674c840d39957ba012183586e618a317ab0ea02f",
-                "sha256:d73a549541aebbe509c5a74d4a557778593be65bbf706d6fddb0f978e2731b41",
-                "sha256:9803a250fc6ace3e373e35dca86aa46aa9ce9601fd6e52ae56b3b48f6f82785d",
-                "sha256:a459d4bbd9f1a0b59059fca9e9af13ad30d9236dcaf3e910a1027547ec3d3da4",
-                "sha256:8f0d6da375ed47ffd768dcf0a55e634a30f5566d33138206f632f9f86da4d03b",
-                "sha256:ef7b5855c7a5d58adcf83f69b2fe8ae9150d30f2bd8e298614debbd48effdd78",
-                "sha256:f624f08e7a1425d9bd25fc3ee1988c808395e86a3bef2edcdaa1e8652e8b4df5",
-                "sha256:7c1532b99433b6e77199578ae3cc0ae988a84f572e416055440d0f965d002be3",
-                "sha256:f098b1f06267c350b5843d72c4495410c561fa71ef8a4211bd6981603ed3080e",
+                "sha256:7169875bce3be7e0e0e4f0d3c906ad0eecbb2e5f0f742c41c089fe1b19a73ee9",
+                "sha256:44a0dc00e340fd7b257e5edcfaf6f7567feb1afe37402bcc33d3a5ce723b108a",
+                "sha256:71531dc9548db8a2a14c2bd58181951be5a12e9ed36a0f402f08eb9b9607801f",
+                "sha256:f1a7e315138558d5d03d0cc965c50517b4d44046f02874eeccc7f81d65ceb9cd",
+                "sha256:939edb98f2895ac61e4d3015efe4c398264ed19975d733da95f942084292ce4e",
+                "sha256:ee6e590a56fa8bc81c5bf84f6557744b05cb4a6bfcf0ace71a9ea27a3af034c1",
+                "sha256:1f4e716ce25848ab3273a65244df7c05aacdbc58b1d8886862a113c1cadeb2f6",
+                "sha256:f096f378ac75e653870435f29cebad0d9d1e457e506bd264847926738e8a570e",
+                "sha256:2325a887c6e8c818218027ee31a9d8e5216827db611471f81bb9adb66b1d0d9e",
                 "sha256:96acbf1c6d5b6cc37517502ecbb6a1d2eb55b7615b696401ead868c97a971964"
               ]
             }
@@ -824,8 +824,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:635d225feedc0e0ff2554db802005e0e951e5fb66c4fd13b55140d3d019a8683",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b44247284e3e14690201c17522e35a5e170828dc5fb3c292660e5a385ed6b035",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-windowsservercore-1809",
               "1.23-windowsservercore-1809",
@@ -840,25 +840,25 @@
               "simpleTags": [
                 "1.23.10-1-windowsservercore-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ddc0572f9c03d6bb95fb326f77270fdbe235da7066290850ba2cd83c2f717863",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:fcebe12bf2a8d17b4650d1e8f02bce73e2ec3c720d33f47d2429beb52116daa0",
               "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:862b24ccf5e399fc3bea746c7ac68c16f3fbcfa199532a3e506b7e03e57217b9",
               "osType": "Windows",
               "osVersion": "windowsservercore-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:34.3296751Z",
+              "created": "2025-07-07T10:16:48.1380311Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/windowsservercore-1809/Dockerfile",
               "layers": [
-                "sha256:878257c5fa11c065b076b92a22bbd4bec328825705f2203c618d4de7942a55e9",
-                "sha256:c2291a744b3daaf2b7681d20894abd84c348b5775cfdbc6202bf8cdaf2712cd2",
-                "sha256:42a163b7e5c03c2bd7f74a491467bffd7387697c4feeb9f149ef68bba62e3730",
-                "sha256:24e5f369344693e71f73c86a37eec33170a74eeb00d6335a14481b5b41a14395",
-                "sha256:078fd3ef74f5f267454fe88010c135b628e12044c91688fb2d1dc3c9938a852d",
-                "sha256:5b5297cb58188acd98afa49ed0c683bddecb87133f5de0f9baa389c9ba8feee5",
-                "sha256:9bb843fc814f7a37f5a456ee9239f8a8626c1dcba2014c27b287ca4fa3cf608f",
-                "sha256:69a2e806d4b3989feee866778bd0fc0e78d6dae7103668ddf4f51fba171c90d5",
-                "sha256:25fc1fc9b7fefe7ed9aebf3ee0787f1d0b899acab643a119d2e4f2681a4a55cd",
-                "sha256:3f1992f93f71f56dc55af891195ff0301553e86d1538b6de444337b45ea79209",
-                "sha256:171d69aec51c660bb8355ba8ffea23df987edb5df4dd2d748b2e3c2119e39d90",
+                "sha256:43b822b2fe7978fcf7ad0dba4bfb00cb7cd3bb04893533a7161faf31077ceb45",
+                "sha256:7b2515abecd6b708f2a5b63dc3a3ca0ee54e14a892c87def05a0ea5e8493a8ca",
+                "sha256:5c95c207028af7f63327195068303bced3f451a8ab2d999af7930e14f2eb8497",
+                "sha256:4ed69630bb13db3b6f60126a7e0167d680e65d4f51e65615bd3935106a56df05",
+                "sha256:2221c227d930ea8c96674f80f1e329a7e5242825382dc9b988e1d1a483211d82",
+                "sha256:413fd940d958cc176b2c8451f0a256c447fc53996adbb704614d6a66e0b08fe5",
+                "sha256:52cd139073927e1bb374c63838d8633ef59ef2ede5b036ffd01458957161cfb2",
+                "sha256:bdd5baae09fcf1873a9cf8af361721acef2549e6769ab214b231fa41279b2884",
+                "sha256:e8156e8680b0a3a4d477067f9f364bc78d709e73cab029c48cb2690586bc5463",
+                "sha256:29019a5595e575174e791f9baaa9cf74d859283326e0538cd73905faef0647d4",
+                "sha256:cc78cc4771d311d4b282adda676686df63995e28a17701626e10e2196d810bd7",
                 "sha256:a6910108ef197e0bb53c7efb6d57b49965e371861530d624c25d1235f37dc9cd",
                 "sha256:803f4a9590cb9c635813cbd0ee89190f92d5fe4c7589711cf468879e42ce02ba"
               ]
@@ -868,8 +868,8 @@
         {
           "productVersion": "1.23",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:abe70769099af39e06a8f696a1486b9f2dac5e726bbdb942d2ec6c9a017f8d6e",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0eccc7be794c31241e30a126f39c1312a0b887d1ffb7e228338089ca953fe9ff",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1-windowsservercore-ltsc2022",
               "1.23-windowsservercore-ltsc2022",
@@ -884,25 +884,25 @@
               "simpleTags": [
                 "1.23.10-1-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b99182392a1c32b5248935b7a0626680380ee7bbfd5d34145e751591eaada332",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6cccd90daa8ff5c5ddc0b4580709b4525059e55704619100c38fea6d1b74bfcb",
               "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c489e1737a833a111f0f35b28257b1071d30b6db6b9ee50e88b7c08b901efc67",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:19:57.0134717Z",
+              "created": "2025-07-07T10:20:17.2064199Z",
               "commitUrl": "https://github.com/microsoft/go/blob/2043dba32144e1ba7447f3faf22d07159e42c668/src/microsoft/1.23/windows/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:41dfcf6a9936a87fa414448baa6f5835b687bb8c1ae6d8a6ede5e73453ff64f2",
-                "sha256:4e20a391d8127cfb2592b69611da0ed56b39ccec28f7cf8943b524b2eb98d8dc",
-                "sha256:6e715eac91388605de99c03eeabe8bbe460b66f63a2f24942434e750a44f2668",
-                "sha256:87e4ca80d200ed8c241c9286d7dfbfdcb11bbf473bc1722da3bb670bdda860b7",
-                "sha256:7501e49cb7ff5b5f9733db616415de464d1e34ddfbb19e4ee94a76968182e578",
-                "sha256:4572918c3cf5de3a4d3b07d4c2fb08ed81b5a7e464e576f2e44f769d5492688d",
-                "sha256:40c7d209a8e1c38d025795250b86c472644f851723a00e277d23dbc14060f065",
-                "sha256:feec979313d8ce5fa52e85f1aaff9db075ac83af9fe0113933ae6382128f2bd5",
-                "sha256:9b8c01037b106e3b763be19dc2ac793e1997162d6e827950e06dd06d34a612b7",
-                "sha256:24b73bebb1c49176561f7b61f1890250cd5eb28ce7f733f0774ab3b59375b8e4",
-                "sha256:497d5511d2af2de15f2b7c8dd9af2123ce5bb0e7f97739d9e580573ec9dde019",
+                "sha256:76028086c3d22d0bd149b2d7a61c549fe4cdd8419301b4b109a3e733f9307d67",
+                "sha256:b3d33d1441535ae7c411333af390916931433ba208636d6ed89b1bacc560d9c6",
+                "sha256:e09af7d6caa4cbbb0c96da56aaefd4fffccc8f68037aa68e141c867123ce071c",
+                "sha256:351649f149b4c0cd9cce222ee9fd7f9a6dc0eb88bc536443e5ecd4c81bf12caf",
+                "sha256:9bf2e04c107dcef4dc86e4de231d795e45d1f5b0993870a23fb137d96ebb9015",
+                "sha256:06640af7c672541ebaa1efed95b9f658aec5f5bb8c02022bf687d4964bc92bda",
+                "sha256:7867b1be3b8ffd4c9dd606d2ea0a1f5c28805376d21339df738be3b80252b74b",
+                "sha256:5a702512a753462345d9e44ac569c65b56107152803d11f61fada1e662a21ecb",
+                "sha256:34cc956cb252d0ce0c3d9611c0840d6f9573af26beb9f2bafada9175a5d72435",
+                "sha256:e961fe9c03a0070ca8d180bf71f7c6caf56d50dbd57f51a74e4cc5d8f2541223",
+                "sha256:0dafb444c859cb8afb4ff6d456068cf5a03b2fb4bc5ec2164aa5ada31fc43a6e",
                 "sha256:db5652627be066fd088860f3ebfcc61d4cb76922ffa16c5496b4158c7e4e7151",
                 "sha256:2534953f34d35976fc44cd67bfdd39fdcd9e2eaae57ada0be53d5fb936cd3a0b"
               ]
@@ -912,8 +912,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8e29e729c85edbb52704c2c8c3b7b48988f79396267d069ef2f0dae3cfded7b8",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:156b29223168afb43e3ecebbf08d1c01cefaca0400c20ad84b9d1610d4c679bb",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-azurelinux3.0",
               "1.24.4-1-azurelinux3.0",
@@ -926,18 +926,18 @@
               "simpleTags": [
                 "1.24.4-1-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ddf9d31a9d547612984c0a2adc93cd135c94f38194753e6f1b63fa062461cdda",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8f039c4a31be15716101e133622312d0462d22e2619bc418b03e883bd88053ea",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:9948138108a3d69f1dae62104599ac03132225c3b7a5ac57b85a214629c8567d",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:50.4500238Z",
+              "created": "2025-07-07T10:16:42.8741514Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4f6ccd206ddafa6897109315a30e5ababdef281eff7d47e37a13cff4d36a2d65",
+                "sha256:1fb1071d05eb7bc14dd73d905d4236b8b7b07c4c57b2a13d57da5b2a37afbc04",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:c38375e1dc774d5ce1d9493995306b78d26015dd1ebe1768932c3aaa314133d0",
+                "sha256:51efa9b4c872f86aa8d7e1a87876e4a7197d1975ccaccdd64def2c66d2f464ec",
                 "sha256:12ff10226b498639c637d7f81c12ecbd567494c4b8c26a9180edad4b500ff987"
               ]
             },
@@ -946,18 +946,18 @@
               "simpleTags": [
                 "1.24.4-1-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d9d96f6b5c39da16c418894459b0905efed16e47165d3d50c6b66c19dc5d5174",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f36ef9936a34ad7a28d6b1550a0bfeaddceab23b1a33d0dda67ebd5a2162b50b",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:9948138108a3d69f1dae62104599ac03132225c3b7a5ac57b85a214629c8567d",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:05.6544105Z",
+              "created": "2025-07-07T10:14:45.7843083Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:ef7898136ca80c0dbc28155a74180a6f198a0a5b7dcc0e0f89bc16678df41ca2",
+                "sha256:94d2078c70316e89405e16268488f3518918d970a49005a66099efa5633fcb5a",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:6dd647313c9dc94e4824458b1a8a4a14fe1ba56bd577f98e11b83ad4261a6934",
+                "sha256:5bc4f08e690c69d0e62cbf0281dc825dc8553579cae468b0cb3666f0cc2332c0",
                 "sha256:415ef0e1f009c218fc792fb9875832939a10c8718adefbb0a9caccb316342cf5"
               ]
             }
@@ -966,8 +966,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a0c0c8232848dab4eebf17082841704317e5bda693155b93624115f907383c94",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:94b1688200aa17ae535f0435bfad4dc692498a942a0be2abf74434487b0ea4f4",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24",
               "1.24-bookworm",
@@ -983,18 +983,18 @@
               "simpleTags": [
                 "1.24.4-1-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:55639d5753de5d7bfb74bab668a35b81d93fb3151759f51e6b07344547361ace",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4461a3c04afb7e3578bec64f5fd69b8cb8654ec1c84d2d22a72af2168d876563",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:35.013627Z",
+              "created": "2025-07-07T10:16:01.2924271Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:8f3c04ee17279aa9eb481530ec0c8b491b1e175e86f4c30e2165cbd8a4e75b99",
+                "sha256:59b4e5b4750ec1b7f1501675021c49ff08f4cef489293a0a54b4d39acc0ddb85",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:81833ce36ad0cf731c8f64fe5628d8d3524cd3a7bb9b077092cc8b1727f16cc1",
+                "sha256:ef7792878a0ecc31c8dd258b60ddd107c5cda611574fd4ea713c4bd99b041af7",
                 "sha256:900e2c02f17f686733f4f957ddfb07b3342d1957d87b56254634d4fbb2abb81d",
                 "sha256:7bbf972c6c2f5b7313ae3cb74e63888ab70931bcd9aefd960f9a38c540dbf2ca",
                 "sha256:d0034faf7acce9bbe2e8952f4e2f47c46c28c2c4ca8bc56f96b9269d14ea3549"
@@ -1005,21 +1005,21 @@
               "simpleTags": [
                 "1.24.4-1-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1ab57b9de5752d234d24590c4f67d2c1da4d76c0ac3ed7321dd8caa8d86817e9",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c05f9d7c935f1d8274a84f9483aca60fb9b5e61363c81a71ba0ab691c3bb7f69",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:41.7573265Z",
+              "created": "2025-07-07T10:13:45.8001467Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:ac497931d662f4a614829b3efea8b250b9f43d3217d88f1dc0938a8cbd604b7b",
+                "sha256:4fbeef4ffe9c0cf68b213dd7f5b1b56c3071ee0e4a7130b166f5fadc5e805687",
                 "sha256:431200da405eba5c580e85fb9f3ea600e120bfaf266b15e8102b48b53459cf09",
-                "sha256:073becae73854e0e9bbad634b17f953a1c331837e3d58d8213313c41b95367cb",
-                "sha256:0fe8855ed7a68d9f8fe7d302fae88c166a75915bfbd2d109d79128b51764e3ec",
-                "sha256:4d7ffa2f9b76643f2e264873b25d4450552d1d018f96ebfda08d41449ffa7dad",
-                "sha256:293d163c603063df1224855ccf7ca30414586177f972b03514117df3dfc3fc19"
+                "sha256:d4dd93d56334c0f46a9d8c1ef66fb7246904254a0fa5b1164189600bb94f7f90",
+                "sha256:5d2f4c85f426e2c955b1dac4fa88bc182d725644c23ad01bdcbf64d9664e34a8",
+                "sha256:dfcc606b1195a348c6a47399c1a54ab936d4477a526d62306ddce89fe76a2d22",
+                "sha256:bb1ba65cd43504d1a6ec59c21e7402a14a3d0a8482c4f4ca74b74b72a7995bea"
               ]
             },
             {
@@ -1027,21 +1027,21 @@
               "simpleTags": [
                 "1.24.4-1-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a6f3e2ae966985af8e660a3edebed825d2ef05a2750d61b2ecc6ec3de796dc7e",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:1852e94ab84cbd1b15fe0bc5b770b439d7b462f6553e1c5d643bdc0abe5522d9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:141575a1991d5d04a28a90c921cfcbb8f7f6ca0173f5eda1229490e287fcb08b",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:f4661b25c4c2e4805fda4995fe087db8845fd9e4872ade66182d1c9876b54b1c",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:39.2263652Z",
+              "created": "2025-07-07T10:14:38.2110031Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4b9e2a2e452ff1efd6389fb89f81e165406e14fb2efbbb73e35e7bc53773572c",
+                "sha256:fa1216d676f645c84d6c9c0ec028dea5310d0ab3a317bf374d22b319c336eb7e",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:3fbc75e0cb9dcbdc615ef5201b384fae1efb8781771ae088afb1518a3bdae8fe",
-                "sha256:14f5719d6358cc525f45e16c04ce36e5245978df9021dec8d0619729d9de8537",
-                "sha256:c5e137b9ec173f900a44376f31987bb15c0f5bb562aa6f8ad5db5a090ec88b2e",
-                "sha256:3109a2d74d5c2d3acf0d520a27e9a7ebdf7c5114113406154375fc544482e281"
+                "sha256:50576d4ab5594d253146038a2683a477a2aa2ee84c377048c55be9c0779f5171",
+                "sha256:88f9cdd730a2c32e544c8de28ddcb3800bc8b143e551c286d3ccb2704444d69f",
+                "sha256:7be9cdb9167a8712f78cfe8da9fdf771134a84b1ee0fdab42bace39b895aaa9d",
+                "sha256:d1f079207a43c718468ea382f4fae87378159dea9e7ffb1bd0fc435e5ac6cc70"
               ]
             }
           ]
@@ -1049,8 +1049,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:77875a17ebca02388546dd68eac4aeca06926b8d7b0e1f6789e29e2b64a675e6",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:96ac0a86d7f870521b5f04c4c2ee7a335542159979d9f22e945eb3a047b1d36e",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-bullseye",
               "1.24.4-1-bullseye",
@@ -1063,18 +1063,18 @@
               "simpleTags": [
                 "1.24.4-1-bullseye-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f0858b45c9308223bfbe6185217ccb46a6c2da8fb762969f1f9ff8122433e3e",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7336e68d2a9a4f2008325e3d4a9a6e9af3cc89cdc9aaf693cc4625ebb4628808",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:57.5807416Z",
+              "created": "2025-07-07T10:18:21.2434627Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:a56ff528dfa9243e3aa08df637cb02d4bafa5881c53c57ac09b26998c8334fa1",
+                "sha256:059a0e0449f7a4c0a7aeeb4ffa178cd705ed0342de28f9a088fbac623643f759",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:6fbe71ecfd887f3947433b6cfc93f2c3b5cf1a95213108c14ce2d88c8be7ba6f",
+                "sha256:174f4f8f81e79b7340e899bd25423039cfbc47984ebec05fbeefa91d9bab5965",
                 "sha256:06772a4eff3df697497bb68b4dcdeb97fdb9338b5e7dde7d1a53579c3203c9ba",
                 "sha256:06408a499c9b569e198473b636afa8c383e459ee6fe76ba4159b758c84e68f10",
                 "sha256:8edf85959a53e00a81c3f7562eb946a449884c8bfabae7382c057248f7d56687"
@@ -1085,21 +1085,21 @@
               "simpleTags": [
                 "1.24.4-1-bullseye-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:389e95701fb4ecbcb20e149d3e153840d9634bb465719daf8ca7dede65d6d566",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e4d76a72f4276c52a36f00da8a5b4abc3151945aa7849e69e6dc0f7ae940b04a",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:37.7465423Z",
+              "created": "2025-07-07T10:13:45.9132639Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:db28198923ccb715f8a9f67a31f067fa39b79a494081dfa4c5913c08c86a9a01",
+                "sha256:4fbeef4ffe9c0cf68b213dd7f5b1b56c3071ee0e4a7130b166f5fadc5e805687",
                 "sha256:431200da405eba5c580e85fb9f3ea600e120bfaf266b15e8102b48b53459cf09",
-                "sha256:1bee6049042644c3b55c65e2279fb7135ffd78b4e3fdf13b6f39483a5d812752",
-                "sha256:bc07acb5bb3458d1880be716fdb2bcc90e78327b21f1c1531b5e4bd0941213a8",
-                "sha256:319bc9ba38020b34f4e3f562e110c9ab25e658493eaf95bfc783a633f2d4b036",
-                "sha256:7cebbb7b5094f699f2cd2261cbe7a8598cfdca67abd88b7d42845b982fdfa2db"
+                "sha256:ab5832430fbd8d87fdcde730990a4f0dde3e11b79a761ddfe17f2d5323ad3ebf",
+                "sha256:28365fa3b8363bfd29e20b4b17838c65ddc4bdacb1bf15ca9af5a4045e4feaf7",
+                "sha256:2d6769ed354ec7fde57e63bdf9788543b96fd8f93923607ad70767b9c4cfa25b",
+                "sha256:94f6a17da30bc8208b580cd005e21d1089fb9d464ada8108b4ad7fb8b83e310b"
               ]
             },
             {
@@ -1107,21 +1107,21 @@
               "simpleTags": [
                 "1.24.4-1-bullseye-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6916431963f5b3821360cc7a75744300266dd161d4f7a2901dfb78066f751a1a",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:9c00a3ff345e2718bc774b116b395fb82928d8f4bf74286441bd5ac9df82156a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:aa2d81ea0ead473a50aa9f2100a8cb3ff6597976eb9eea544ea6ec55078cd09d",
+              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:150417c4594908cce902dda4d37c66eaa3550740ef33c47e5e7a61247470562b",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm64",
-              "created": "2025-07-02T10:13:52.8685455Z",
+              "created": "2025-07-07T10:16:12.3193092Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:c1029407c5fdd355efde8cbae138b3d4397b860632274362012902ea1ad27a27",
+                "sha256:a7ab5075234c908991eaa839248f1c96102a8b2ff11018436757a7644e551abb",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:7f0865812df8ddbc0ab9c3ead61ccf1ece56147fe8fcee5dd63a2584dcac77eb",
-                "sha256:dc7850095446c84fa9107622e378378aa7daf4b928caeecbc1149118900d32f7",
-                "sha256:db6f3b6fbce84c42871ea80f05b2c61e622e08647f7164e9a95a391926c1f714",
-                "sha256:a5bbd5d5e1ce5f21bd5c644aed0b302fea4f9e42226b9b81cd2d1cdde2a0e106"
+                "sha256:ac54ec4a37f4775402d4f0e199d16906ad9a17ff833c872c6ac369cc29273c56",
+                "sha256:7766ba090abb327ecb7e9e14ac90bbcc45c5ba6bb8a568ae531c960ff1acad55",
+                "sha256:5424250d141bf5f4ec62e698bba9b5695482a3015186d3b14a633da8916bf7dd",
+                "sha256:70551d0ef4e0c341904e3736f3fa7b76ec3309544ba767c64ff338d4c9b700ad"
               ]
             }
           ]
@@ -1129,8 +1129,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:85387414f0d47157b06de31eb63dbdc55773fbec7593f5cab1c2352bb04a25f1",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d7b082e9733156c43ee44add088045a7bc13f15bfc9da5208ecd04b4cee0e805",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-cbl-mariner2.0",
               "1.24.4-1-cbl-mariner2.0",
@@ -1143,18 +1143,18 @@
               "simpleTags": [
                 "1.24.4-1-cbl-mariner2.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5f9ee69a2cf5a311315542dda6068eadf0da339758b78c382e5594265498bd88",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:dbdbfd744368246b065f0512cc7fab19992414fab7bed44d06abeeaa7931d76c",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:ed25715f36e04260756ebdd6a662e57f43e5d60f49822be3b0f2e39043145794",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:53.3140046Z",
+              "created": "2025-07-07T10:18:04.7074548Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:f3c63bfe646d45c545deb0707e3c03835554615b21deb6fc94354c64c857a4cb",
+                "sha256:1bb944c8df55d52ddaddbd333be4d2447ac855e662ad79f4269b5e2ebd8505ca",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:9143c5dd664ca5dbf36e85146219bb2b4f074163eff20108e1389c287f365c1f",
+                "sha256:8f1e8e74aac2acbd94cb5efd2b001be5710ee7829e1905772930a3917f82bbfb",
                 "sha256:faa769593145337985f91ed3825eaa440a8887d33ad910770c36b7ab3b3cfb24",
                 "sha256:308a3039fc640e2149e62af5fcee390c55f7c8e7ce7c988a4130f38bab994fe2"
               ]
@@ -1164,18 +1164,18 @@
               "simpleTags": [
                 "1.24.4-1-cbl-mariner2.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e5915ad70e9c36de62023a46981cc94d32531015eba8542aeb428f10abef9c25",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:64b44ee5d3e074d36d99b004c92e03541ce49286cd441f1e698139cc8ca53416",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:ed25715f36e04260756ebdd6a662e57f43e5d60f49822be3b0f2e39043145794",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:14:48.9863422Z",
+              "created": "2025-07-07T10:15:35.0521342Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:e63720426bbb33c7399f338ce3ea3423d97255ee125fa0ee880ec02c5c72f55f",
+                "sha256:2493c1ae7c137ca8ae8324f9fba9c78040eb197dc146d21b42eb09603ac9cbbe",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:8795f3e5e34be4f1862426e00f1bc13f8f4220f21fa9c720235ddfe83ea42d0c",
+                "sha256:46832529e1787e504eea81f203a67d2afc7afcf4ac572af6ac34069ce11ffda2",
                 "sha256:36a14b557c14a65bf9993045b933f4805952cae1980fb326f1c16785769083cf",
                 "sha256:66ece9d34d44d3e2c2ecd874f75e567fe9b1ed25b0c5d3260d1cdc410d81d23a"
               ]
@@ -1185,8 +1185,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2a6968dc886468ef667f754888818d849ec5f60441433010cd93817f2d7275e5",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5ef216bf602b17ef400effe4542c4f6682a0860b17a757b19cfc876853a19a88",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-azurelinux3.0",
               "1.24.4-1-fips-azurelinux3.0",
@@ -1199,18 +1199,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:89979a5271880ddd68a47bfe70b61043042138f13560444e5880b964ae640ec8",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ddf9d31a9d547612984c0a2adc93cd135c94f38194753e6f1b63fa062461cdda",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1771de5d46016be6db59d4c491a5f296776441c6d540c7df78dc6e3ea9283382",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8f039c4a31be15716101e133622312d0462d22e2619bc418b03e883bd88053ea",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:50.4500238Z",
+              "created": "2025-07-07T10:16:42.8741514Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4f6ccd206ddafa6897109315a30e5ababdef281eff7d47e37a13cff4d36a2d65",
+                "sha256:1fb1071d05eb7bc14dd73d905d4236b8b7b07c4c57b2a13d57da5b2a37afbc04",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:c38375e1dc774d5ce1d9493995306b78d26015dd1ebe1768932c3aaa314133d0",
+                "sha256:51efa9b4c872f86aa8d7e1a87876e4a7197d1975ccaccdd64def2c66d2f464ec",
                 "sha256:12ff10226b498639c637d7f81c12ecbd567494c4b8c26a9180edad4b500ff987"
               ]
             },
@@ -1219,18 +1219,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:889bd9549bef17e4d2bd8b5051fd6ec859d73ef92c674f5cbb77da508e2885b2",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d9d96f6b5c39da16c418894459b0905efed16e47165d3d50c6b66c19dc5d5174",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1bbf379d33ff100de80f9442fd8116e9201ce53e847afd99077ca75c61b4f05c",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f36ef9936a34ad7a28d6b1550a0bfeaddceab23b1a33d0dda67ebd5a2162b50b",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:05.6544105Z",
+              "created": "2025-07-07T10:14:45.7843083Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/azurelinux3.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:ef7898136ca80c0dbc28155a74180a6f198a0a5b7dcc0e0f89bc16678df41ca2",
+                "sha256:94d2078c70316e89405e16268488f3518918d970a49005a66099efa5633fcb5a",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:6dd647313c9dc94e4824458b1a8a4a14fe1ba56bd577f98e11b83ad4261a6934",
+                "sha256:5bc4f08e690c69d0e62cbf0281dc825dc8553579cae468b0cb3666f0cc2332c0",
                 "sha256:415ef0e1f009c218fc792fb9875832939a10c8718adefbb0a9caccb316342cf5"
               ]
             }
@@ -1239,8 +1239,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:53dcf9f95a59711f50a702b118a3d2827610db067c12fa647e1c1fee29ff51ed",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:953681f4e975e5485b8db3f06a2885a51851e389af17c68fc99d9a43477412ca",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-bookworm",
               "1.24.4-1-fips-bookworm",
@@ -1253,18 +1253,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b872f8e27f9509072a089837256a701f331cd6e8f04a36d6136bb745109d513c",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:55639d5753de5d7bfb74bab668a35b81d93fb3151759f51e6b07344547361ace",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8c844e50a90436e6912b9f3a5e160134b81ed487a077581d21d51209cef1dcb3",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4461a3c04afb7e3578bec64f5fd69b8cb8654ec1c84d2d22a72af2168d876563",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:35.013627Z",
+              "created": "2025-07-07T10:16:01.2924271Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:8f3c04ee17279aa9eb481530ec0c8b491b1e175e86f4c30e2165cbd8a4e75b99",
+                "sha256:59b4e5b4750ec1b7f1501675021c49ff08f4cef489293a0a54b4d39acc0ddb85",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:81833ce36ad0cf731c8f64fe5628d8d3524cd3a7bb9b077092cc8b1727f16cc1",
+                "sha256:ef7792878a0ecc31c8dd258b60ddd107c5cda611574fd4ea713c4bd99b041af7",
                 "sha256:900e2c02f17f686733f4f957ddfb07b3342d1957d87b56254634d4fbb2abb81d",
                 "sha256:7bbf972c6c2f5b7313ae3cb74e63888ab70931bcd9aefd960f9a38c540dbf2ca",
                 "sha256:d0034faf7acce9bbe2e8952f4e2f47c46c28c2c4ca8bc56f96b9269d14ea3549"
@@ -1275,21 +1275,21 @@
               "simpleTags": [
                 "1.24.4-1-fips-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:aff5955af2c6923c67362745a50fff2d7588f00e60185784d4f7c3075999c851",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1ab57b9de5752d234d24590c4f67d2c1da4d76c0ac3ed7321dd8caa8d86817e9",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1b8c73c93b55120049245e149b9cb9e8e7f41a372c87dd2ee4cf35d7470b81d5",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c05f9d7c935f1d8274a84f9483aca60fb9b5e61363c81a71ba0ab691c3bb7f69",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:41.7573265Z",
+              "created": "2025-07-07T10:13:45.8001467Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:ac497931d662f4a614829b3efea8b250b9f43d3217d88f1dc0938a8cbd604b7b",
+                "sha256:4fbeef4ffe9c0cf68b213dd7f5b1b56c3071ee0e4a7130b166f5fadc5e805687",
                 "sha256:431200da405eba5c580e85fb9f3ea600e120bfaf266b15e8102b48b53459cf09",
-                "sha256:073becae73854e0e9bbad634b17f953a1c331837e3d58d8213313c41b95367cb",
-                "sha256:0fe8855ed7a68d9f8fe7d302fae88c166a75915bfbd2d109d79128b51764e3ec",
-                "sha256:4d7ffa2f9b76643f2e264873b25d4450552d1d018f96ebfda08d41449ffa7dad",
-                "sha256:293d163c603063df1224855ccf7ca30414586177f972b03514117df3dfc3fc19"
+                "sha256:d4dd93d56334c0f46a9d8c1ef66fb7246904254a0fa5b1164189600bb94f7f90",
+                "sha256:5d2f4c85f426e2c955b1dac4fa88bc182d725644c23ad01bdcbf64d9664e34a8",
+                "sha256:dfcc606b1195a348c6a47399c1a54ab936d4477a526d62306ddce89fe76a2d22",
+                "sha256:bb1ba65cd43504d1a6ec59c21e7402a14a3d0a8482c4f4ca74b74b72a7995bea"
               ]
             },
             {
@@ -1297,21 +1297,21 @@
               "simpleTags": [
                 "1.24.4-1-fips-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:92f1e28708b69e01dd6e6be9e7026af356274fa5dad18df5b2a88ef62bfc7951",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a6f3e2ae966985af8e660a3edebed825d2ef05a2750d61b2ecc6ec3de796dc7e",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:188c971076bb0b34b1304f8bdd60d5fe27b2b97d797d236a0e5a90cc0225e26b",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:141575a1991d5d04a28a90c921cfcbb8f7f6ca0173f5eda1229490e287fcb08b",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2025-07-02T10:12:39.2263652Z",
+              "created": "2025-07-07T10:14:38.2110031Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bookworm/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:4b9e2a2e452ff1efd6389fb89f81e165406e14fb2efbbb73e35e7bc53773572c",
+                "sha256:fa1216d676f645c84d6c9c0ec028dea5310d0ab3a317bf374d22b319c336eb7e",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:3fbc75e0cb9dcbdc615ef5201b384fae1efb8781771ae088afb1518a3bdae8fe",
-                "sha256:14f5719d6358cc525f45e16c04ce36e5245978df9021dec8d0619729d9de8537",
-                "sha256:c5e137b9ec173f900a44376f31987bb15c0f5bb562aa6f8ad5db5a090ec88b2e",
-                "sha256:3109a2d74d5c2d3acf0d520a27e9a7ebdf7c5114113406154375fc544482e281"
+                "sha256:50576d4ab5594d253146038a2683a477a2aa2ee84c377048c55be9c0779f5171",
+                "sha256:88f9cdd730a2c32e544c8de28ddcb3800bc8b143e551c286d3ccb2704444d69f",
+                "sha256:7be9cdb9167a8712f78cfe8da9fdf771134a84b1ee0fdab42bace39b895aaa9d",
+                "sha256:d1f079207a43c718468ea382f4fae87378159dea9e7ffb1bd0fc435e5ac6cc70"
               ]
             }
           ]
@@ -1319,8 +1319,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d4f642dbadcaf26f4e629f4ad02f64930b18a381a4da2ace9e9f10ab6f7e82c6",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5a439547b8dc284ae7f41777499aa623da87ac4c311ba6f4ae5033dde1d50aba",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-bullseye",
               "1.24.4-1-fips-bullseye",
@@ -1333,18 +1333,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-bullseye-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3c7955626be89c619602277e0dfeadd47f17cbaf6e4337651e54b9cd6faf8c3b",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f0858b45c9308223bfbe6185217ccb46a6c2da8fb762969f1f9ff8122433e3e",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:25ba40f1c50ba6bb8cac3b49979a0942bacd9c39a5de283da34c13dabf43db7d",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7336e68d2a9a4f2008325e3d4a9a6e9af3cc89cdc9aaf693cc4625ebb4628808",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "amd64",
-              "created": "2025-07-02T10:16:57.5807416Z",
+              "created": "2025-07-07T10:18:21.2434627Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:a56ff528dfa9243e3aa08df637cb02d4bafa5881c53c57ac09b26998c8334fa1",
+                "sha256:059a0e0449f7a4c0a7aeeb4ffa178cd705ed0342de28f9a088fbac623643f759",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:6fbe71ecfd887f3947433b6cfc93f2c3b5cf1a95213108c14ce2d88c8be7ba6f",
+                "sha256:174f4f8f81e79b7340e899bd25423039cfbc47984ebec05fbeefa91d9bab5965",
                 "sha256:06772a4eff3df697497bb68b4dcdeb97fdb9338b5e7dde7d1a53579c3203c9ba",
                 "sha256:06408a499c9b569e198473b636afa8c383e459ee6fe76ba4159b758c84e68f10",
                 "sha256:8edf85959a53e00a81c3f7562eb946a449884c8bfabae7382c057248f7d56687"
@@ -1355,21 +1355,21 @@
               "simpleTags": [
                 "1.24.4-1-fips-bullseye-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:cc9ea8b6cab04c06093c7589f208efd5f9f57ade144940b0ccbcab20160dfae6",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:389e95701fb4ecbcb20e149d3e153840d9634bb465719daf8ca7dede65d6d566",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:922035c70a6e591f7074eae13ee3bfeca6d38c31322d189067d45930ee3182e0",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e4d76a72f4276c52a36f00da8a5b4abc3151945aa7849e69e6dc0f7ae940b04a",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm32",
-              "created": "2025-07-02T10:11:37.7465423Z",
+              "created": "2025-07-07T10:13:45.9132639Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:db28198923ccb715f8a9f67a31f067fa39b79a494081dfa4c5913c08c86a9a01",
+                "sha256:4fbeef4ffe9c0cf68b213dd7f5b1b56c3071ee0e4a7130b166f5fadc5e805687",
                 "sha256:431200da405eba5c580e85fb9f3ea600e120bfaf266b15e8102b48b53459cf09",
-                "sha256:1bee6049042644c3b55c65e2279fb7135ffd78b4e3fdf13b6f39483a5d812752",
-                "sha256:bc07acb5bb3458d1880be716fdb2bcc90e78327b21f1c1531b5e4bd0941213a8",
-                "sha256:319bc9ba38020b34f4e3f562e110c9ab25e658493eaf95bfc783a633f2d4b036",
-                "sha256:7cebbb7b5094f699f2cd2261cbe7a8598cfdca67abd88b7d42845b982fdfa2db"
+                "sha256:ab5832430fbd8d87fdcde730990a4f0dde3e11b79a761ddfe17f2d5323ad3ebf",
+                "sha256:28365fa3b8363bfd29e20b4b17838c65ddc4bdacb1bf15ca9af5a4045e4feaf7",
+                "sha256:2d6769ed354ec7fde57e63bdf9788543b96fd8f93923607ad70767b9c4cfa25b",
+                "sha256:94f6a17da30bc8208b580cd005e21d1089fb9d464ada8108b4ad7fb8b83e310b"
               ]
             },
             {
@@ -1377,21 +1377,21 @@
               "simpleTags": [
                 "1.24.4-1-fips-bullseye-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3abc15e2cb6bcf310b779a31c20b5fb46b60dcded40f1945c8e3b5f08dbcaf83",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6916431963f5b3821360cc7a75744300266dd161d4f7a2901dfb78066f751a1a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e0223572dffc2bbac86899ac93f86f77749b5b9fe7a52f031c6ab840312e1905",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:aa2d81ea0ead473a50aa9f2100a8cb3ff6597976eb9eea544ea6ec55078cd09d",
               "osType": "Linux",
               "osVersion": "bullseye",
               "architecture": "arm64",
-              "created": "2025-07-02T10:13:52.8685455Z",
+              "created": "2025-07-07T10:16:12.3193092Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/bullseye/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:c1029407c5fdd355efde8cbae138b3d4397b860632274362012902ea1ad27a27",
+                "sha256:a7ab5075234c908991eaa839248f1c96102a8b2ff11018436757a7644e551abb",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:7f0865812df8ddbc0ab9c3ead61ccf1ece56147fe8fcee5dd63a2584dcac77eb",
-                "sha256:dc7850095446c84fa9107622e378378aa7daf4b928caeecbc1149118900d32f7",
-                "sha256:db6f3b6fbce84c42871ea80f05b2c61e622e08647f7164e9a95a391926c1f714",
-                "sha256:a5bbd5d5e1ce5f21bd5c644aed0b302fea4f9e42226b9b81cd2d1cdde2a0e106"
+                "sha256:ac54ec4a37f4775402d4f0e199d16906ad9a17ff833c872c6ac369cc29273c56",
+                "sha256:7766ba090abb327ecb7e9e14ac90bbcc45c5ba6bb8a568ae531c960ff1acad55",
+                "sha256:5424250d141bf5f4ec62e698bba9b5695482a3015186d3b14a633da8916bf7dd",
+                "sha256:70551d0ef4e0c341904e3736f3fa7b76ec3309544ba767c64ff338d4c9b700ad"
               ]
             }
           ]
@@ -1399,8 +1399,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8ea81c6978e1df9127c803f13fd3928ae737ee85eab5e144ffc941688e460d65",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:be83b4bfe0cd9bd73b7817119b39e94904ed053cb5aa87641bc73ea0ca724750",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-cbl-mariner2.0",
               "1.24.4-1-fips-cbl-mariner2.0",
@@ -1413,18 +1413,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-cbl-mariner2.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0ec98a55228d96600a609832ba5a03d4cd15f7465519e97756420210c57f52ec",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5f9ee69a2cf5a311315542dda6068eadf0da339758b78c382e5594265498bd88",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4b4c9097fe1f1073a4a8cbc7c4dddb150a4d3ec8589d5c69f5de2bb0c7001600",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:dbdbfd744368246b065f0512cc7fab19992414fab7bed44d06abeeaa7931d76c",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "amd64",
-              "created": "2025-07-02T10:17:53.3140046Z",
+              "created": "2025-07-07T10:18:04.7074548Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:f3c63bfe646d45c545deb0707e3c03835554615b21deb6fc94354c64c857a4cb",
+                "sha256:1bb944c8df55d52ddaddbd333be4d2447ac855e662ad79f4269b5e2ebd8505ca",
                 "sha256:145cefbe41694c420d761230fe35ce15ed147061a6c41fc0314edb00c56d690b",
-                "sha256:9143c5dd664ca5dbf36e85146219bb2b4f074163eff20108e1389c287f365c1f",
+                "sha256:8f1e8e74aac2acbd94cb5efd2b001be5710ee7829e1905772930a3917f82bbfb",
                 "sha256:faa769593145337985f91ed3825eaa440a8887d33ad910770c36b7ab3b3cfb24",
                 "sha256:308a3039fc640e2149e62af5fcee390c55f7c8e7ce7c988a4130f38bab994fe2"
               ]
@@ -1434,18 +1434,18 @@
               "simpleTags": [
                 "1.24.4-1-fips-cbl-mariner2.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:bd71900a6bf23806c9fa8c62114bf1d2f758ec2e6579f92ed4ce6dfe70df38df",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e5915ad70e9c36de62023a46981cc94d32531015eba8542aeb428f10abef9c25",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:101c5351ae262976756e9f16fc654d6b707d91a5d5c1847555f90f039312c206",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:64b44ee5d3e074d36d99b004c92e03541ce49286cd441f1e698139cc8ca53416",
               "osType": "Linux",
               "osVersion": "cbl-mariner2.0",
               "architecture": "arm64",
-              "created": "2025-07-02T10:14:48.9863422Z",
+              "created": "2025-07-07T10:15:35.0521342Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/fips/cbl-mariner2.0/Dockerfile",
               "layers": [
                 "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-                "sha256:e63720426bbb33c7399f338ce3ea3423d97255ee125fa0ee880ec02c5c72f55f",
+                "sha256:2493c1ae7c137ca8ae8324f9fba9c78040eb197dc146d21b42eb09603ac9cbbe",
                 "sha256:2df799bdf42f1780bc4214634a2fe419d8bcaa93e0611df14d4eaec71c2325fc",
-                "sha256:8795f3e5e34be4f1862426e00f1bc13f8f4220f21fa9c720235ddfe83ea42d0c",
+                "sha256:46832529e1787e504eea81f203a67d2afc7afcf4ac572af6ac34069ce11ffda2",
                 "sha256:36a14b557c14a65bf9993045b933f4805952cae1980fb326f1c16785769083cf",
                 "sha256:66ece9d34d44d3e2c2ecd874f75e567fe9b1ed25b0c5d3260d1cdc410d81d23a"
               ]
@@ -1455,8 +1455,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:09ebbf566c9dfa3aada758a0c2e84475c7740b8e63f663bf5f5b35f9110883d6",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1b2b82aadc8e8883fa298c80f6c0af19e2a718252f5dc47b01d4761952fd63e5",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-nanoserver-1809",
               "1.24.4-1-fips-nanoserver-1809",
@@ -1469,24 +1469,24 @@
               "simpleTags": [
                 "1.24.4-1-fips-nanoserver-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3353d77b9d6535cee4c53f077382f41664c332b7a733f005bbca689be89e12d2",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4034e41d54f95ed1bf46ad5c8dd03f2df286e5554378c678dfe4751bf1c3f1c3",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f65870067d42bf31c021bc95c4029782c8c245d41e9e85db5c06e267ad888423",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7b6261327be253f7f6ecdf35647b410a58304082df9c32703083d6d4046e78ea",
               "osType": "Windows",
               "osVersion": "nanoserver-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:20:13.463658Z",
+              "created": "2025-07-07T10:20:41.1143307Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/fips/nanoserver-1809/Dockerfile",
               "layers": [
-                "sha256:297d2e93580e59f0b2781b9c3af74a38723fd432f92f1f60851e5ba924c8444b",
-                "sha256:2d709784f6a780b9c33b87d81b60f8818b91a6f4db8a64f44b38d5977938b952",
-                "sha256:7c01a26de464412e91c9b12675c3875be439c247ca535f50e95fff07569380a7",
-                "sha256:a0926a4e1a28e7d93422a9257ca7c492a78e959cc97a424eaddf27a536e2e6ff",
-                "sha256:7c6e3c5c99c4526bc56aa4c75f9fb53e6726368dbfe88e6935bb33de9e3cc28e",
-                "sha256:8d6feb40d45cec506ede087a63250cb86a6fd778c1e7bea7170d40b15e743772",
-                "sha256:feab0dd7e98963ef807b9cfc68d282587add5a96c67741787fe381e376ce9d73",
-                "sha256:505580f285e4c9c2d22efb2567fbcccb38124a5df18a32f5fd69ea60bf0d5109",
-                "sha256:cb4dfea0c1273d2b79f181699458114455640fbae33e8e6dedb9039ba32be117",
-                "sha256:915169836a29b9cb8ce38b4c28593f980051aaea113fe2eb6972d1f45bb8d982",
+                "sha256:6c1617aa679da11e9ef3b5fe05ee59681e5ec1b06c1d49a97ab9385fecd85f5b",
+                "sha256:2cfad48772c4cd676a79af2ecd2fda75872f31672c0e8d33cb9df135ae1f8b08",
+                "sha256:417ec0fe6710ee17e16fe77625edd8de478aaf0418380ba1536906bf7ef042d0",
+                "sha256:974696d499e1e55049d71f5911412703990961b707c33207e5849880abf3cebe",
+                "sha256:d90ba741a0cd307fcedc374aeb6bde0f38b7ebad399f032b3c59fef791eb6dc1",
+                "sha256:2a4c7218d6d6c3c72196b9afbcedb6c2ee1d636730375d26a90ff80b6ccdc41e",
+                "sha256:3d478f29052e3f42f32c228993d15475969fca8198432ed04d4a8c32fd7cd5e4",
+                "sha256:6ec7334c0eb40fd8b934304031e6b3a46fff84c4747deee7c1d1e091376c5b89",
+                "sha256:b237e4424e0637de9e6ea4622af45689e89c1553ccb125cc8c816c40653aeaa1",
+                "sha256:16d22ee35dc784e12c2d31ccc306a327e3431b97d983bb1751d75428deb113cb",
                 "sha256:545a53e4f54b3d171c3617e2bad8b708d9a915afd182d53d6126c63585765944"
               ]
             }
@@ -1495,8 +1495,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:30431fa28b488d6c023c8fadcdb49d07a884d4c63ed04b852070cdbcdc9a51d2",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6063415c08be402f55fb49f8d32ca1ae640e382c0d1329f6265108eaa63f1aa1",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-nanoserver-ltsc2022",
               "1.24.4-1-fips-nanoserver-ltsc2022",
@@ -1509,24 +1509,24 @@
               "simpleTags": [
                 "1.24.4-1-fips-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e6444f1ca015c65f17818087303e071c5ac3bb8fbb7328e86d0c9e9a56b40ef3",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b77a84ebab16184f759049f2aab5fad93199891dd71817cc7b1f3903b7236d9f",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:60b716c0538b0236ddc1c3d87e87b442488e5efa57d4107a29f52925744ff963",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:887e8dbe6eb7341b03117465f6b1d7e118e0ec4bbe3c787915872648076c4d18",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:38.986512Z",
+              "created": "2025-07-07T10:22:06.3143564Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/fips/nanoserver-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:6a7d786fba98ec7872d7eb6162e84fd66f3348e244ebba5ba7230b23f82decbe",
-                "sha256:cd58d26ad1e44065f2d2739c3598d7da2cc4f5c29aef2ad9977a783529b117e4",
-                "sha256:b9119355b3a76a391d5ee009d3c85fb9f29f8ef04e6743f8a9e19d66c833dc11",
-                "sha256:393e3a6876089aef90d6c448a742feace377ea58b606eb49818a39201653e9f3",
-                "sha256:ddf73ca68dd1b99a1b2a7c722dafddcce4d34ac8b258cca5fa8e589df4d4ce2a",
-                "sha256:eb8363ad88c386d1bdbee6d521e8bca8a1b1fde2d892c78c3b072877ade81986",
-                "sha256:b16b3ada03bb7aa7e12af836d63f179c389e6bcba6e8190cc00ece340e485ac3",
-                "sha256:e214690b3bda9515c524e2e2de3b4c44d63dff79556ea19dd2ceafe7f2da99a9",
-                "sha256:1f0049e5bacd8da926c2571f0230755dc7c59ea1338c9055c1a75d860b2b6dbc",
-                "sha256:38067877f91ab19c064d0221a96fec676ed1df39f4deba46e3664906b8965b3a",
+                "sha256:5ba536df52b29714090565ec111e239ab4952eec7d0371c9c102db8cd2b611df",
+                "sha256:3dfdc02c59d7528ff0c5f58e2568d6343a028bd27a1555cd689688a7c9c17b20",
+                "sha256:9f2cdde49897d9a1bb52ac9ef9b15a211d95534208fc3e3263f2baf862ad467e",
+                "sha256:ae940108ba128931cbc1953ce909227ebfe060d6528bd46e9265e3e27f1a3e76",
+                "sha256:78cf351f2a4cfda6547ca91b94812f1ceeca31f85f205de16105696bb6bc88fd",
+                "sha256:0d4d3f61336c7f13638ba8190121c3d136f70cc041c78072aff89cbff091e749",
+                "sha256:ebc3e1934305ef4ebb47c79635b275042e85480ea5f44ef3b90be07a30fc4c09",
+                "sha256:f1fb46ee5d26aed746f9b88c47cbc4815d587e66a55d018b4e742305892d5bfe",
+                "sha256:1f666493fcb8d86425072c2bc050f53f1c711e8579cca006285afe0b89cf32d9",
+                "sha256:786c4ac8aa3658cbbad19b41bbdd80ee8ccc383249d96b5aa4c7efad4b978f5b",
                 "sha256:96acbf1c6d5b6cc37517502ecbb6a1d2eb55b7615b696401ead868c97a971964"
               ]
             }
@@ -1535,8 +1535,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8e8ad9561d9a956bbd9fedd26837ba6d37e29ede0753b34469389ec632fc304a",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:fffb1d44fbf700e64799612f8505f0e4e1a3b95d36992b6ad94330c708c3faa5",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-windowsservercore-1809",
               "1.24.4-1-fips-windowsservercore-1809",
@@ -1549,26 +1549,26 @@
               "simpleTags": [
                 "1.24.4-1-fips-windowsservercore-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:47e3c6e149566a835bfc0420dc394e16e51522ffe9502dd1cbfe97aa50765902",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f7a8eb89856e85e3768e593dcffb59aa16ace4f9279484a771b11dd08be5009",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4eeb9b790db23ed00c9cf8566c89c8272bf9bc5a154aaf48f6bf7ae253abea21",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f270b89bdcd9f44b37f67f62cbd4974e823a7a3d4c64fbbdf30e72a2b28f7fa2",
               "osType": "Windows",
               "osVersion": "windowsservercore-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:20:12.9740857Z",
+              "created": "2025-07-07T10:20:40.6129333Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/fips/windowsservercore-1809/Dockerfile",
               "layers": [
-                "sha256:3c92cf13f49a72d20aac722e353242618208b4a7a2d5c02358b7ec96590088f7",
-                "sha256:355f510003c5f53c44c419a87aff915fae36112712243f0d0c54aa17e2b18ef0",
-                "sha256:6ef9ee095d84874620b0357c10682c4a3e9f5b8771bfa28382ddeb02207d5481",
-                "sha256:e49a3d315a40e2d58baf7ed28c304f58d65a83193b169a6b506c179813f4ebb8",
-                "sha256:e11b395ac10d7facdfd4000c8b5cb384bc17545243a5aee7c81cb581b3f9c5f8",
-                "sha256:8ffb65bb0025c83e69cc5ee3b0a2fe07d531d052c68bfa4125bdb676bc256f32",
-                "sha256:10f6df56bf27f39c89f5f66d53a4962005625685aa61c99e53d83d26cc22560e",
-                "sha256:80ecec9aee6cf451c8ceee6f5b13fe3542f23a6e70d50676b97646ae7043e86c",
-                "sha256:98c271a9df794708ff0ff820c35778f5393928c31a4405ed508a8c2be6d76dd7",
-                "sha256:7bca6dc4c8d91cabe92c416850b5902292de145916c08aa865c312e3eeaf9c0d",
-                "sha256:62e6b1801c52b24edc02d7f2a30487a4ec46c12ea4610c1a6d3728651df3d01a",
-                "sha256:19b34270376aca5e06d49e880e50f70c5123ce2784c4a4aff94e599e77190d69",
+                "sha256:70d42edead5fb1de006cbbbd53b080c8106b1226bbe47510ccda99cfefdd200c",
+                "sha256:9964a07d8c83ae963da49c904572d5fc59ce610eed392a08e634a6ed13ac2925",
+                "sha256:3cac9bdd9ae7a192e47d715ef42a512f3766d43a747505ce5601920182e91a06",
+                "sha256:1482ae605d5c9b676b16d48b17c4747b37868527578c35cd86023008d0c283b6",
+                "sha256:a2dc0ef629d2c5f8a385435e32ed0eaf288c573dc3cba22e2a3ce78b8d51ed66",
+                "sha256:d083b8bba45518ff1f1cf66794982165268e6233ceb0c7880d445ded069cba66",
+                "sha256:ad082273d56f70ada6aef98bb382e65764ebe5310a2d4f2d3776dc3527713aca",
+                "sha256:5c2794dd70655d77fd60303b8c1eb7e5efe625326b5f076079325733b9d417b6",
+                "sha256:42973c8e4f5b2220dde9196c0b109fd5d154bf5af48838df7d8c47740876c1c0",
+                "sha256:f8a79a70bb8c676ae7e2e75c8a2dc85a21eb2e11bcd032c6ececeb8893b7a50a",
+                "sha256:57f0ce5bce586e0a7b839a9aa3cd83dadf4a635b544a9be895a7378d7425fc56",
+                "sha256:484817c8368dff8a2334862aaeff75dcba3dc0bf95ba5611c244330ca62c9a06",
                 "sha256:a6910108ef197e0bb53c7efb6d57b49965e371861530d624c25d1235f37dc9cd",
                 "sha256:803f4a9590cb9c635813cbd0ee89190f92d5fe4c7589711cf468879e42ce02ba"
               ]
@@ -1578,8 +1578,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c09281be246d1cdf2852633a7f21d4b83b46ef7a8c683c00608ef9072aa68bb6",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:84f684e5fc808251c4468bc88e07eef01e09dd179488746e6b2826d9a0ce5ced",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-fips-windowsservercore-ltsc2022",
               "1.24.4-1-fips-windowsservercore-ltsc2022",
@@ -1592,26 +1592,26 @@
               "simpleTags": [
                 "1.24.4-1-fips-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:42161ae70f4dea2545faf1d3b9b68856bb0d3f1d72d39023ab76981e409a9b04",
-              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d7d47ace358dbb1d6ce810f545317fba4b031577433cf8bf6729496e7e06659b",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c495bed5c46903b888a179b22e7b9a8d86c1ac50f6bd4ae78cd31b280460455f",
+              "baseImageDigest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:267f74dc0d0363cf0978c0673a0e4d1de479d67a890f42dd9e8f952caf448a82",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:37.5263326Z",
+              "created": "2025-07-07T10:22:03.9479063Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/fips/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:0465a1250f82bd6610ed65f81d36227811095f38c5b3d0036d85381fd777b871",
-                "sha256:b737b1fbd948e4a11b43fb7600dccfecb31a0f7f8a6b44fd2fed8489c0efa1cd",
-                "sha256:bfd4938e3a74f7270fcc600602764ec338e610eda4d547fed775a1c2172e7554",
-                "sha256:ffbcd1305ea82a4e94cce8c1548f814afd3e5c4c1abaf8eed4a51a3abf2a5bc5",
-                "sha256:1d76afdfc2b4237ed4ad285ebd33cb271138eefb16194f37090d27497e52a95f",
-                "sha256:b8c0f8de0e8f4fb2852a415f208f82c6601a92f281df00b6e365785507d0b133",
-                "sha256:91d9ad457856265ea83c1b750ce890d79ee0b4c4a4b3ae9e3b2a8bc62cea295e",
-                "sha256:9cceaed4b9a630ae8ca5a1ea3f7f2717a45e0c32a5ea8bfb745ff741223f986d",
-                "sha256:03f67162cd57280e926af74893b7af7114021f0941677c1c1c73d2178724ead4",
-                "sha256:6cbd96d5dd3cff9a7e4afa643c0bc6b5eb4992ac136608f564951001750bf25c",
-                "sha256:3be9c29518604d55468c30a8de2c6c350c7a6e7a77b384223fa127d655ebaff6",
-                "sha256:04ae2ef5df4f381e72c7fe2852869739885cb48f81fb46e9b5014711b77fa170",
+                "sha256:a74addb860c2868b1c35d2f2e464f7eb368f35c8290acdf0de3c859298e68695",
+                "sha256:8b316dbd48b2e5188ad7badd102e9514d972750e6a5ccca34fd2605d620a6980",
+                "sha256:fb15f565442128b36903b7a6d50c78ce5b95c34affe16d46b4376663dc9bd381",
+                "sha256:397b999c4e41781314385bf851d2391546680376bf5b8959c8054af10fbddf58",
+                "sha256:656cc8150e0f6a64aaa72c0c5c0d6658d7a7a3bd6aa7fa4788c412fcc64a2eb0",
+                "sha256:703f74605871fac98c9115f6e2ddefe8ab2a6a5dfc348f529917256481ba439b",
+                "sha256:918b6da7af42cf84d87f67479b7e082d0e34b941d958410bc7df874de9e65099",
+                "sha256:16838b0876e30bb94c7eb4229c7acdaf961bd23d9a03a4dc76dc213f13968a19",
+                "sha256:93ac9a301400e87a01cccd21d84a91dddfcc6b526160ae2ab794cf9e6e8b45fe",
+                "sha256:560b3dc9e2218fbb097a852c9c7f85c9302dd9673eb713a2c3b4cea2578848a5",
+                "sha256:ff2e2e14f9650564535763f8d55f44b3b91fb7d32f0a4643b4c081f4ab0bd310",
+                "sha256:c4b5172e531941a81837c89fe52727d60e4543419e9020a865fdda3cd39eaa3a",
                 "sha256:db5652627be066fd088860f3ebfcc61d4cb76922ffa16c5496b4158c7e4e7151",
                 "sha256:2534953f34d35976fc44cd67bfdd39fdcd9e2eaae57ada0be53d5fb936cd3a0b"
               ]
@@ -1621,8 +1621,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:288b1642af35944d68cb25012fbad0fefba074d67460f59690900cc1456e7a62",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:062cfec2a9295b6145ff64c1958fa1c0054a6cf01e209d54ddbdb54ac9981470",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-nanoserver-1809",
               "1.24.4-1-nanoserver-1809",
@@ -1635,23 +1635,23 @@
               "simpleTags": [
                 "1.24.4-1-nanoserver-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4034e41d54f95ed1bf46ad5c8dd03f2df286e5554378c678dfe4751bf1c3f1c3",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7b6261327be253f7f6ecdf35647b410a58304082df9c32703083d6d4046e78ea",
               "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:7c720f345ff7784cee12a5464bb5d5222c6348bd6da2cd29d666e49867958b0e",
               "osType": "Windows",
               "osVersion": "nanoserver-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:20:12.4680473Z",
+              "created": "2025-07-07T10:20:40.0913529Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/nanoserver-1809/Dockerfile",
               "layers": [
-                "sha256:2d709784f6a780b9c33b87d81b60f8818b91a6f4db8a64f44b38d5977938b952",
-                "sha256:7c01a26de464412e91c9b12675c3875be439c247ca535f50e95fff07569380a7",
-                "sha256:a0926a4e1a28e7d93422a9257ca7c492a78e959cc97a424eaddf27a536e2e6ff",
-                "sha256:7c6e3c5c99c4526bc56aa4c75f9fb53e6726368dbfe88e6935bb33de9e3cc28e",
-                "sha256:8d6feb40d45cec506ede087a63250cb86a6fd778c1e7bea7170d40b15e743772",
-                "sha256:feab0dd7e98963ef807b9cfc68d282587add5a96c67741787fe381e376ce9d73",
-                "sha256:505580f285e4c9c2d22efb2567fbcccb38124a5df18a32f5fd69ea60bf0d5109",
-                "sha256:cb4dfea0c1273d2b79f181699458114455640fbae33e8e6dedb9039ba32be117",
-                "sha256:915169836a29b9cb8ce38b4c28593f980051aaea113fe2eb6972d1f45bb8d982",
+                "sha256:2cfad48772c4cd676a79af2ecd2fda75872f31672c0e8d33cb9df135ae1f8b08",
+                "sha256:417ec0fe6710ee17e16fe77625edd8de478aaf0418380ba1536906bf7ef042d0",
+                "sha256:974696d499e1e55049d71f5911412703990961b707c33207e5849880abf3cebe",
+                "sha256:d90ba741a0cd307fcedc374aeb6bde0f38b7ebad399f032b3c59fef791eb6dc1",
+                "sha256:2a4c7218d6d6c3c72196b9afbcedb6c2ee1d636730375d26a90ff80b6ccdc41e",
+                "sha256:3d478f29052e3f42f32c228993d15475969fca8198432ed04d4a8c32fd7cd5e4",
+                "sha256:6ec7334c0eb40fd8b934304031e6b3a46fff84c4747deee7c1d1e091376c5b89",
+                "sha256:b237e4424e0637de9e6ea4622af45689e89c1553ccb125cc8c816c40653aeaa1",
+                "sha256:16d22ee35dc784e12c2d31ccc306a327e3431b97d983bb1751d75428deb113cb",
                 "sha256:545a53e4f54b3d171c3617e2bad8b708d9a915afd182d53d6126c63585765944"
               ]
             }
@@ -1660,8 +1660,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e16c43f5f5d2e0c2ae3489afbd0d66362695ad02b863f6a2699e356ce9436007",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0b1d06a496fbc5ea2ef68c62927ba0fe1a670da8734f7056f8487d77bdbc8afc",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-nanoserver-ltsc2022",
               "1.24.4-1-nanoserver-ltsc2022",
@@ -1674,23 +1674,23 @@
               "simpleTags": [
                 "1.24.4-1-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b77a84ebab16184f759049f2aab5fad93199891dd71817cc7b1f3903b7236d9f",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:887e8dbe6eb7341b03117465f6b1d7e118e0ec4bbe3c787915872648076c4d18",
               "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:23fa4e796f4d02d462beadb844f8985ca4583b1b0f75295137f5968dab255b09",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:21:36.2519789Z",
+              "created": "2025-07-07T10:22:01.5755489Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/nanoserver-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:cd58d26ad1e44065f2d2739c3598d7da2cc4f5c29aef2ad9977a783529b117e4",
-                "sha256:b9119355b3a76a391d5ee009d3c85fb9f29f8ef04e6743f8a9e19d66c833dc11",
-                "sha256:393e3a6876089aef90d6c448a742feace377ea58b606eb49818a39201653e9f3",
-                "sha256:ddf73ca68dd1b99a1b2a7c722dafddcce4d34ac8b258cca5fa8e589df4d4ce2a",
-                "sha256:eb8363ad88c386d1bdbee6d521e8bca8a1b1fde2d892c78c3b072877ade81986",
-                "sha256:b16b3ada03bb7aa7e12af836d63f179c389e6bcba6e8190cc00ece340e485ac3",
-                "sha256:e214690b3bda9515c524e2e2de3b4c44d63dff79556ea19dd2ceafe7f2da99a9",
-                "sha256:1f0049e5bacd8da926c2571f0230755dc7c59ea1338c9055c1a75d860b2b6dbc",
-                "sha256:38067877f91ab19c064d0221a96fec676ed1df39f4deba46e3664906b8965b3a",
+                "sha256:3dfdc02c59d7528ff0c5f58e2568d6343a028bd27a1555cd689688a7c9c17b20",
+                "sha256:9f2cdde49897d9a1bb52ac9ef9b15a211d95534208fc3e3263f2baf862ad467e",
+                "sha256:ae940108ba128931cbc1953ce909227ebfe060d6528bd46e9265e3e27f1a3e76",
+                "sha256:78cf351f2a4cfda6547ca91b94812f1ceeca31f85f205de16105696bb6bc88fd",
+                "sha256:0d4d3f61336c7f13638ba8190121c3d136f70cc041c78072aff89cbff091e749",
+                "sha256:ebc3e1934305ef4ebb47c79635b275042e85480ea5f44ef3b90be07a30fc4c09",
+                "sha256:f1fb46ee5d26aed746f9b88c47cbc4815d587e66a55d018b4e742305892d5bfe",
+                "sha256:1f666493fcb8d86425072c2bc050f53f1c711e8579cca006285afe0b89cf32d9",
+                "sha256:786c4ac8aa3658cbbad19b41bbdd80ee8ccc383249d96b5aa4c7efad4b978f5b",
                 "sha256:96acbf1c6d5b6cc37517502ecbb6a1d2eb55b7615b696401ead868c97a971964"
               ]
             }
@@ -1699,8 +1699,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:db5160fc97b1ee84a606a1de13c4277a7419b701fd9be47f5bf1d26951bc178a",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3ac29c1aa4bbb17cb1bd8df39b2b279b029bad749edadf939296ce502582eb68",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-windowsservercore-1809",
               "1.24.4-1-windowsservercore-1809",
@@ -1713,25 +1713,25 @@
               "simpleTags": [
                 "1.24.4-1-windowsservercore-1809-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f7a8eb89856e85e3768e593dcffb59aa16ace4f9279484a771b11dd08be5009",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f270b89bdcd9f44b37f67f62cbd4974e823a7a3d4c64fbbdf30e72a2b28f7fa2",
               "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:862b24ccf5e399fc3bea746c7ac68c16f3fbcfa199532a3e506b7e03e57217b9",
               "osType": "Windows",
               "osVersion": "windowsservercore-1809",
               "architecture": "amd64",
-              "created": "2025-07-02T10:19:06.5483623Z",
+              "created": "2025-07-07T10:19:32.6624653Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/windowsservercore-1809/Dockerfile",
               "layers": [
-                "sha256:355f510003c5f53c44c419a87aff915fae36112712243f0d0c54aa17e2b18ef0",
-                "sha256:6ef9ee095d84874620b0357c10682c4a3e9f5b8771bfa28382ddeb02207d5481",
-                "sha256:e49a3d315a40e2d58baf7ed28c304f58d65a83193b169a6b506c179813f4ebb8",
-                "sha256:e11b395ac10d7facdfd4000c8b5cb384bc17545243a5aee7c81cb581b3f9c5f8",
-                "sha256:8ffb65bb0025c83e69cc5ee3b0a2fe07d531d052c68bfa4125bdb676bc256f32",
-                "sha256:10f6df56bf27f39c89f5f66d53a4962005625685aa61c99e53d83d26cc22560e",
-                "sha256:80ecec9aee6cf451c8ceee6f5b13fe3542f23a6e70d50676b97646ae7043e86c",
-                "sha256:98c271a9df794708ff0ff820c35778f5393928c31a4405ed508a8c2be6d76dd7",
-                "sha256:7bca6dc4c8d91cabe92c416850b5902292de145916c08aa865c312e3eeaf9c0d",
-                "sha256:62e6b1801c52b24edc02d7f2a30487a4ec46c12ea4610c1a6d3728651df3d01a",
-                "sha256:19b34270376aca5e06d49e880e50f70c5123ce2784c4a4aff94e599e77190d69",
+                "sha256:9964a07d8c83ae963da49c904572d5fc59ce610eed392a08e634a6ed13ac2925",
+                "sha256:3cac9bdd9ae7a192e47d715ef42a512f3766d43a747505ce5601920182e91a06",
+                "sha256:1482ae605d5c9b676b16d48b17c4747b37868527578c35cd86023008d0c283b6",
+                "sha256:a2dc0ef629d2c5f8a385435e32ed0eaf288c573dc3cba22e2a3ce78b8d51ed66",
+                "sha256:d083b8bba45518ff1f1cf66794982165268e6233ceb0c7880d445ded069cba66",
+                "sha256:ad082273d56f70ada6aef98bb382e65764ebe5310a2d4f2d3776dc3527713aca",
+                "sha256:5c2794dd70655d77fd60303b8c1eb7e5efe625326b5f076079325733b9d417b6",
+                "sha256:42973c8e4f5b2220dde9196c0b109fd5d154bf5af48838df7d8c47740876c1c0",
+                "sha256:f8a79a70bb8c676ae7e2e75c8a2dc85a21eb2e11bcd032c6ececeb8893b7a50a",
+                "sha256:57f0ce5bce586e0a7b839a9aa3cd83dadf4a635b544a9be895a7378d7425fc56",
+                "sha256:484817c8368dff8a2334862aaeff75dcba3dc0bf95ba5611c244330ca62c9a06",
                 "sha256:a6910108ef197e0bb53c7efb6d57b49965e371861530d624c25d1235f37dc9cd",
                 "sha256:803f4a9590cb9c635813cbd0ee89190f92d5fe4c7589711cf468879e42ce02ba"
               ]
@@ -1741,8 +1741,8 @@
         {
           "productVersion": "1.24",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1d754b4c15eb0e9b125a0d749cbac3486bb7328c44b3e7be5eba4a39f7a41191",
-            "created": "2025-07-02T10:49:34.327904Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:935d078dc06cf2d992e26a1eded05cafae533f0677a9a1aaaff4afeff0ff10c5",
+            "created": "2025-07-07T10:58:57.1010205Z",
             "sharedTags": [
               "1.24-windowsservercore-ltsc2022",
               "1.24.4-1-windowsservercore-ltsc2022",
@@ -1755,25 +1755,25 @@
               "simpleTags": [
                 "1.24.4-1-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d7d47ace358dbb1d6ce810f545317fba4b031577433cf8bf6729496e7e06659b",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:267f74dc0d0363cf0978c0673a0e4d1de479d67a890f42dd9e8f952caf448a82",
               "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c489e1737a833a111f0f35b28257b1071d30b6db6b9ee50e88b7c08b901efc67",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2025-07-02T10:19:57.2452932Z",
+              "created": "2025-07-07T10:20:20.1876635Z",
               "commitUrl": "https://github.com/microsoft/go/blob/58a06dcb74999b713bd58d7dbf3ca2fd63666e06/src/microsoft/1.24/windows/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
-                "sha256:b737b1fbd948e4a11b43fb7600dccfecb31a0f7f8a6b44fd2fed8489c0efa1cd",
-                "sha256:bfd4938e3a74f7270fcc600602764ec338e610eda4d547fed775a1c2172e7554",
-                "sha256:ffbcd1305ea82a4e94cce8c1548f814afd3e5c4c1abaf8eed4a51a3abf2a5bc5",
-                "sha256:1d76afdfc2b4237ed4ad285ebd33cb271138eefb16194f37090d27497e52a95f",
-                "sha256:b8c0f8de0e8f4fb2852a415f208f82c6601a92f281df00b6e365785507d0b133",
-                "sha256:91d9ad457856265ea83c1b750ce890d79ee0b4c4a4b3ae9e3b2a8bc62cea295e",
-                "sha256:9cceaed4b9a630ae8ca5a1ea3f7f2717a45e0c32a5ea8bfb745ff741223f986d",
-                "sha256:03f67162cd57280e926af74893b7af7114021f0941677c1c1c73d2178724ead4",
-                "sha256:6cbd96d5dd3cff9a7e4afa643c0bc6b5eb4992ac136608f564951001750bf25c",
-                "sha256:3be9c29518604d55468c30a8de2c6c350c7a6e7a77b384223fa127d655ebaff6",
-                "sha256:04ae2ef5df4f381e72c7fe2852869739885cb48f81fb46e9b5014711b77fa170",
+                "sha256:8b316dbd48b2e5188ad7badd102e9514d972750e6a5ccca34fd2605d620a6980",
+                "sha256:fb15f565442128b36903b7a6d50c78ce5b95c34affe16d46b4376663dc9bd381",
+                "sha256:397b999c4e41781314385bf851d2391546680376bf5b8959c8054af10fbddf58",
+                "sha256:656cc8150e0f6a64aaa72c0c5c0d6658d7a7a3bd6aa7fa4788c412fcc64a2eb0",
+                "sha256:703f74605871fac98c9115f6e2ddefe8ab2a6a5dfc348f529917256481ba439b",
+                "sha256:918b6da7af42cf84d87f67479b7e082d0e34b941d958410bc7df874de9e65099",
+                "sha256:16838b0876e30bb94c7eb4229c7acdaf961bd23d9a03a4dc76dc213f13968a19",
+                "sha256:93ac9a301400e87a01cccd21d84a91dddfcc6b526160ae2ab794cf9e6e8b45fe",
+                "sha256:560b3dc9e2218fbb097a852c9c7f85c9302dd9673eb713a2c3b4cea2578848a5",
+                "sha256:ff2e2e14f9650564535763f8d55f44b3b91fb7d32f0a4643b4c081f4ab0bd310",
+                "sha256:c4b5172e531941a81837c89fe52727d60e4543419e9020a865fdda3cd39eaa3a",
                 "sha256:db5652627be066fd088860f3ebfcc61d4cb76922ffa16c5496b4158c7e4e7151",
                 "sha256:2534953f34d35976fc44cd67bfdd39fdcd9e2eaae57ada0be53d5fb936cd3a0b"
               ]
