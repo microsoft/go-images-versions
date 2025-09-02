@@ -12,17 +12,17 @@
               "simpleTags": [
                 "azurelinux-3.0-amd64-default"
               ],
-              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:336f1241b66473a67961b7c904111b7246fb571a24c538d99fd875c0460d7a1b",
+              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:f9d5e04eeec03fb62bcbbe1d3421b87603905c9cbd8a64fcfb2793a6454d449d",
               "baseImageDigest": "mcr.microsoft.com/dotnet/sdk@sha256:258fdbb2a0c29922c2831fa0db410c21236c28b2e94258d6e64ea89400fc9c15",
               "osType": "Linux",
               "osVersion": "3.0",
               "architecture": "amd64",
-              "created": "2025-09-02T14:23:03.6192055Z",
+              "created": "2025-09-02T23:26:53.3460155Z",
               "commitUrl": "https://github.com/microsoft/go/blob/a3a120309530ccde050c6e5dc733d092af771cf0/src/azurelinux/3.0/amd64/default/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:5bc423c7b5ec3a61c629ccba13ad8dcc717c847ec5cf11d01a4014baa17671f1",
-                  "size": 173346200
+                  "digest": "sha256:3fa4de3b0cdf96452ddface2c8175dcf0c2b4e13eed2a72cb55619db6fe38829",
+                  "size": 173346515
                 },
                 {
                   "digest": "sha256:b1d922b0b687bcb14e3e363d7595df8cfa027298b8e14991dd4aab9a89c07f47",
@@ -76,17 +76,17 @@
               "simpleTags": [
                 "cbl-mariner-2.0-amd64-default"
               ],
-              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:1af6bbca38571fc0c4f709ac06778286aa7260ff7f54a94ea2dd7b161fe25fd8",
+              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:438e9dc484468f6a7f0d93f9a1476025c69a24eda8e5dacaf66bfbe9f18b39c2",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:dd99db6634c0bf41eee16e4a434da5cc874640e1765b7b1e26b8f7857df649c1",
               "osType": "Linux",
               "osVersion": "2.0",
               "architecture": "amd64",
-              "created": "2025-09-02T14:21:57.5154135Z",
+              "created": "2025-09-02T23:25:14.8653644Z",
               "commitUrl": "https://github.com/microsoft/go/blob/6049f85a39d9ec5a06399ed9e2dfc68d11da74a3/src/cbl-mariner/2.0/amd64/default/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:2cdd3b05845cfc726413baea6975974bf88400b56d50464dc8bab3bf52dabccf",
-                  "size": 284893352
+                  "digest": "sha256:24ff1b7245e031da74c1b5d1928694bfe72d1043bc39a27fc1a9c9c9d46b0500",
+                  "size": 284893316
                 },
                 {
                   "digest": "sha256:dcf9164e728dd86063b4bd244c7e77949db02ba50200dc499d301f7c2f39c7da",
@@ -108,17 +108,17 @@
               "simpleTags": [
                 "cbl-mariner-2.0-arm64-default"
               ],
-              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:d8a505289c696474142ecbede5460b759dbf330ca831636641f8c1210e4be1df",
+              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:57a24e19916d0c462d30793e9dda30a449f94c17721329080e0751ffd7c89616",
               "baseImageDigest": "mcr.microsoft.com/cbl-mariner/base/core@sha256:dd99db6634c0bf41eee16e4a434da5cc874640e1765b7b1e26b8f7857df649c1",
               "osType": "Linux",
               "osVersion": "2.0",
               "architecture": "arm64",
-              "created": "2025-09-02T14:20:39.0963861Z",
+              "created": "2025-09-02T23:24:03.340386Z",
               "commitUrl": "https://github.com/microsoft/go/blob/6049f85a39d9ec5a06399ed9e2dfc68d11da74a3/src/cbl-mariner/2.0/arm64/default/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:24593d8f60d1f5eb54c12bfeae0442abf7e3ae9c945ffa53f0db5b7ef025a099",
-                  "size": 273480258
+                  "digest": "sha256:6faf7fc2a93f44b32536a16a2c93298a8db04106fa15811839ba1e7bd56b5455",
+                  "size": 273480280
                 },
                 {
                   "digest": "sha256:b395417c4409d23c2681e07f4792e873522782be5e3572848caa3f193439e372",
@@ -140,25 +140,25 @@
               "simpleTags": [
                 "ubuntu-20.04-amd64-default"
               ],
-              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:9d5158ba449596f06fa6c47fd21d22e53978e426217c1c4f48037849b4f0bc79",
+              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:bdbee83d0f819f2555b997a9d38d9a52d9156247c834c0c2ba2ca939c9c9355a",
               "baseImageDigest": "ubuntu.azurecr.io/ubuntu@sha256:7e9558e1203a9a2b0967554abf9ebdc5552f29013b01f6e7271bf2d776d51234",
               "osType": "Linux",
               "osVersion": "20.04",
               "architecture": "amd64",
-              "created": "2025-09-02T14:23:51.699698Z",
+              "created": "2025-09-02T23:30:21.2440559Z",
               "commitUrl": "https://github.com/microsoft/go/blob/b0f272ba98388f741ac1f36babd905273da34db6/src/ubuntu/20.04/amd64/default/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:83256fa81b02b4163d521b22709e945c09223754809ae2f12985c0e4376a7db6",
-                  "size": 7363477
+                  "digest": "sha256:018b6aa646c451a401b28d026faddbc5ab52352285b0d159f223477030eed3c2",
+                  "size": 7362945
                 },
                 {
-                  "digest": "sha256:63326fb233bb91cc8afe8a7e5852e792624d34cff453e327f97b26c7b495f8ad",
-                  "size": 100967328
+                  "digest": "sha256:f79bac7d801b7a33218c510a9bd441825df75f62312e8ef8338d4609cde1f6e4",
+                  "size": 100966852
                 },
                 {
-                  "digest": "sha256:3c5374bddc0e9cba6204e03389e3d09e9b33571b9fe9d2685a945c362312fb04",
-                  "size": 296206608
+                  "digest": "sha256:30783258e69071df7080e11a467badd8e33228336b00a2f9c35ff65800f12c6f",
+                  "size": 296206328
                 },
                 {
                   "digest": "sha256:e9bf9916de2b558ee650503d6bf4af2a22129c02052c29d2ba6d06067453eacc",
@@ -176,29 +176,29 @@
               "simpleTags": [
                 "ubuntu-22.04-amd64-default"
               ],
-              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:d27d4e5d692eda203d85cd2b52d680b2f544899c1301f828a43e4d9b86582d74",
+              "digest": "mcr.microsoft.com/microsoft-go/infra-images@sha256:a61fbaf72de3fd857800bfe9832d8df61f05bd8ed0ebe5910282fe8d64d36ccd",
               "baseImageDigest": "ubuntu.azurecr.io/ubuntu@sha256:4308681229e935f06b70ccf05d00417d24f01632bd0cc643a4b75fa5f2456902",
               "osType": "Linux",
               "osVersion": "22.04",
               "architecture": "amd64",
-              "created": "2025-09-02T14:24:41.3255187Z",
+              "created": "2025-09-02T23:24:16.3091419Z",
               "commitUrl": "https://github.com/microsoft/go/blob/02e866384225c63c84cc127dfac766adb650f484/src/ubuntu/22.04/amd64/default/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:a247cb824e5e9bb0862bd99eb16713757e6f388bb6b6f254cb71a23ea861b9a1",
-                  "size": 77736672
+                  "digest": "sha256:8ee5f0d4819600ef1c326ee4fcc8b518fd04793481abd48c78ff96d2a05a6442",
+                  "size": 77736644
                 },
                 {
-                  "digest": "sha256:c8a3d549ea58658dc21e32287b7c6bafafd7c4f69ceb2b278d147993093ad949",
-                  "size": 939
+                  "digest": "sha256:3487adebdc6886c5fb7efb0ceed7c474d3888aa5b05e9a6d60b33b62b7af419e",
+                  "size": 942
                 },
                 {
-                  "digest": "sha256:a6f183de4bf9946b7ee01477af1897d919ddd4de7da6004c4516254e03d64f91",
-                  "size": 2974713
+                  "digest": "sha256:c7f223b68cf7ad6060bcdc6eda63fe7f68c2a2a974b8702834f2f5bfba3bc6b4",
+                  "size": 2974559
                 },
                 {
-                  "digest": "sha256:b081abaca068a2d1c0f4ef6da08c9ffada0e445db84a15c6b310954ad98d0673",
-                  "size": 150118213
+                  "digest": "sha256:7b2c1222cd435e2eaf541bee89abd18621f24c2ea75f4b46dfe1791a498c7c4b",
+                  "size": 150118112
                 },
                 {
                   "digest": "sha256:60d98d907669dc22e547405da3e409eb14496606f4ac90692c5f2ef5081c4b1e",
