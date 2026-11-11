@@ -5,557 +5,15 @@
       "repo": "oss/go/microsoft/golang",
       "images": [
         {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a5d4b744e9142c24601aef0d780820834a3d46d47e11a414dbef1a20f1d11fab",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25-azurelinux3.0",
-              "1.25.14-2-azurelinux3.0",
-              "1.25.14-azurelinux3.0"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/azurelinux3.0/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-azurelinux3.0-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7c01f5bb1aff830f9116287413a981a2e897d473bbd09d58cf0c93329c5452eb",
-              "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
-              "osType": "Linux",
-              "osVersion": "azurelinux3.0",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:32:59.193268Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/azurelinux3.0/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
-                  "size": 29
-                },
-                {
-                  "digest": "sha256:95d05c6d896c2e2fda88686a820376b95877e5833fbc7388236acd0510962eb1",
-                  "size": 142
-                },
-                {
-                  "digest": "sha256:d79c4467aa79e86ad0255cdd5c5c0d3d43800bf44ab87c9a724ab58deaaf2d88",
-                  "size": 76190748
-                },
-                {
-                  "digest": "sha256:123b5d95c084ebe1eb286b54d081bd8991349e191f8e7e0ff625ea95fa1a8037",
-                  "size": 180231259
-                },
-                {
-                  "digest": "sha256:f8c4f406db0b6609157cc95c4bb0ed016d8b9d8eacc90848a0aa0cc2af93d02d",
-                  "size": 33048443
-                }
-              ]
-            },
-            {
-              "dockerfile": "src/microsoft/1.25/azurelinux3.0/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-azurelinux3.0-arm64v8"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:92cb38233cbf35b1bf47f98e9ffc3ad52efae56e14bc2b2407b1836fb5e5da3e",
-              "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
-              "osType": "Linux",
-              "osVersion": "azurelinux3.0",
-              "architecture": "arm64",
-              "created": "2026-11-09T17:31:11.0373068Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/azurelinux3.0/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
-                  "size": 29
-                },
-                {
-                  "digest": "sha256:6a9904ca530f936254f731096cb964d5fcdae2d2a4aac9f6855354c9dd84596f",
-                  "size": 143
-                },
-                {
-                  "digest": "sha256:4357e02186c697561eb07085c625ee74b4f51643e68385adf9f503d5eeafdc8b",
-                  "size": 72112840
-                },
-                {
-                  "digest": "sha256:a9ab866eee7744f4206690502b643242f2b61ab7ba2902cb57b178ac2e6c8fbb",
-                  "size": 172513664
-                },
-                {
-                  "digest": "sha256:927e92af58968f787bf8cbca0e6e61dbfc6116b45be728ce0b8728899afb6d83",
-                  "size": 30798321
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:27dacfbd58da0b59275dc697aa5bd3dac671644cda830b3ee24159a28dc5de16",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25",
-              "1.25-bookworm",
-              "1.25.14",
-              "1.25.14-2",
-              "1.25.14-2-bookworm",
-              "1.25.14-bookworm"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/bookworm/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-bookworm-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5934459d3a3a8759f0611b75e04714df5d33a6226f66192c92a108a2d6f856d5",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
-              "osType": "Linux",
-              "osVersion": "bookworm",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:34:17.5693961Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/bookworm/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
-                  "size": 29
-                },
-                {
-                  "digest": "sha256:0ef75762ad5961506866de8802efc0fbb686492a3b44f9b21f297726f1f38d57",
-                  "size": 142
-                },
-                {
-                  "digest": "sha256:d79c4467aa79e86ad0255cdd5c5c0d3d43800bf44ab87c9a724ab58deaaf2d88",
-                  "size": 76190748
-                },
-                {
-                  "digest": "sha256:23681ab1ff6daee75d67b5074b75752a3b9c265030dfa944ecd4562281d82739",
-                  "size": 187762195
-                },
-                {
-                  "digest": "sha256:dd2fe6ee594cfb8de5f43a104bf1d20eefe4cbaa9c54132b27a2b311a780f965",
-                  "size": 329011
-                },
-                {
-                  "digest": "sha256:2ebee19599bb8467fb34fa13554d9d7a5f26be39115b8e6f74465e5e7c905942",
-                  "size": 65872534
-                },
-                {
-                  "digest": "sha256:694fcde40bcc74f6d85bb3bbd1bbaaf59a456d696b7de2a39e9a305b811dbf4e",
-                  "size": 24419495
-                },
-                {
-                  "digest": "sha256:109cc2f65a89a0a99dfa34778dd77864c1bc05a7c9c4454ef435c48ea3d8d508",
-                  "size": 50660625
-                }
-              ]
-            },
-            {
-              "dockerfile": "src/microsoft/1.25/bookworm/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-bookworm-arm32v7"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:961a0e9c90a0a3674658042313095edbd785616c6796504536e359b4e147ac56",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
-              "osType": "Linux",
-              "osVersion": "bookworm",
-              "architecture": "arm32",
-              "created": "2026-11-09T17:31:25.895301Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/bookworm/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
-                  "size": 29
-                },
-                {
-                  "digest": "sha256:2962b79569d1686ab20e9b9efdcea659897c31fba7705a80d6994b3ec8474a7f",
-                  "size": 143
-                },
-                {
-                  "digest": "sha256:9b9fd5a28cc44b6dcbae3eff2639931adf1125357fc2d8cb3f2cf777cdf0a643",
-                  "size": 74565318
-                },
-                {
-                  "digest": "sha256:1ce0e1dd60b744912c8f3489c12c9a944e33622fe109caf1932cf7a9cb909f64",
-                  "size": 151695197
-                },
-                {
-                  "digest": "sha256:c3a03605ce834f1e09fde4f63e30a7218ddafc246ce8992986342249044e8153",
-                  "size": 328998
-                },
-                {
-                  "digest": "sha256:48471654120dc0d60b4dc1c33a7d658cbab567dcddd333e0e663d0f192976946",
-                  "size": 60649720
-                },
-                {
-                  "digest": "sha256:a35570ebf311c7bca55693489c36b0344937e18da80c46292e44f5c9f6fbeeaa",
-                  "size": 22168699
-                },
-                {
-                  "digest": "sha256:0e89f0af45107318894fe7a7eaa5b222e4d4675550f8744b8ce973560ca3b6c4",
-                  "size": 45861086
-                }
-              ]
-            },
-            {
-              "dockerfile": "src/microsoft/1.25/bookworm/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-bookworm-arm64v8"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3875acd5952eb1589d1b1d550e8bd0897ca3c6184fa4efb7cd8ba6a0320d1eea",
-              "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
-              "osType": "Linux",
-              "osVersion": "bookworm",
-              "architecture": "arm64",
-              "created": "2026-11-09T17:31:35.9661266Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/bookworm/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
-                  "size": 29
-                },
-                {
-                  "digest": "sha256:625707ca3ac51333ba76a231843317e8e60915bd707b622bfcb421f482935858",
-                  "size": 143
-                },
-                {
-                  "digest": "sha256:4357e02186c697561eb07085c625ee74b4f51643e68385adf9f503d5eeafdc8b",
-                  "size": 72112840
-                },
-                {
-                  "digest": "sha256:0396d0fac115f00d70692b571141b54e5850ad95fbcef22618393518c326f7f2",
-                  "size": 180145722
-                },
-                {
-                  "digest": "sha256:dd628371fcef5d1fe0af813d20e22ad10c6823baa545f11ebb92c8850076f53d",
-                  "size": 329003
-                },
-                {
-                  "digest": "sha256:a97d72c9bc1ded9e82ea9e4013955b9bda5b50cfa9194a6f781779c062b50809",
-                  "size": 65477270
-                },
-                {
-                  "digest": "sha256:507caf22af70e4ae40044f46b4bf9a62f92b4ab06323cc8636ced87a507a3a0d",
-                  "size": 23833017
-                },
-                {
-                  "digest": "sha256:4a676a9a825e3a6aee6b3cfb635695dc7f56cb854df6272fd71a2807d3d2315f",
-                  "size": 50437589
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:590b8571b121857deb51f3816653b4dd62bd3d9edb79217f2fcfd01a55106aaf",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25-nanoserver-ltsc2022",
-              "1.25.14-2-nanoserver-ltsc2022",
-              "1.25.14-nanoserver-ltsc2022"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/windows/nanoserver-ltsc2022/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-nanoserver-ltsc2022-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:54fe83da5926e11282ab3bbae4f9aceddd09de23441de639410a24ac9c0c57ad",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:62d28cb7771b0cf1b37db2662e468dad76e7ef15ca4ef52b2ab73c102a23da98",
-              "osType": "Windows",
-              "osVersion": "nanoserver-ltsc2022",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:40:23.0670437Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/windows/nanoserver-ltsc2022/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:88132ac52b4b557275d192ba49d31e30e3cff7137863497a3f916c9951a3fc69",
-                  "size": 1249
-                },
-                {
-                  "digest": "sha256:e78a718b2dc7bd032fa5e722ece74c81d55bab96ba7d97f87ded07c70bdcb8f5",
-                  "size": 99184
-                },
-                {
-                  "digest": "sha256:b240544f5845a71e0ddac4a4e2ae78ac8c7969acac889fc8c725048e131f4b69",
-                  "size": 76343817
-                },
-                {
-                  "digest": "sha256:8120d5df3327c0765024292709e14b49465840b5c32893165130b45961cb3287",
-                  "size": 1040
-                },
-                {
-                  "digest": "sha256:5a8cf0c0145a25595117a4f68118f0dfbfd7952c82a5cfe8df7addc473422a89",
-                  "size": 1036
-                },
-                {
-                  "digest": "sha256:8ec2dc650dfb44b891701d221c418f15a0bc145239025496b5c0d4917964957a",
-                  "size": 77309
-                },
-                {
-                  "digest": "sha256:a9bf4d7e9438ec812f3a9e20b8fdf592319139d50f1741b5667f5711f02f0838",
-                  "size": 1043
-                },
-                {
-                  "digest": "sha256:2af766273a02f0f96b061926748cb07922557c045334ecb083edb2726c33b31c",
-                  "size": 1037
-                },
-                {
-                  "digest": "sha256:451f1356c2273e9031c2590dfb19cf6b7bed1afa3c2d1cddfb91214d76df7b1a",
-                  "size": 1040
-                },
-                {
-                  "digest": "sha256:236d90a718e9e819ac09cbda6488d7cc66c394fc52c2cfc8176cef5e10ef66b0",
-                  "size": 125926676
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f0ecd7a08e9145648747259c5962fc9479759c059488cdcb9a41fb3e255297d5",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25-nanoserver-ltsc2025",
-              "1.25.14-2-nanoserver-ltsc2025",
-              "1.25.14-nanoserver-ltsc2025"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/windows/nanoserver-ltsc2025/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-nanoserver-ltsc2025-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:81aae518c93a9007c2201de0d7449061efa8f8793def1e20c13f082f99c0f2c2",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:05d1a7fb562f998ed3bc23b21dbd95aa26b3dd10ae921e830449e2db657f6704",
-              "osType": "Windows",
-              "osVersion": "nanoserver-ltsc2025",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:45:54.8830064Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/windows/nanoserver-ltsc2025/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:c98e4ee68cbe7a1f11c5198d53d6397d892830b980a89f1e6606fae6e6c471c2",
-                  "size": 1247
-                },
-                {
-                  "digest": "sha256:a39b54a2c8a0eb9e893e388770b22cde2f7975f5a9c763bf52c781b66fcff3d1",
-                  "size": 90171
-                },
-                {
-                  "digest": "sha256:86f18c08208a7b7690c938bfcd40a460e06e8eb907d07a418553d3810220addc",
-                  "size": 76400219
-                },
-                {
-                  "digest": "sha256:4021a3d6a146508b41685738c9db298c8ee63a0960c53e9925c327babf2aa579",
-                  "size": 1032
-                },
-                {
-                  "digest": "sha256:2872be34b75f2f3a8bae93f60861d5f855cb620502bec7faa21793ddc8cc50a1",
-                  "size": 1080
-                },
-                {
-                  "digest": "sha256:d27189121adfcdac27967bf99938784c0b0dfa23b7a065e4af30121c7988d26b",
-                  "size": 81779
-                },
-                {
-                  "digest": "sha256:8e7923b6625e6733dea00da03a03a65dc4f01a0f40d005712bc3d06b3d1780b8",
-                  "size": 1062
-                },
-                {
-                  "digest": "sha256:566d7fb009152657281e7fdd2dc3a6a391a398cf3176905eb0bffae59bfba525",
-                  "size": 1037
-                },
-                {
-                  "digest": "sha256:58bcb836d98848fe67211230edc1f59024cb1750ffd39f559311fcf8b378f1ab",
-                  "size": 1064
-                },
-                {
-                  "digest": "sha256:52fd6732d0ca195d430cd9cf788e7b10823a73e2eda296aa1c8d60d4e2ec17a7",
-                  "size": 199959116
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:efa66a87b5edf9a428aca139fc664336334a1f4e555a1403afdd6769ce345b22",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25-windowsservercore-ltsc2022",
-              "1.25.14-2-windowsservercore-ltsc2022",
-              "1.25.14-windowsservercore-ltsc2022"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/windows/windowsservercore-ltsc2022/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-windowsservercore-ltsc2022-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:be6aa1047a964731c584d435fa60ba6f116ff5e5db7d054f017346f082d95ea1",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:b52799a67fa596d4bddcd82ae1dab0077a84767fbc33c7342b72b53ecc71ad09",
-              "osType": "Windows",
-              "osVersion": "windowsservercore-ltsc2022",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:38:39.6805696Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/windows/windowsservercore-ltsc2022/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:bdc5a9691b189bed40c99709301637f6621ca7788f491882f077acde07c0d71e",
-                  "size": 1451
-                },
-                {
-                  "digest": "sha256:7c98863c8dcd351d2a0a919f5d692307a7e58fc18bfddd2266451ef8d21f0675",
-                  "size": 76747729
-                },
-                {
-                  "digest": "sha256:456b72b1d6e37d11075a0a8e2a1d1e058f53f6fd36f580d0109d0139bb7365d8",
-                  "size": 1328
-                },
-                {
-                  "digest": "sha256:6d4f8422c16d176c2a76d8e9bb325bf14674552f52417336222d3554fb792ef6",
-                  "size": 331349
-                },
-                {
-                  "digest": "sha256:03ee9b4cd90e8130997efc9c99fdb05f688a06b0aa36d7583fb75e7bd6fa275b",
-                  "size": 1291
-                },
-                {
-                  "digest": "sha256:2a93525ba492bdbe01bfb3dd00f3348b53d31f6b27c4f6d6667f180b2f06d9a1",
-                  "size": 43320038
-                },
-                {
-                  "digest": "sha256:19dac37d2ad527ec4ca2db5291b370307c5583d5d5da2e0a9d07e68822b50ed9",
-                  "size": 1297
-                },
-                {
-                  "digest": "sha256:349e94bca21b7957f38495f7509b8449a544e19ac0e7d1c654663eab017fe8e1",
-                  "size": 1292
-                },
-                {
-                  "digest": "sha256:68ac515ae7b9c7baa6173f56bc2e5b19798102a2e119ea91bace31550230729a",
-                  "size": 1288
-                },
-                {
-                  "digest": "sha256:b44cca343eba52b945b326d7d42f09fef80fa5ef96e2cf36e6c59a450dc61743",
-                  "size": 1291
-                },
-                {
-                  "digest": "sha256:71f0cdff1590a57cea05ec77a5b31256ccdeb760a18c8f9cd2b916f26e4accfa",
-                  "size": 1330
-                },
-                {
-                  "digest": "sha256:a9fea553d6997affb11590d988a7f41a1ead2d9cc196f5ce609bcdfe88f06dd8",
-                  "size": 738037069
-                },
-                {
-                  "digest": "sha256:3cc21a1b754848d23f00aa65cb94ec34c9a5dc6028b3aada42039c824738d02f",
-                  "size": 1489019076
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "1.25",
-          "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:dc7b2f8ff4fc92337f567f3839f698d0a016e8b00381b6ae66b44bd350c26380",
-            "created": "2026-11-09T18:14:40.6254897Z",
-            "sharedTags": [
-              "1.25-windowsservercore-ltsc2025",
-              "1.25.14-2-windowsservercore-ltsc2025",
-              "1.25.14-windowsservercore-ltsc2025"
-            ]
-          },
-          "platforms": [
-            {
-              "dockerfile": "src/microsoft/1.25/windows/windowsservercore-ltsc2025/Dockerfile",
-              "simpleTags": [
-                "1.25.14-2-windowsservercore-ltsc2025-amd64"
-              ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:b9ebcecfad476c6baccd540afb73ccee785afabf99fa4f4afa37f18c9b5b202b",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:4e5730bddf049d5dd9f758a3b4e6875ecf19b5bfeee5068e07aeeb5df9c63c55",
-              "osType": "Windows",
-              "osVersion": "windowsservercore-ltsc2025",
-              "architecture": "amd64",
-              "created": "2026-11-09T17:43:37.7483787Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/6d5ad290d421c6d085d8ae08313ad8c524a93e32/src/microsoft/1.25/windows/windowsservercore-ltsc2025/Dockerfile",
-              "layers": [
-                {
-                  "digest": "sha256:786e06d4a5d0560f32a6a0c3fdd536c580acc6488c8ec80030f8ac1de8b286e9",
-                  "size": 1457
-                },
-                {
-                  "digest": "sha256:b7beea58fa43b24c17d0d325dbdcc211dfbdcb2957ffbe3a7f73ea27e0396e24",
-                  "size": 77075693
-                },
-                {
-                  "digest": "sha256:e4e2204b3a633016b13f36dd4de5f666825a595cd38a1947c0f8c011a240a755",
-                  "size": 1312
-                },
-                {
-                  "digest": "sha256:d127503fb5eeee612aa322455e9b0ca9b3ec40a93ec781d39a7c04ce1132ec61",
-                  "size": 380824
-                },
-                {
-                  "digest": "sha256:75047e541fd5645c669bd1d217153959cfa1371bf75bcb1cc750d535b561526a",
-                  "size": 1286
-                },
-                {
-                  "digest": "sha256:7b75a7b847ab3f6364b0e2f8e26194b99933cf2ca0bc329e641f1f11c4f5fbb5",
-                  "size": 48716944
-                },
-                {
-                  "digest": "sha256:e68159e141e80af2bf182c3bd85074f37bdbc04b24b26b8197357cbe903553e5",
-                  "size": 1341
-                },
-                {
-                  "digest": "sha256:9306014955a9984fab0cac8047a3933ba175c0cdbd1d53924ba2fb4780ee9a93",
-                  "size": 1308
-                },
-                {
-                  "digest": "sha256:00b48261f13723aa49c4b0f94881aeb734566957df84d9cc51ce1e6606f49968",
-                  "size": 1305
-                },
-                {
-                  "digest": "sha256:6b57cf078d856368f6d568f3b1091381076c716f847e81849fa8e9651d1224ef",
-                  "size": 1263
-                },
-                {
-                  "digest": "sha256:41fa0350a8258d278d9cae1a5c4726633196d9037394b37dc4bf71a3cc54f4b4",
-                  "size": 1286
-                },
-                {
-                  "digest": "sha256:64f431fb112b4d6aec186615d6db738217b1c9e607dc5d0addbeaffcbea73f51",
-                  "size": 868989727
-                },
-                {
-                  "digest": "sha256:0938cf51b672b81c9804d1d5f0c57031c931f41b279270e84820c63642d6a3bd",
-                  "size": 1523059351
-                }
-              ]
-            }
-          ]
-        },
-        {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ad2f3b8eabd6110d3537e270d633cbfaa2108b98cd04a41df430512a9617f7bb",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e3c0f3a4b16096a7ad919813ad286ce55e674c398330d0b368bf842e0a681daf",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1-azurelinux3.0",
               "1.26-azurelinux3.0",
-              "1.26.10-1-azurelinux3.0",
-              "1.26.10-azurelinux3.0",
+              "1.26.11-1-azurelinux3.0",
+              "1.26.11-azurelinux3.0",
               "azurelinux3.0"
             ]
           },
@@ -563,31 +21,31 @@
             {
               "dockerfile": "src/microsoft/1.26/azurelinux3.0/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-azurelinux3.0-amd64"
+                "1.26.11-1-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:6f703ff1f243cac8caea06365f1c5696bbc0c1e232b12fa00eae4f34b5179220",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:043317544e0f4027db7b7ec8b8d44cb91facbbae1875c0296718028f28999687",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2026-11-09T17:33:04.1770696Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/azurelinux3.0/Dockerfile",
+              "created": "2026-11-11T10:16:18.8324737Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/azurelinux3.0/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:f959948bfccd417f9bbb8461d8afc413b0582284d19d6e3b664630289a9fcb42",
-                  "size": 142
+                  "digest": "sha256:0f7c704026fac5df9b927f4ad0a9a282609024b7be3069329aa944eb02238f2b",
+                  "size": 141
                 },
                 {
-                  "digest": "sha256:73e92fc9f9e4253f38260d9de4a8101b65dd9fd5061543bf452d72008cd4eca2",
-                  "size": 85507709
+                  "digest": "sha256:22fc097b6021cccb1ea46de73c84d06448c6089c19ac110619a0b6ffe3868b72",
+                  "size": 85609226
                 },
                 {
-                  "digest": "sha256:70f312f2acc8338c09fe51af88fcd54b2990ca3418cd78e99dbd583817b0a83c",
-                  "size": 180231174
+                  "digest": "sha256:6514253e1ce10b2c54abc450429fcbb1a287fa9914ccffb415a8daaec943b361",
+                  "size": 180231060
                 },
                 {
                   "digest": "sha256:f8c4f406db0b6609157cc95c4bb0ed016d8b9d8eacc90848a0aa0cc2af93d02d",
@@ -598,31 +56,31 @@
             {
               "dockerfile": "src/microsoft/1.26/azurelinux3.0/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-azurelinux3.0-arm64v8"
+                "1.26.11-1-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:adc84f5c90d37cda3587ce6c7c23f32cf3ee19fcc17f9afb394b3843463d3ac3",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2ae10cc1bc8bc7207b74d6bc8598148ffcc7727267786ec3900e4c979f278522",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2026-11-09T17:31:01.0925015Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/azurelinux3.0/Dockerfile",
+              "created": "2026-11-11T10:13:48.0870678Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/azurelinux3.0/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:df96601f3a9076e772f0fcdeb89b12d1025f4b60a741c112a25f16caab47cd32",
+                  "digest": "sha256:686b4e7cde1cafbf3997b9a6d50de4eaa91dfb995b80adf6723aba4710adea9e",
                   "size": 143
                 },
                 {
-                  "digest": "sha256:80ccab57d6353c2b0cc496e6830ac89c2a11f3420699a645ffab80edb7dfbbf0",
-                  "size": 80601482
+                  "digest": "sha256:cbce6573c03ed915e9dee4e8fde9e8d1807903ae79457fc9ec653c333a459db0",
+                  "size": 80687629
                 },
                 {
-                  "digest": "sha256:b6356a24fd2318641f3643cc4eb32690b67988ef1bcad7517052c9be8c59c683",
-                  "size": 172513604
+                  "digest": "sha256:fcaba42c17b245fe9152c41a98da9a9e9e1f52846ccf1ce643073e1472c8b5af",
+                  "size": 172513668
                 },
                 {
                   "digest": "sha256:927e92af58968f787bf8cbca0e6e61dbfc6116b45be728ce0b8728899afb6d83",
@@ -635,17 +93,17 @@
         {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:fec476b90d8ab6c040e57036bd5150e791ffdb10397fe981b694a2bcee2ac67b",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f6f761181c72fbaac5ad435b1cf7594f83e95307df460825e879763953af885f",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1",
               "1-bookworm",
               "1.26",
               "1.26-bookworm",
-              "1.26.10",
-              "1.26.10-1",
-              "1.26.10-1-bookworm",
-              "1.26.10-bookworm",
+              "1.26.11",
+              "1.26.11-1",
+              "1.26.11-1-bookworm",
+              "1.26.11-bookworm",
               "bookworm",
               "latest"
             ]
@@ -654,35 +112,35 @@
             {
               "dockerfile": "src/microsoft/1.26/bookworm/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-bookworm-amd64"
+                "1.26.11-1-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:09e1607297bb975449bb4284549e6dfad18eee0ea282e2123db5d32050bfe221",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e0c6e23d613cbcb574d64c3f68df4d429ed3dc99232a7d0394f608a7f0b13f8c",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2026-11-09T17:34:14.3968775Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/bookworm/Dockerfile",
+              "created": "2026-11-11T10:16:49.1710164Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:aedc306fb38adc5d1cadc14799ef546d2ca52b6ac43566c48e87ee230201bdb7",
+                  "digest": "sha256:bbbdecd997d6d63ad44e7caa90e9995d3b3204654100022547a1142778d26f96",
                   "size": 142
                 },
                 {
-                  "digest": "sha256:73e92fc9f9e4253f38260d9de4a8101b65dd9fd5061543bf452d72008cd4eca2",
-                  "size": 85507709
+                  "digest": "sha256:22fc097b6021cccb1ea46de73c84d06448c6089c19ac110619a0b6ffe3868b72",
+                  "size": 85609226
                 },
                 {
-                  "digest": "sha256:b65e951f314e0c461f2427d17a038059519fe40688b5dac8f45afcebd130ee0a",
-                  "size": 187761948
+                  "digest": "sha256:12d5271236e69a547d70f7c2902129d094f02e8b5d95dd141ae5c08ee5257341",
+                  "size": 187762089
                 },
                 {
-                  "digest": "sha256:691aa9364828054c836601ef99769205ade8e88c2c0db1af9bcb7a751edc03e5",
-                  "size": 329049
+                  "digest": "sha256:e28485b0f64de48c06db99455725cfd7f0d3c62b53d57e6124d9989be07a45f1",
+                  "size": 329050
                 },
                 {
                   "digest": "sha256:2ebee19599bb8467fb34fa13554d9d7a5f26be39115b8e6f74465e5e7c905942",
@@ -701,35 +159,35 @@
             {
               "dockerfile": "src/microsoft/1.26/bookworm/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-bookworm-arm32v7"
+                "1.26.11-1-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7a51eb8e3db952a888fdd93eb730c9c7d8179ba8fae973d7069a59988072e53d",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:fe813a99646a7a60f48625246465da52789c1ea360a24808b6a368436dcc8308",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2026-11-09T17:32:04.4689998Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/bookworm/Dockerfile",
+              "created": "2026-11-11T10:14:02.5607095Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:081e5e776af6c53b3f2fc0c1734228dc915b06ff6ccea6d27118c05defe62400",
+                  "digest": "sha256:253872499656501510eb760cee3b13b81e7b0231ef84d846ad91f1dd3767d6ac",
                   "size": 143
                 },
                 {
-                  "digest": "sha256:07ae0d3020cbb3db8fada7b0a520e782d1dcfe4a326a3443c443051b02457b28",
-                  "size": 83702695
+                  "digest": "sha256:e9060ab5daee1b7449914591ad58dfa0ac28d030b2e2bcbef9720c25da14be1e",
+                  "size": 83684794
                 },
                 {
-                  "digest": "sha256:5be64b21cc6abf783cb8771a92f7b01e798cc14f6763a51c76f7c776098faf5a",
-                  "size": 151695444
+                  "digest": "sha256:adcbd52f593b20ed83466c8bb335a8a595094577005ed7bb524e9d5421adfb18",
+                  "size": 151695339
                 },
                 {
-                  "digest": "sha256:e5b0b5b46d6dbe4ce74984f56548e5fa606543f9d5ba7206cf08cbc013d14787",
-                  "size": 329017
+                  "digest": "sha256:a1ff16b084b3c722d89324431843b879fd8f8ba6e88c22bd7b0563aec3db9dc7",
+                  "size": 328989
                 },
                 {
                   "digest": "sha256:48471654120dc0d60b4dc1c33a7d658cbab567dcddd333e0e663d0f192976946",
@@ -748,35 +206,35 @@
             {
               "dockerfile": "src/microsoft/1.26/bookworm/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-bookworm-arm64v8"
+                "1.26.11-1-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:bf2509526fb72c79cca8dd3b61f69fd6b9c613a1f764dfdc7d47e11d3f0fe595",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:45e7dec729dd001e4148048bbd57c899591b7985d7027243498f2c03802aa7ef",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2026-11-09T17:31:46.8526202Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/bookworm/Dockerfile",
+              "created": "2026-11-11T10:18:49.7180408Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:c9497b66982ece2a4a33d41bc73d79dcda45ed3cdd8d3485d212d695252cb119",
+                  "digest": "sha256:c94b872ec8fbcc272329a8794ecf351a6c0f93fb3e7d9aa51277b042746e10b9",
                   "size": 141
                 },
                 {
-                  "digest": "sha256:80ccab57d6353c2b0cc496e6830ac89c2a11f3420699a645ffab80edb7dfbbf0",
-                  "size": 80601482
+                  "digest": "sha256:cbce6573c03ed915e9dee4e8fde9e8d1807903ae79457fc9ec653c333a459db0",
+                  "size": 80687629
                 },
                 {
-                  "digest": "sha256:be14d680b638f4793a8117872876e5241b786ec199e55ccffd35098c32cf447f",
-                  "size": 180145522
+                  "digest": "sha256:e4aa8bb4e06cfe0f1405575747185463fe15a6d455d4fba5c4837a799fd5460b",
+                  "size": 180145617
                 },
                 {
-                  "digest": "sha256:cf03dd6d7ec246f6c9b89df3aeb3d34bf0dc9ecdf10ab4174593ea67a03cf966",
-                  "size": 329046
+                  "digest": "sha256:0f88c385aa3b9af66f0c4c2389a3ef882923fb4859ef7377c41ec662ea16220d",
+                  "size": 329025
                 },
                 {
                   "digest": "sha256:a97d72c9bc1ded9e82ea9e4013955b9bda5b50cfa9194a6f781779c062b50809",
@@ -797,13 +255,13 @@
         {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f68ca74e5e36cd33579911a3d2a2ac996d7cf0684d7d516be72f380b63fa0992",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:8a26131f40bf58bb08767c009d1042cf3bc2f6676163d6403b19a9dca4cc07d4",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1-nanoserver-ltsc2022",
               "1.26-nanoserver-ltsc2022",
-              "1.26.10-1-nanoserver-ltsc2022",
-              "1.26.10-nanoserver-ltsc2022",
+              "1.26.11-1-nanoserver-ltsc2022",
+              "1.26.11-nanoserver-ltsc2022",
               "nanoserver-ltsc2022"
             ]
           },
@@ -811,55 +269,55 @@
             {
               "dockerfile": "src/microsoft/1.26/windows/nanoserver-ltsc2022/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-nanoserver-ltsc2022-amd64"
+                "1.26.11-1-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:aa05a56d96993dea951b739d6f7cbfb090962a225703abf05874d998cfb1ab96",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:62d28cb7771b0cf1b37db2662e468dad76e7ef15ca4ef52b2ab73c102a23da98",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:dc0ff2f33d59eb75d18c6d4144fae51b1a930614113611c6f2bfe5efc7b24a34",
+              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:5a1c3c8308f8f5c9b67d21d2332a449d4ab8f9a6cf277f07d4aeac27ff2a0213",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2026-11-09T17:41:44.6545105Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/windows/nanoserver-ltsc2022/Dockerfile",
+              "created": "2026-11-11T10:23:25.1027197Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/windows/nanoserver-ltsc2022/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:71926ef6699523588a32873d2641ccfe3d8192a86e2523685cbe1051291d271a",
-                  "size": 1244
+                  "digest": "sha256:fe14e904912ea6dcd141410dfd5820d84a3f38b3a811aec85bb47901a7082c82",
+                  "size": 1246
                 },
                 {
-                  "digest": "sha256:38ff64b438636ff3730633242c8dd61609d59cb4dc680b707f8a77dbf9189860",
-                  "size": 82266
+                  "digest": "sha256:0bd02172283441cfad171736a68e2f5a92be078a23f600548ec1fc8532579b95",
+                  "size": 98729
                 },
                 {
-                  "digest": "sha256:be8d53a9c6e1e2af135e314231e919229c8e6552f901c850cb90a3251a949b2d",
-                  "size": 85699845
+                  "digest": "sha256:6dc5f993833e6087daf8cbeb5a7d4a67a7a158334134e338d9f93c1159ad686c",
+                  "size": 85778716
                 },
                 {
-                  "digest": "sha256:4beac7b1c1fc4a2c8f3318991323f52fb4adecdd6f1866d37a0187647395f75b",
-                  "size": 1022
+                  "digest": "sha256:c66e8e15622dafd08ade21bb68b15cd5319cd072c8643ff53093cf5dd4cd5e90",
+                  "size": 1039
                 },
                 {
-                  "digest": "sha256:f64fbd77beb0e835aec9307f5b0e7bec1b0d208b477cb7355aca3dffe592da19",
-                  "size": 1069
+                  "digest": "sha256:2e0520cbda0f5f3caac1cfdd9be0f3433af8b1f4bda114bf1a36da7e5a62da59",
+                  "size": 1038
                 },
                 {
-                  "digest": "sha256:d84cb179dfc07494a9c6586b61e358f68e93ab6d940f62f43b8bbdfc9d06d199",
-                  "size": 79410
+                  "digest": "sha256:348b218d3f1b482365a3d906cf8c5688828bb1044271dbccb32a93bfd32b9207",
+                  "size": 79594
                 },
                 {
-                  "digest": "sha256:5d4b782ea1cbeda614de5051c317ac260689bb73d93ec65e4e7cac95b435c9e3",
-                  "size": 1042
+                  "digest": "sha256:4d218e767713fe14d753a49654a32aaf843aeb86b0bb1da9430f626122a41174",
+                  "size": 1044
                 },
                 {
-                  "digest": "sha256:ffd796594a9cde8b838627b28a488df0e8cd77484a1307a828f0d849b162fb8c",
+                  "digest": "sha256:61c2cdfd94642ce87e9f5838ae16be70d817cd98302c44121416dc3b1acb30da",
                   "size": 1036
                 },
                 {
-                  "digest": "sha256:a27d2c4f6238f2011c008e40db7685f278484960700fddb695844b33faea12b0",
-                  "size": 1035
+                  "digest": "sha256:bbeaa28e6fd4278feaf0db1803a772942c8f9a259c3345c9019efa7ef0b564ef",
+                  "size": 1073
                 },
                 {
-                  "digest": "sha256:236d90a718e9e819ac09cbda6488d7cc66c394fc52c2cfc8176cef5e10ef66b0",
-                  "size": 125926676
+                  "digest": "sha256:0687146101aa7c5a79f3f4fceaa6abc664da260fccc602e0f5edd412320534a4",
+                  "size": 126284980
                 }
               ]
             }
@@ -868,13 +326,13 @@
         {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4f853f0d1a213148f682b4da724400a72e32311544c89db64202cccbc29c4e4d",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:0c918edcbb55a1ad75d5eca8106adff04df177befbee88082c340384f80db676",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1-nanoserver-ltsc2025",
               "1.26-nanoserver-ltsc2025",
-              "1.26.10-1-nanoserver-ltsc2025",
-              "1.26.10-nanoserver-ltsc2025",
+              "1.26.11-1-nanoserver-ltsc2025",
+              "1.26.11-nanoserver-ltsc2025",
               "nanoserver-ltsc2025"
             ]
           },
@@ -882,55 +340,55 @@
             {
               "dockerfile": "src/microsoft/1.26/windows/nanoserver-ltsc2025/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-nanoserver-ltsc2025-amd64"
+                "1.26.11-1-nanoserver-ltsc2025-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:787ace7adf3e3edbe63e693879a1431253b1348e7d8c99e0274d4fe86813b1fd",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:05d1a7fb562f998ed3bc23b21dbd95aa26b3dd10ae921e830449e2db657f6704",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:be725c3662aa17641506c92bd01de166bb7a14614c1408ba07076592462ab048",
+              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:1c67653a4cf2b9773964b2f805cc83ffe9c4745bfdd8962414792f75ebefe9b1",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2025",
               "architecture": "amd64",
-              "created": "2026-11-09T17:45:24.5848341Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/270cc83308434fb1310775c50d23d86bd374c44e/src/microsoft/1.26/windows/nanoserver-ltsc2025/Dockerfile",
+              "created": "2026-11-11T10:26:55.3935547Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/windows/nanoserver-ltsc2025/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:49138f9b356d7f3e943dfb0d39366fe58f27d1fff96d91e089728fb648756924",
-                  "size": 1211
+                  "digest": "sha256:7743ded552148c15a49a6308a0b36a3172a636db7fd26c0b7f92a131d9405119",
+                  "size": 1240
                 },
                 {
-                  "digest": "sha256:341808665dca8b9a0699c30d690d1836272e7cda2c64bf40b2b2641ce839173a",
-                  "size": 91743
+                  "digest": "sha256:3d97eb124f551717759ccba57ae1be6d5a1564401f4511ea92d37d0bc80c2bbf",
+                  "size": 90756
                 },
                 {
-                  "digest": "sha256:51d9521ea7fcb7594c3d8c27d53648ed1435c12188af54a5fbb7fa45cc7540e6",
-                  "size": 85770333
+                  "digest": "sha256:3206d05053fad2d2b0eb81966f48ffe3e5343ec9e0611e95c9e3eb17d9ebbcf4",
+                  "size": 85844460
                 },
                 {
-                  "digest": "sha256:df4495ada1f0ab823d2f6deb2fa0232f09137b4436d0de069870b34d9cd2c896",
-                  "size": 1041
+                  "digest": "sha256:71b76871412ec5c5bf8205d6d7c736033331b56e88e5005701ee77d6f5d4d644",
+                  "size": 1116
                 },
                 {
-                  "digest": "sha256:24d5d8391d02df385ccae31c25dccc2d901e96bcd12e57e16d02d58ce5a28757",
-                  "size": 1035
+                  "digest": "sha256:a4d143b68e615e2a82fd7d259f0966a19ba5a5a9beda4052e4571494b51f2ec0",
+                  "size": 1046
                 },
                 {
-                  "digest": "sha256:466ae9f68e79564a458db06cd75e0304c232947c45367220f9bf4008988165d0",
-                  "size": 83240
+                  "digest": "sha256:fcf64ee41ee19b62001cdee7fe67ee6f8ba42484a075a7855c0a8c1dd469b869",
+                  "size": 75142
                 },
                 {
-                  "digest": "sha256:37e7b3414affa9828dc48a6a358679f2edcf0f3389d22af1c776d71645638e15",
-                  "size": 1037
+                  "digest": "sha256:3169f82171cef16292bc7c78b50ad85fe381f7dee43f430b2e8f4dc1c14a495f",
+                  "size": 1071
                 },
                 {
-                  "digest": "sha256:1fec4fd029197c51b6dbdc640d768be0547f3757c5cb54aa74fca00898c6d688",
-                  "size": 1032
+                  "digest": "sha256:b01d0bcaf813419ef58e1688bc4f572f1d5a2d7d5e1018fc03403e0475aa776f",
+                  "size": 1005
                 },
                 {
-                  "digest": "sha256:edacc98eb23f3b23ebb2073afd94904f2c80688ecd73bfa8e60bda03084732ac",
-                  "size": 1006
+                  "digest": "sha256:2fdac44d7aa4025535a5220f56eee255e7e8e3c3d8e67bcacf1972fdfa48a8cd",
+                  "size": 1061
                 },
                 {
-                  "digest": "sha256:52fd6732d0ca195d430cd9cf788e7b10823a73e2eda296aa1c8d60d4e2ec17a7",
-                  "size": 199959116
+                  "digest": "sha256:8395a5062b63680acee7661df668d9bf81cca0fdec76ab1b29afd6ab290bf2c0",
+                  "size": 200242324
                 }
               ]
             }
@@ -939,13 +397,13 @@
         {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:391a80012fd9926f1961cd2666400e61ccd9cb16f9314e7cecb683f28b333dc0",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4f9d1dc5a2ef3b4ba1c87c009e91bf236a996571f5ddcf545ea845b6291539fa",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1-windowsservercore-ltsc2022",
               "1.26-windowsservercore-ltsc2022",
-              "1.26.10-1-windowsservercore-ltsc2022",
-              "1.26.10-windowsservercore-ltsc2022",
+              "1.26.11-1-windowsservercore-ltsc2022",
+              "1.26.11-windowsservercore-ltsc2022",
               "windowsservercore-ltsc2022"
             ]
           },
@@ -953,63 +411,63 @@
             {
               "dockerfile": "src/microsoft/1.26/windows/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-windowsservercore-ltsc2022-amd64"
+                "1.26.11-1-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:df02601b2674b4eb12a86b9923516117036ad1ebfde1f429d71a54c38fda1b78",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:b52799a67fa596d4bddcd82ae1dab0077a84767fbc33c7342b72b53ecc71ad09",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:49c9858f45e50bd6aba91e049adb44174ca6ce5f63aa5d3563d834e54806fd9d",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:301d571fc0cffed67083d4cc7a10167f551212f76b3f91eb7457e89aa5a183da",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2026-11-09T17:39:52.0380447Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/5da09662780644c94b7f62660eb5634f52f68f87/src/microsoft/1.26/windows/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2026-11-11T10:21:39.0944147Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/windows/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:59e882ecba81eecb388fdc61988db936eac7f3d4b13ccc63205f5c6e877cc26b",
+                  "digest": "sha256:26267547771d05729f0ac43a27cc7a6da606d1ed63f9128b632434f3a2227dab",
                   "size": 1446
                 },
                 {
-                  "digest": "sha256:3c370297c24af154495f3c9d5475b0a8327fbad7329bba9ccfd8cb859242edaa",
-                  "size": 86107290
+                  "digest": "sha256:78190b4c5ad75ae70b5ff9444b48a456253f010cf6083e7296132d249567fe49",
+                  "size": 86181568
                 },
                 {
-                  "digest": "sha256:0cac401bfabc5eb8d0d08fdfa8a760439226c42c0cebff5757db619118d6d06c",
-                  "size": 1295
+                  "digest": "sha256:0c076a7acfd46177752e88c6d35a9943d435057226b7002749a3efadcd46fc2a",
+                  "size": 1299
                 },
                 {
-                  "digest": "sha256:92031432d0b2f2e27d2ef87174d442d728ccd7cd34443e3513bd366c3554f3c9",
-                  "size": 331572
+                  "digest": "sha256:83d9de331c95d94e71c7edd762ec3619c7d2e3e7ad7403bfa1f6814fb39cd05b",
+                  "size": 317057
                 },
                 {
-                  "digest": "sha256:55f29b03aeab5749854fd940d7958f7bf98193e901a114134fcbf7557525f87d",
-                  "size": 1324
+                  "digest": "sha256:e033dcb26cc4bc0b19040ce0dfec9e31a7dacecfe1398f78a309b67536f59d42",
+                  "size": 1299
                 },
                 {
-                  "digest": "sha256:754ef13176aeb94cab4298e7029ce1818325e38e6dada79cb1005de68240fd11",
-                  "size": 43320366
+                  "digest": "sha256:cedcfbba0e7190776d93a1628705bf8c4f8ca6500f7c706ce6b5fc55dd1211d1",
+                  "size": 43312830
                 },
                 {
-                  "digest": "sha256:7a85e6bda810845a86a5d202240c7410051ce29d1119944b844b3b94271b6ce4",
-                  "size": 1327
+                  "digest": "sha256:f0ff6d1099427bd35b974c81086d4a389b67dacfd57f2ba233094d301d1fe228",
+                  "size": 1293
                 },
                 {
-                  "digest": "sha256:eb1cc48fafbc4027d82782d0410ff8af8d1f4b4e680872231db8814896202085",
-                  "size": 1322
+                  "digest": "sha256:0ac18fac14e63ee6b2f6f47015e12f7d5c58ebf2d0820c530dc0879e771d6a02",
+                  "size": 1297
                 },
                 {
-                  "digest": "sha256:d580d5df90b684fca6561532debb9d0c49a7ca074cfe810720c2c275f90dd317",
-                  "size": 1316
+                  "digest": "sha256:dd70a300ec35b3e41add55f45ce83e5fadfc09350a6758801ca7cc4b37572cac",
+                  "size": 1280
                 },
                 {
-                  "digest": "sha256:805983e22fb7e10944cea41c6841b68ce14abd93009884f2714cf9ac17b31c37",
-                  "size": 1338
+                  "digest": "sha256:11dd1bb877e2df5b63fc751d987386b3b38784ec8f10da412984790268624e57",
+                  "size": 1290
                 },
                 {
-                  "digest": "sha256:9536e42b91bc8b61ecfbd22c5105445cbda55c5af369d934ea56a3132af376f4",
-                  "size": 1332
+                  "digest": "sha256:7e4ba811ae914c8749e283b6e77f2dad181e111b1c8f038142899c69f4b72e85",
+                  "size": 1300
                 },
                 {
-                  "digest": "sha256:a9fea553d6997affb11590d988a7f41a1ead2d9cc196f5ce609bcdfe88f06dd8",
-                  "size": 738037069
+                  "digest": "sha256:0fd5ae99c0fb6e4764ec90d45aff46ebe7e1ee0a121f0a99525b9520a53c5103",
+                  "size": 757328679
                 },
                 {
                   "digest": "sha256:3cc21a1b754848d23f00aa65cb94ec34c9a5dc6028b3aada42039c824738d02f",
@@ -1022,13 +480,13 @@
         {
           "productVersion": "1.26",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c255dbb1e55fa02cf5732ca7212bfe3ead12ce35f58c241087a3bdda9893e071",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a7b2e514413c0abc110d3bfeaa0d4bc1fcb84cb0b3bcb52656db2021cb4f6124",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1-windowsservercore-ltsc2025",
               "1.26-windowsservercore-ltsc2025",
-              "1.26.10-1-windowsservercore-ltsc2025",
-              "1.26.10-windowsservercore-ltsc2025",
+              "1.26.11-1-windowsservercore-ltsc2025",
+              "1.26.11-windowsservercore-ltsc2025",
               "windowsservercore-ltsc2025"
             ]
           },
@@ -1036,63 +494,63 @@
             {
               "dockerfile": "src/microsoft/1.26/windows/windowsservercore-ltsc2025/Dockerfile",
               "simpleTags": [
-                "1.26.10-1-windowsservercore-ltsc2025-amd64"
+                "1.26.11-1-windowsservercore-ltsc2025-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:d863f80701c075a06484e63a11716f42da45651ff00ca87a0c7215c4407f833f",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:4e5730bddf049d5dd9f758a3b4e6875ecf19b5bfeee5068e07aeeb5df9c63c55",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a489c0bab1cc34c4149862e8a5fcfed2f650c9d1cc110ef93a6210e3759c6f9a",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c622317822fefb54a056fd09ab51f5bb48390feb47abb2b8696b2c526bdce4ef",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2025",
               "architecture": "amd64",
-              "created": "2026-11-09T17:42:51.3157604Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/5da09662780644c94b7f62660eb5634f52f68f87/src/microsoft/1.26/windows/windowsservercore-ltsc2025/Dockerfile",
+              "created": "2026-11-11T10:24:46.1757776Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/1130271cf3d03fd20c90f807dd9b401de2c55f8e/src/microsoft/1.26/windows/windowsservercore-ltsc2025/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:6ba6efffd871aaeb895a5603218af3441b28f0b332e549c641a2b9730ae5121c",
-                  "size": 1463
+                  "digest": "sha256:d90d868d65b509ab50a98c7cd0365e288f66e318d511219b10c92d029c51f289",
+                  "size": 1434
                 },
                 {
-                  "digest": "sha256:737e641be83bdfd90b5d4f68ef45dd947c660086af4fe49cf693a1d1b7d6630a",
-                  "size": 86433503
+                  "digest": "sha256:614e244aca26f6dfafd315cdd46a24efb61cef9d2635cc8f04dfa11a1f677e2e",
+                  "size": 86499157
                 },
                 {
-                  "digest": "sha256:636e4c7a7f33c626b9a3cd7a0c73f75bd2a3730e53839a6c35e2e599b18fa665",
-                  "size": 1319
+                  "digest": "sha256:fd8d5c774cd77adf49f61c01da7624c07d1bc5e576eab7ce9b01b0fae2b1f428",
+                  "size": 1363
                 },
                 {
-                  "digest": "sha256:4371d070de8393dc3b429f66ba6ca9e7dea8fed4f8f2a00ad37b3d044b712b78",
-                  "size": 379648
+                  "digest": "sha256:db27ea6a73702306a1f83a60695afc2850874de0264f570b15f5849af4cb98e6",
+                  "size": 363543
                 },
                 {
-                  "digest": "sha256:b5521b4104d2f80a16ab0efadacc433cde39d040d967a87153d5db723de35098",
-                  "size": 1329
+                  "digest": "sha256:3ccaaa9af90b6af43e5a3ce0ff62edca9cc0c6641dd9c596b3a40c88ab85f987",
+                  "size": 1263
                 },
                 {
-                  "digest": "sha256:4b8f719618e340086878175abef47592297bf9059f7cd0694a50ffc6588684ba",
-                  "size": 43369348
+                  "digest": "sha256:259451463b960f782bc2a3a1b4b63e54b930672150a02f0fb1c2e65259f17842",
+                  "size": 43354451
                 },
                 {
-                  "digest": "sha256:55e69c177171317f58abfeea90bfd1a26398695283a6c4ceb4d46e7684d409b8",
-                  "size": 1290
+                  "digest": "sha256:af280527efd6ac6e8761905426cf4e33df62fc1ed24037cb5e8a476e50adf33c",
+                  "size": 1311
                 },
                 {
-                  "digest": "sha256:ded53323226c31a6337154936478206ce9cc9853d5ca7807042f3e8caa479fbd",
-                  "size": 1359
+                  "digest": "sha256:0c72b9e7fed522d1e3cede18a61627223135970bbba072da0ab59e0087ddcc96",
+                  "size": 1358
                 },
                 {
-                  "digest": "sha256:ffe14a35911068fb4eecea0462924c0a2c13db2371105f66bad1d0ed07f0f37c",
-                  "size": 1319
+                  "digest": "sha256:db3211d33ee033aa6c6aeee444f095a8fc0b7a1008d25afa8bc23789676d46d7",
+                  "size": 1354
                 },
                 {
-                  "digest": "sha256:e25283bad8158b22dfb73bc68a057063c076f33dc8d5fc41fe9ad9f69cb862a1",
-                  "size": 1324
+                  "digest": "sha256:0df76afed799b91b2ce604cc0636f27d0ae360228de2881e91825eb1719754c5",
+                  "size": 1363
                 },
                 {
-                  "digest": "sha256:26554999de046f41d3ae0b47a6ef24911be53333414e647c5eb1dca08f0b66ce",
-                  "size": 1374
+                  "digest": "sha256:8fd88a0a1a47efcf065bc3ba40177459d90eed9f8abdd16381401bd104c21451",
+                  "size": 1365
                 },
                 {
-                  "digest": "sha256:64f431fb112b4d6aec186615d6db738217b1c9e607dc5d0addbeaffcbea73f51",
-                  "size": 868989727
+                  "digest": "sha256:a01aa8c296f8ae8139a1d427afdba7dbdd8dc375687e3ae8dc46c1975fbab554",
+                  "size": 884271544
                 },
                 {
                   "digest": "sha256:0938cf51b672b81c9804d1d5f0c57031c931f41b279270e84820c63642d6a3bd",
@@ -1105,43 +563,43 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:889bc644b482671a07dad39de17388bcd34834f28ede93cefdccbc084ab68192",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:230d1fe2f90b00143e644534bca88346eac54bc6e001ae5f06ef927328294f05",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27-azurelinux3.0",
-              "1.27.3-1-azurelinux3.0",
-              "1.27.3-azurelinux3.0"
+              "1.27.4-1-azurelinux3.0",
+              "1.27.4-azurelinux3.0"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/azurelinux3.0/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-azurelinux3.0-amd64"
+                "1.27.4-1-azurelinux3.0-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:4b9f29b4eb1da29dd3cf41a3568d80782c96fc2170c4306d6b7c3be73137cde7",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:972f3d59d62513c54881526519a95a9a42ec5a860442a8e065d6fb02e6d90e9e",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "amd64",
-              "created": "2026-11-09T17:33:58.2215849Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/azurelinux3.0/Dockerfile",
+              "created": "2026-11-11T10:15:59.1661755Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/azurelinux3.0/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:a53d4f37bff023d60af2d3498606cd00379ae6d86688db3274994cd1d565e880",
-                  "size": 141
+                  "digest": "sha256:008a662909d58f7283c9aae48120ff2216b776d91cb6c67bd92a5df97a32c37a",
+                  "size": 142
                 },
                 {
-                  "digest": "sha256:cd9cd117a895d46f48e80e91c364ad96045c238429e1b8afdb26497aad7e727a",
-                  "size": 90646635
+                  "digest": "sha256:20c6ebb1f4da12fe32384b002df06224ac6fc8fdabed1cadeeb71537cec714ce",
+                  "size": 90694230
                 },
                 {
-                  "digest": "sha256:95a2ade6fa02bba3f596800dd70e8b45cb5e84b2616bb4fb332a13eddaad1bc3",
-                  "size": 180231194
+                  "digest": "sha256:a8cdd4457c984db4cdc1cca54cf9d26e66c3c6cc1b225d5d322641a12e32b865",
+                  "size": 180231020
                 },
                 {
                   "digest": "sha256:f8c4f406db0b6609157cc95c4bb0ed016d8b9d8eacc90848a0aa0cc2af93d02d",
@@ -1152,31 +610,31 @@
             {
               "dockerfile": "src/microsoft/1.27/azurelinux3.0/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-azurelinux3.0-arm64v8"
+                "1.27.4-1-azurelinux3.0-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2e2881523be7337adc45dead4e6fd302513a58c61271dfbeaec2b4dd56b7f0fd",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:be09795e08b65d8e23bba5f1d6ba6fb4da81e27afef6d40bc59f108ab330f569",
               "baseImageDigest": "mcr.microsoft.com/azurelinux/base/core@sha256:bfb630450e9c3d7428d59f25ce6df95ba5634d664d96b06017aa56f87da5ec0e",
               "osType": "Linux",
               "osVersion": "azurelinux3.0",
               "architecture": "arm64",
-              "created": "2026-11-09T17:31:14.9206267Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/azurelinux3.0/Dockerfile",
+              "created": "2026-11-11T10:17:03.8847043Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/azurelinux3.0/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:5fb347ed8555b16e87d28455a78f9128b4795540559fa30324044491347c49ff",
+                  "digest": "sha256:8edb9e571c9764cf4e901df3c3b245007c9a6f8b35297f88315ad1307d6b7dd2",
                   "size": 143
                 },
                 {
-                  "digest": "sha256:506ee2b38a0ff9c4aafd60409e0134c2e824c9339cafec1ee6fe2315622fc281",
-                  "size": 85260490
+                  "digest": "sha256:70f867b217bc93477114ac93ce6a5c84ee94a4f3e9dfc79b2bd6de89a2d1a709",
+                  "size": 85294734
                 },
                 {
-                  "digest": "sha256:eeb415800c8a6d8563e46d53d9ee3d7041f89ddcf58c14e3c67ffa4533c22717",
-                  "size": 172513544
+                  "digest": "sha256:81e5db8cd59c8b7334f62a715b168d956f36636c5c2ab1eaa3f2293981b66599",
+                  "size": 172513574
                 },
                 {
                   "digest": "sha256:927e92af58968f787bf8cbca0e6e61dbfc6116b45be728ce0b8728899afb6d83",
@@ -1189,50 +647,50 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:2b3c026371fe2221a588f80cfb5dbc592af1efd3be0d53297676c7f3a612a5d9",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:de5d07ce2bf15e0b3e2ea9501332bab67f127c4a038e72e7cf43d950c973384a",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27",
               "1.27-bookworm",
-              "1.27.3",
-              "1.27.3-1",
-              "1.27.3-1-bookworm",
-              "1.27.3-bookworm"
+              "1.27.4",
+              "1.27.4-1",
+              "1.27.4-1-bookworm",
+              "1.27.4-bookworm"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/bookworm/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-bookworm-amd64"
+                "1.27.4-1-bookworm-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:3e3236d898376b8569eacdd6467ad1f06d01dd9480b6bfe7807ab68c043b242a",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:5f56892695680e04322c4e9d78ecb65be6edfc450a3dddef1b1d7b7b51fa5b88",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "amd64",
-              "created": "2026-11-09T17:34:13.06225Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/bookworm/Dockerfile",
+              "created": "2026-11-11T10:17:42.5379004Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:4845b17e064165b7f63e16d34b469154348aad30261d3515f49a760235a55228",
+                  "digest": "sha256:54c4f918c843f45ff60d5366c108403411eac9d184f2e33340438f3343076cd7",
                   "size": 142
                 },
                 {
-                  "digest": "sha256:cd9cd117a895d46f48e80e91c364ad96045c238429e1b8afdb26497aad7e727a",
-                  "size": 90646635
+                  "digest": "sha256:20c6ebb1f4da12fe32384b002df06224ac6fc8fdabed1cadeeb71537cec714ce",
+                  "size": 90694230
                 },
                 {
-                  "digest": "sha256:0b5fb8d5e018a9c919667d30be4cb48cc5f648deb701603b6f86695d06e85b61",
-                  "size": 187761945
+                  "digest": "sha256:3f7b6b00a48a17bee07159e66f1a36edaddf4481cbea0cb975f9ee0153fe76c0",
+                  "size": 187762270
                 },
                 {
-                  "digest": "sha256:2b0fc2403f4bd5af4c36e08d7ce3c0f75185f5bac6c19d3dc673036ed7fc02af",
-                  "size": 329016
+                  "digest": "sha256:32f19e65fb43c56b48aca0a87176f868f42e841f3a69b6d95407170b2851dec0",
+                  "size": 329047
                 },
                 {
                   "digest": "sha256:2ebee19599bb8467fb34fa13554d9d7a5f26be39115b8e6f74465e5e7c905942",
@@ -1251,35 +709,35 @@
             {
               "dockerfile": "src/microsoft/1.27/bookworm/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-bookworm-arm32v7"
+                "1.27.4-1-bookworm-arm32v7"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:30a30bd6af107151112ccf9a2b43b37a8f8b078bf1ca984cd1815280e2780e20",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:659a5fb72dd12bc65f51345a707002b57ee501e21a01fbf66616e2473a4c28bb",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm32",
-              "created": "2026-11-09T17:31:30.0343549Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/bookworm/Dockerfile",
+              "created": "2026-11-11T10:14:08.0434253Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:b19fcdc7583f5c059be88a15c4467dcdc7f011c499d499493833d37c70233fa7",
-                  "size": 143
+                  "digest": "sha256:efaa755892d127cfed9a409e244b1743be61794d843af0bd8c73b98fa0f6c385",
+                  "size": 140
                 },
                 {
-                  "digest": "sha256:baff4b8e0a44787959dd452cc082d9eade0c0698e0571048d5a8b413e5bace5c",
-                  "size": 88920655
+                  "digest": "sha256:8cf149178069fcbabc159f7586678f23e72a683b2d24817cceae707972fb5873",
+                  "size": 88967492
                 },
                 {
-                  "digest": "sha256:fa68b95e13f64cb8704a631590394bb1f7ed5bf541c3e17c50e7585ce3101ef4",
-                  "size": 151695219
+                  "digest": "sha256:968c8d9ed434d3033da4780d7df4952a70d2efca93207b6b8d1b9fc6c57d23c9",
+                  "size": 151695442
                 },
                 {
-                  "digest": "sha256:f504f17f9c171d6124c115eedc5f00ed3cb9cafcb0d219cd2436a3967dacb974",
-                  "size": 329001
+                  "digest": "sha256:fce510c852a76926588250f274f85d078715c0806d10988ef9ec67d35571b9ad",
+                  "size": 329016
                 },
                 {
                   "digest": "sha256:48471654120dc0d60b4dc1c33a7d658cbab567dcddd333e0e663d0f192976946",
@@ -1298,35 +756,35 @@
             {
               "dockerfile": "src/microsoft/1.27/bookworm/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-bookworm-arm64v8"
+                "1.27.4-1-bookworm-arm64v8"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:a5c6b7dd88eaf15bec1a831fd98845c1846288c7b4b6919ba46d91f52fe1fcf0",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:72dbe7d606757f2b2d01fdefb6265e89d35da016540ec2d009156470214ee3f6",
               "baseImageDigest": "mcr.microsoft.com/mirror/docker/library/buildpack-deps@sha256:d53764b18bfc089bf80ad00cb0312a7bcbd13a208d39f03070fc4bc88518fd20",
               "osType": "Linux",
               "osVersion": "bookworm",
               "architecture": "arm64",
-              "created": "2026-11-09T17:32:00.8716618Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/bookworm/Dockerfile",
+              "created": "2026-11-11T10:17:31.4481965Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/bookworm/Dockerfile",
               "layers": [
                 {
                   "digest": "sha256:9addb4c7f3afa99b03f24f9e05cb87d274a63ae9ba30c94f02c75e85d133e9de",
                   "size": 29
                 },
                 {
-                  "digest": "sha256:4f558af65333794c15c0c5e33d73dfba0e143270b7f1ab0fd19aa7087883c959",
+                  "digest": "sha256:985db82aa7aa44e181cb3fbe13e29b19803d062dfb5c1537096acd7f5f85d945",
                   "size": 142
                 },
                 {
-                  "digest": "sha256:506ee2b38a0ff9c4aafd60409e0134c2e824c9339cafec1ee6fe2315622fc281",
-                  "size": 85260490
+                  "digest": "sha256:70f867b217bc93477114ac93ce6a5c84ee94a4f3e9dfc79b2bd6de89a2d1a709",
+                  "size": 85294734
                 },
                 {
-                  "digest": "sha256:631468108a247e2a28c3fef6f48d6d9c04f844356043073a2b341529752a224d",
-                  "size": 180145520
+                  "digest": "sha256:46f84b17b40cfd68cc79f17d22eaccfb0cac00c751db55efab85ab019ea9fe07",
+                  "size": 180145998
                 },
                 {
-                  "digest": "sha256:d692623ec645d7bc8b3a7c77fc9cdea9ae8d9f6c99a9d3d42e6d62fd8c7b2206",
-                  "size": 329024
+                  "digest": "sha256:83bc6ec714e0d58202ee282665c7c7fd994e2d44d0c1836996ec375e72fbf78f",
+                  "size": 329028
                 },
                 {
                   "digest": "sha256:a97d72c9bc1ded9e82ea9e4013955b9bda5b50cfa9194a6f781779c062b50809",
@@ -1347,67 +805,67 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e97a53bf2f8ef9a8007e7621a08cd458ac7420c3d2dd9c6ca1be8a52dd420df9",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f2ec6c70a964b230dfc1cfd2f855f95be5d381d4f14a96259350d875e0c41cb6",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27-nanoserver-ltsc2022",
-              "1.27.3-1-nanoserver-ltsc2022",
-              "1.27.3-nanoserver-ltsc2022"
+              "1.27.4-1-nanoserver-ltsc2022",
+              "1.27.4-nanoserver-ltsc2022"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/windows/nanoserver-ltsc2022/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-nanoserver-ltsc2022-amd64"
+                "1.27.4-1-nanoserver-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:e0f707045c2b452a607175392beb61493cadfe97da14473728276464459e002b",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:62d28cb7771b0cf1b37db2662e468dad76e7ef15ca4ef52b2ab73c102a23da98",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:ca1af1c50105fa9edcf1240a52624cedcd80a80c79d95349ae9a1f1feb81f323",
+              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:5a1c3c8308f8f5c9b67d21d2332a449d4ab8f9a6cf277f07d4aeac27ff2a0213",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2022",
               "architecture": "amd64",
-              "created": "2026-11-09T17:42:06.6612937Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/windows/nanoserver-ltsc2022/Dockerfile",
+              "created": "2026-11-11T10:23:51.8329855Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/windows/nanoserver-ltsc2022/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:43e1ab081c7a9b685f7cbf751fee26d6db4f4205959702c9f3d84629aa77b856",
-                  "size": 1243
+                  "digest": "sha256:01b810a19f73ab94d44dacef188eafc21ec0fe907304eb888942efac2be929fa",
+                  "size": 1276
                 },
                 {
-                  "digest": "sha256:52e17fb21b1c62a456c935b97c4e77a58236bd1bfb4f0789071ddaf06cd6bcb9",
-                  "size": 81761
+                  "digest": "sha256:6a040bd83a853ba54ddee1bc1a3149e15f13609f0ffda5bfc5a1c63c9952dee6",
+                  "size": 82495
                 },
                 {
-                  "digest": "sha256:2e8d00fe55f33a650e519750b482bb45671c2cf25c04eef3a3389253916fff1d",
-                  "size": 90816914
+                  "digest": "sha256:98fd8673e8ae6975fee4b202cdbb25967abdea53074c962930528104c23d0c51",
+                  "size": 90901818
                 },
                 {
-                  "digest": "sha256:d76a6f012b90da77f2ab21f926f87c20316488d2b3076c17243a4e72bed2b2e4",
-                  "size": 1035
+                  "digest": "sha256:701a8f4dfe934eba4dee9d15461e7e598a011d421bd05720cf09d6bfeb8bbf6b",
+                  "size": 1040
                 },
                 {
-                  "digest": "sha256:ed59a136b57b957a99b76e3bf0a8e3ad44c4e36357924f9f5bc56f275c1d41f8",
-                  "size": 1026
-                },
-                {
-                  "digest": "sha256:13ede19410fbec2277f55eeded228a809770cbae34c452c37cfab21151fee8bd",
-                  "size": 79448
-                },
-                {
-                  "digest": "sha256:69f30e9ee6bcb5ddb2892270990d8ea5748b2e576381677490da43008062c9e3",
-                  "size": 1036
-                },
-                {
-                  "digest": "sha256:3935d2b0e854634ce23b74fb116a9f012fe921b6fb0d59744dd72e7707b525c7",
+                  "digest": "sha256:3e07778671159c56a1ed4e2b054228f74e155a8bb2f922f5a2165a8dadafb6b8",
                   "size": 1038
                 },
                 {
-                  "digest": "sha256:7d8dc22de7097dc69aa8924d8041a3550c36d236a792112527d7ceea2dbb2276",
-                  "size": 1041
+                  "digest": "sha256:3e08ee5ed99471075735bd645ff1f34bade1fcc7c9a3c3f7fb05a16e8b1ea4b6",
+                  "size": 76951
                 },
                 {
-                  "digest": "sha256:236d90a718e9e819ac09cbda6488d7cc66c394fc52c2cfc8176cef5e10ef66b0",
-                  "size": 125926676
+                  "digest": "sha256:f010a05644aeb791ead6a3505cfe8e0f02243f647f0bec9cededb519d536fbfa",
+                  "size": 1068
+                },
+                {
+                  "digest": "sha256:59a67c5eb2618f301c5efd2a455bd167cd224da86b43ae7b158c802c71f2d6a1",
+                  "size": 1038
+                },
+                {
+                  "digest": "sha256:dbfafba9d099d6d19a1b9e07c94669336f85aadf20edd8153dcc1211a6061a53",
+                  "size": 1038
+                },
+                {
+                  "digest": "sha256:0687146101aa7c5a79f3f4fceaa6abc664da260fccc602e0f5edd412320534a4",
+                  "size": 126284980
                 }
               ]
             }
@@ -1416,67 +874,67 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c43eaab86971b95bd57a9524f950f213a5d41a33aa8f22899f8dcab0ebeb91b0",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:35b5d7c9dffc9df0a85cf1b66f8c717b086b1edb84dffdee3c8bab38e9ddfb0f",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27-nanoserver-ltsc2025",
-              "1.27.3-1-nanoserver-ltsc2025",
-              "1.27.3-nanoserver-ltsc2025"
+              "1.27.4-1-nanoserver-ltsc2025",
+              "1.27.4-nanoserver-ltsc2025"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/windows/nanoserver-ltsc2025/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-nanoserver-ltsc2025-amd64"
+                "1.27.4-1-nanoserver-ltsc2025-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:1c7c6198665728f04a6ce1b576b0324d5416765b7e32c58e858c2d394694b22d",
-              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:05d1a7fb562f998ed3bc23b21dbd95aa26b3dd10ae921e830449e2db657f6704",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c2b0ca71d80ca16efa0a033fb88672e88a654a5075b4338203a477375e164236",
+              "baseImageDigest": "mcr.microsoft.com/windows/nanoserver@sha256:1c67653a4cf2b9773964b2f805cc83ffe9c4745bfdd8962414792f75ebefe9b1",
               "osType": "Windows",
               "osVersion": "nanoserver-ltsc2025",
               "architecture": "amd64",
-              "created": "2026-11-09T17:45:43.7625803Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/a3b4970aac531a4db2524766b33caced57e85aea/src/microsoft/1.27/windows/nanoserver-ltsc2025/Dockerfile",
+              "created": "2026-11-11T10:26:41.9972945Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/windows/nanoserver-ltsc2025/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:8e76d5103291ba5c2644de17524e1cd9c11324c12fe2511e103cc2b53a72bee3",
-                  "size": 1253
+                  "digest": "sha256:cd978337778567e9238b439ea465e3858771f9adaf0ebd017135812090bbf75d",
+                  "size": 1272
                 },
                 {
-                  "digest": "sha256:64aa942f4b03f7ed66fa591ed41148571a48a6f8daadac6fe9ef955ed9699bd7",
-                  "size": 83541
+                  "digest": "sha256:bb7510d8d4940b820ca3dce71776d42748f50e9fb6e96cbf425c2802cf909711",
+                  "size": 94558
                 },
                 {
-                  "digest": "sha256:0e7f59e4328517274712043bf57afd7ded293183e09d33a2c99ee1bbb2b0b181",
-                  "size": 90882349
+                  "digest": "sha256:b2e113610d41f6b51dacb6f62337db006d4d1b37c865e767c40cf469df137c31",
+                  "size": 90982094
                 },
                 {
-                  "digest": "sha256:7bee34f1fc242c5c63e4c9340fd179608cdfe7361ad394bad41840edd9423fc7",
-                  "size": 1005
+                  "digest": "sha256:ecf25503a5a251ab2af7ffbf0ca98f376565af6d369760ed9e7d826e1f149e53",
+                  "size": 1055
                 },
                 {
-                  "digest": "sha256:23a26793d36198606e739a418f7ee710568cc867a977d5f7362d9e7700b277f4",
-                  "size": 1046
+                  "digest": "sha256:c164adc67eb1762748e052a071b3a585c05ee68df005f3c16155413159afcc73",
+                  "size": 1068
                 },
                 {
-                  "digest": "sha256:d07701e526a0872505b19fda9fcc7ba5b453ddaffa480e87ddb25fbc365e549c",
-                  "size": 74288
+                  "digest": "sha256:2b8e1948624c87deb1a4196c38a24b365e67f4cead603556b0bd22cdcb03325b",
+                  "size": 75297
                 },
                 {
-                  "digest": "sha256:fd897d5fa316ddbde037a389c1531de65e37f77ad9c640ae1aa5df880e95582b",
-                  "size": 1045
+                  "digest": "sha256:3e0e3fb49e1c20d735722a73709df9c963321d61e9763b73f45ac0f1fc7f84fc",
+                  "size": 1035
                 },
                 {
-                  "digest": "sha256:ff0ce6e9f213c76f3f64c67f3a9a6970fc968fc0d6a2bcc2df35cfc589bcb4be",
-                  "size": 1058
+                  "digest": "sha256:0f82efb3b6f8ce3c28061a30e552aed5189641212f6ab9dbae34214fd6f446ab",
+                  "size": 1034
                 },
                 {
-                  "digest": "sha256:c5ac5df08acc81d766d17871340d5818b514fde16fca512e3db4889b62e4c503",
-                  "size": 1004
+                  "digest": "sha256:7f2c3af192bb989ecea62890284bb3efbbc320159654b283014c33a5bbead6b1",
+                  "size": 1034
                 },
                 {
-                  "digest": "sha256:52fd6732d0ca195d430cd9cf788e7b10823a73e2eda296aa1c8d60d4e2ec17a7",
-                  "size": 199959116
+                  "digest": "sha256:8395a5062b63680acee7661df668d9bf81cca0fdec76ab1b29afd6ab290bf2c0",
+                  "size": 200242324
                 }
               ]
             }
@@ -1485,75 +943,75 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:64f7d4f40ea7aa41038c91874aa0c94c4262c97d2dc93715b36919c23ed5e8ce",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f17ffc3444f170f21d13b05bff7d8da3dd4f9f5a3603a428be93229be0544e2f",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27-windowsservercore-ltsc2022",
-              "1.27.3-1-windowsservercore-ltsc2022",
-              "1.27.3-windowsservercore-ltsc2022"
+              "1.27.4-1-windowsservercore-ltsc2022",
+              "1.27.4-windowsservercore-ltsc2022"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/windows/windowsservercore-ltsc2022/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-windowsservercore-ltsc2022-amd64"
+                "1.27.4-1-windowsservercore-ltsc2022-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:f9a857cbc2e53a412e69073da09900bd6545add805391dbbacea457e0e745c40",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:b52799a67fa596d4bddcd82ae1dab0077a84767fbc33c7342b72b53ecc71ad09",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:7f1baf87152a7c0c837e32f5ed5cbf8ba3239c80471227109bf1038c253d3a06",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:301d571fc0cffed67083d4cc7a10167f551212f76b3f91eb7457e89aa5a183da",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2022",
               "architecture": "amd64",
-              "created": "2026-11-09T17:40:03.8043698Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/5da09662780644c94b7f62660eb5634f52f68f87/src/microsoft/1.27/windows/windowsservercore-ltsc2022/Dockerfile",
+              "created": "2026-11-11T10:22:03.4258227Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/windows/windowsservercore-ltsc2022/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:892752e8fa4e941de28a8e2045d7f601f240e62fdcbeb3b05b896f5c2b7dc225",
+                  "digest": "sha256:601284a9007339206f12a5e1ae310db7c94a6809f8aa47fbe09818835a233d8c",
                   "size": 1447
                 },
                 {
-                  "digest": "sha256:1cf5a3d46c921f9bac9fa8f52337fa88d0f7205e535c2005a4113bbf696a8b3c",
-                  "size": 91233629
+                  "digest": "sha256:4d78ce7f07a028c744dd862e1545bac742fb2fb9d2bbd000ce26a60b5b19ef73",
+                  "size": 91310489
                 },
                 {
-                  "digest": "sha256:9f9831993c88281014aac15d46be1223d87871d4d9745891a9f62bfeb7a6c2b0",
+                  "digest": "sha256:eb47eba828299b841caec1fdcd8d0787f6276b0d2d2010b249866be94ef2f342",
+                  "size": 1295
+                },
+                {
+                  "digest": "sha256:4651fce3e615725374eaddc4978ee3e088494a28bd3b604e562de38360496da1",
+                  "size": 317215
+                },
+                {
+                  "digest": "sha256:db28327044c00c03351a7615046736845e33a61bdb38ad50a1669c4b1742aaa6",
+                  "size": 1329
+                },
+                {
+                  "digest": "sha256:e7b4eba8a9682f396c688b21acee0eb558a26b25bae543428b8439ac46e2b6ca",
+                  "size": 43313728
+                },
+                {
+                  "digest": "sha256:75b477aa8e29cae89ad488b71ab99e6c4cdbe4acba6e4409ff2d6b9ced1d9db4",
                   "size": 1298
                 },
                 {
-                  "digest": "sha256:a873a26cb2d22b627e38de7ae26ca9a268a701c92c84286057d43f360ac6569a",
-                  "size": 331533
+                  "digest": "sha256:55c5662c1855035dbc54bfdafc820adb4a626e9e42273d60d77c612a8acd5bb3",
+                  "size": 1297
                 },
                 {
-                  "digest": "sha256:218ae244e97fbae34b9af721b8622c5cb11aaf6b372d82bfeccfcb96c25faba1",
-                  "size": 1295
+                  "digest": "sha256:66ea08a2a796b45fd6dc42ca6a7dc367bbd611567611841955402b878804e5d2",
+                  "size": 1300
                 },
                 {
-                  "digest": "sha256:c9cccd8bacbd8536a1d367b4d9d12dcaf3019b90606fb6ee904b55be8b0c395a",
-                  "size": 43320737
+                  "digest": "sha256:b8b804dce433fc741aef247badf44a4c0e426a44808e15004cc9658f812ba38b",
+                  "size": 1297
                 },
                 {
-                  "digest": "sha256:cca6115aebda23dfb171c41269626c7896970fbc2c8bbad5d5ad8fcc9e13d98f",
-                  "size": 1293
+                  "digest": "sha256:7a21947bc7270e63bca7b52734e6729449cf348c37c2c38a50ac8f6b9d88f232",
+                  "size": 1292
                 },
                 {
-                  "digest": "sha256:d38ed3ab9931a4b4e0fc50981197de03598dbcfce630a65a5e637fcc99b99acb",
-                  "size": 1295
-                },
-                {
-                  "digest": "sha256:6d7f3faf5bf0e4ef43632aa586789aa25017fd4e97571302bad54f315e3560de",
-                  "size": 1295
-                },
-                {
-                  "digest": "sha256:a6772a8bd2d85338a94605bc9a2c5941aa6383e0f7360326923ade39fbbb6b42",
-                  "size": 1318
-                },
-                {
-                  "digest": "sha256:4de442376ef3877a7bff0056aeb98d2f80700bde9b467f1ceb4448e12ad705f1",
-                  "size": 1294
-                },
-                {
-                  "digest": "sha256:a9fea553d6997affb11590d988a7f41a1ead2d9cc196f5ce609bcdfe88f06dd8",
-                  "size": 738037069
+                  "digest": "sha256:0fd5ae99c0fb6e4764ec90d45aff46ebe7e1ee0a121f0a99525b9520a53c5103",
+                  "size": 757328679
                 },
                 {
                   "digest": "sha256:3cc21a1b754848d23f00aa65cb94ec34c9a5dc6028b3aada42039c824738d02f",
@@ -1566,75 +1024,75 @@
         {
           "productVersion": "1.27",
           "manifest": {
-            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:38af9413a214936fd1f307d78d7be5d1cb98b7a6419077ef8fd5831a52eb5073",
-            "created": "2026-11-09T18:14:40.6254897Z",
+            "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:c02badff1ad0d5ca317410b05e2275a894aad005459ef0cd0cb9c24e60d0dd11",
+            "created": "2026-11-11T10:39:45.7166363Z",
             "sharedTags": [
               "1.27-windowsservercore-ltsc2025",
-              "1.27.3-1-windowsservercore-ltsc2025",
-              "1.27.3-windowsservercore-ltsc2025"
+              "1.27.4-1-windowsservercore-ltsc2025",
+              "1.27.4-windowsservercore-ltsc2025"
             ]
           },
           "platforms": [
             {
               "dockerfile": "src/microsoft/1.27/windows/windowsservercore-ltsc2025/Dockerfile",
               "simpleTags": [
-                "1.27.3-1-windowsservercore-ltsc2025-amd64"
+                "1.27.4-1-windowsservercore-ltsc2025-amd64"
               ],
-              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:606fcf68c805c770b73ee87a594442c078d78e75d957e52f584e8bc75f8a9433",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:4e5730bddf049d5dd9f758a3b4e6875ecf19b5bfeee5068e07aeeb5df9c63c55",
+              "digest": "mcr.microsoft.com/oss/go/microsoft/golang@sha256:84b48e1a02f54e4ba07d186808cf29b56624ed7fc6e7111d98d5d3efd34d9393",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:c622317822fefb54a056fd09ab51f5bb48390feb47abb2b8696b2c526bdce4ef",
               "osType": "Windows",
               "osVersion": "windowsservercore-ltsc2025",
               "architecture": "amd64",
-              "created": "2026-11-09T17:43:12.8270871Z",
-              "commitUrl": "https://github.com/microsoft/go/blob/5da09662780644c94b7f62660eb5634f52f68f87/src/microsoft/1.27/windows/windowsservercore-ltsc2025/Dockerfile",
+              "created": "2026-11-11T10:24:21.2931272Z",
+              "commitUrl": "https://github.com/microsoft/go/blob/8ba7b03effbf11d1b7a7237f913f335723449d93/src/microsoft/1.27/windows/windowsservercore-ltsc2025/Dockerfile",
               "layers": [
                 {
-                  "digest": "sha256:01e16638cdcc9b14c038a92fdbff291951c29ed584ee34d30308499e8398545f",
-                  "size": 1444
+                  "digest": "sha256:26d9abb436015751ee770249845705a9408cfde6ca409acc4f28b0201abb7737",
+                  "size": 1476
                 },
                 {
-                  "digest": "sha256:98e82f43bd1b779fb91ab0c454503e6b0be7d357c432dbdce6ec00e263e91061",
-                  "size": 91577904
+                  "digest": "sha256:48af9540be3a639532c31e73b1c71d6c817ba469ac78b023a36711f1497e5b52",
+                  "size": 91636617
                 },
                 {
-                  "digest": "sha256:de8d0bb6ab023c2e07ca3270000af0e077189a7e9904033f9c8038e9590d62cc",
-                  "size": 1315
+                  "digest": "sha256:f4dbe360353af877de7d24e9e2059799fb79f1acc4588983346fb1afa53336db",
+                  "size": 1288
                 },
                 {
-                  "digest": "sha256:268a9d3cc7fe22b4e199a43b4634748e86ca4770a19a57bd7e1dc5e80dc904af",
-                  "size": 380121
+                  "digest": "sha256:430a588106cc7201537d1d082cf247111b27c42655307e489cd4fc9fd889f590",
+                  "size": 363616
                 },
                 {
-                  "digest": "sha256:902c1f1d27b027b7dfab97da4696d1b6879cee3604dc68990600cc91a0b236ed",
-                  "size": 1292
+                  "digest": "sha256:99271f1df1b4da623da8d0ade2e5c6c299d269d7b4c8ce4bdbb7386b9e3d861e",
+                  "size": 1318
                 },
                 {
-                  "digest": "sha256:f95c0bae5471636b348cab8133ec134fad81177142a70053c622a873dd627b96",
-                  "size": 43369157
+                  "digest": "sha256:6da507c0f467d2df5c4cdc8c416a0b912fc1a0a398cdaf9a958a4aac40f12ffc",
+                  "size": 43353423
                 },
                 {
-                  "digest": "sha256:6a5f1248d5f514324a79c6ef67058016f55a167ad1c6aee8495bb8fcdfb44b29",
-                  "size": 1260
+                  "digest": "sha256:759c42b18f76a874983aa9ee13c891ec63597a95c9e1cb12703b00d28cbde30e",
+                  "size": 1287
                 },
                 {
-                  "digest": "sha256:0b4b6242c08da818efc4933afff77c7b69acdd349704a15c368e393510210c43",
-                  "size": 1261
+                  "digest": "sha256:64bdb467d874565f3076e7f1bb435bf12459a47cb0c8fd38045e9e596d3aff91",
+                  "size": 1338
                 },
                 {
-                  "digest": "sha256:6a95805ca896b21f333e7748501d118ea2bd1682bdef1a5b9472ccecf5470fb7",
-                  "size": 1317
+                  "digest": "sha256:d4f124d2243fafbf7908d68d852f4707214629aa45290e12c3f603f75dd69361",
+                  "size": 1263
                 },
                 {
-                  "digest": "sha256:07f38589b7d2b68838d1e3ae6a96fb6ef7d7840f84ea5a1796589c6fa25fa79b",
-                  "size": 1262
+                  "digest": "sha256:fb92473f2a7b11048b48b3f2eeaf834e41528130b6c4604ab4ffcf7e994a6aec",
+                  "size": 1297
                 },
                 {
-                  "digest": "sha256:fd30a24ea475bfe5622ce80cd55135294ec32b2ec911535742c84fefd7737305",
-                  "size": 1285
+                  "digest": "sha256:b2b8e440a4085c32f61e5c339da06285fe00ca7ca3b0fb2583318899d0442742",
+                  "size": 1264
                 },
                 {
-                  "digest": "sha256:64f431fb112b4d6aec186615d6db738217b1c9e607dc5d0addbeaffcbea73f51",
-                  "size": 868989727
+                  "digest": "sha256:a01aa8c296f8ae8139a1d427afdba7dbdd8dc375687e3ae8dc46c1975fbab554",
+                  "size": 884271544
                 },
                 {
                   "digest": "sha256:0938cf51b672b81c9804d1d5f0c57031c931f41b279270e84820c63642d6a3bd",
